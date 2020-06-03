@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/jmvbco/citas.jmvb.co/app 
+        - /bin/cp -R * $DEPLOYPATH 
