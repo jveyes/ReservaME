@@ -1,0 +1,1 @@
+ <form action="<?php echo $tpl['arr']['url'] ?>" method="post" name="<?php echo $tpl['arr']['name'] ?>" id="<?php echo $tpl['arr']['id'] ?>" target="<?php echo $tpl['arr']['target']; ?>"></form>

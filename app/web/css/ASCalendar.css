@@ -1,0 +1,21 @@
+.pj-calendar { border: 1px solid #ccc; }
+
+.pj-calendar-day { background: #f7f7f7; }
+.pj-calendar-day p:hover { background-color: #1b6aac; color: #fff; }
+.pj-calendar-day p {background: #fff; }
+
+.pj-calendar-head { background: #f8f8f8;}
+.pj-calendar-body {background: #f8f8f8 none repeat scroll 0 0;}
+.pj-calendar-day-selected p { background: #12965d; color: #fff; }
+.pj-calendar-day-selected p:hover { background: #128956;}
+
+.pj-calendar-day-past p:hover,
+.pj-calendar-day-past p { background: #dde4e6; color: #333;}
+
+.pj-calendar-day-inactive p:hover,
+.pj-calendar-day-inactive p { background: #d21e1d; color: #fff;}
+
+.pj-calendar-day-disabled p:hover,
+.pj-calendar-day-disabled p { background: transparent; cursor: default; color: inherit;}
+
+.pj-calendar-ym{font-size: 18px; top: 12px;}

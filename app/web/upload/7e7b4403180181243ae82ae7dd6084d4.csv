@@ -1,0 +1,1940 @@
+id;key;1::Spanish;
+1;plugin_base_menu_dashboard;Dashboard;Dashboard
+2;plugin_base_menu_system_options;System Options;Opciones del sistema
+3;plugin_base_menu_general;General;General
+4;plugin_base_infobox_general_title;General Options;Opciones generales
+5;plugin_base_infobox_general_desc;Here you can set the General Options for the system.;Aquí puede configurar las opciones generales para el sistema.
+6;plugin_base_error_titles_ARRAY_PBS01;All changes saved!;¡Todos los cambios guardados!
+7;plugin_base_error_bodies_ARRAY_PBS01;General options have been successfully updated. ;Las opciones generales se han actualizado con éxito.
+8;plugin_base_opt_o_date_format;Date format;Formato de fecha
+9;plugin_base_opt_o_time_format;Time format;Formato de hora
+10;plugin_base_opt_o_timezone;Timezone;Zona horaria
+11;plugin_base_opt_o_week_start;First day of week;Primer dia de la semana
+12;plugin_base_opt_o_currency;Currency;Moneda
+13;plugin_base_opt_o_price_format;Price format;Formato de precio
+14;plugin_base_opt_o_currency_place;Currency symbol place;Lugar de símbolo de moneda
+15;plugin_base_currency_places_ARRAY_front;Before amount;Antes de la cantidad
+16;plugin_base_currency_places_ARRAY_back;After amount;Después de la cantidad
+17;plugin_base_btn_save;Save;Guardar
+18;plugin_base_btn_delete;Delete;Eliminar
+19;plugin_base_btn_reset;Reset;Resetear
+20;plugin_base_menu_backup;Back-up;Copia de seguridad
+21;plugin_base_infobox_backup_title;Back-up;Copia de seguridad
+22;plugin_base_infobox_backup_desc;Set auto back-up or manually back-up your data. We recommend you to regularly back up your database and files to prevent any loss of information.;Establezca una copia de seguridad automática o una copia de seguridad manual de sus datos. Le recomendamos que haga una copia de seguridad de su base de datos y archivos regularmente para evitar cualquier pérdida de información.
+23;plugin_base_error_titles_ARRAY_PBU01;Backup complete!;¡Copia de seguridad finalizada!
+24;plugin_base_error_bodies_ARRAY_PBU01;All backup files have been saved.;Todos los archivos han sido guardados.
+25;plugin_base_yesno_ARRAY_T;Yes;Si
+26;plugin_base_yesno_ARRAY_F;No;No
+27;plugin_base_create_backup;Make back-up;Hacer una copia de seguridad
+28;plugin_base_backup_database;Backup database;Base de datos de respaldada
+29;plugin_base_backup_files;Backup files;Archivos de respaldo
+30;plugin_base_btn_backup;Back-up;Copia de seguridad
+31;plugin_base_error_titles_ARRAY_PBU03;Backup failed!;¡La copia de seguridad fallo!
+32;plugin_base_error_bodies_ARRAY_PBU03;No option was selected.;No se seleccionó ninguna opción.
+33;plugin_base_error_titles_ARRAY_PBU04;Backup failed!;¡La copia de seguridad fallo!
+34;plugin_base_error_bodies_ARRAY_PBU04;Back-up not performed.;Copia de seguridad no realizada.
+35;plugin_base_error_titles_ARRAY_PBU05;Backup failed!;¡La copia de seguridad fallo!
+36;plugin_base_error_bodies_ARRAY_PBU05;"Back-up folder not found. Please ensure that ""app/web/backup"" folder exists.";"Carpeta de respaldo no encontrada. Asegúrese de que exista la carpeta ""Carpeta Raiz del app / web / backup""."
+37;plugin_base_error_titles_ARRAY_PBU06;Backup failed!;¡La copia de seguridad fallo!
+38;plugin_base_error_bodies_ARRAY_PBU06;"You need to set write permissions (chmod 777) to ""app/web/backup"" folder.";"Debe establecer permisos de escritura (chmod 777) en la carpeta ""Carpeta Raiz del app / web / backup""."
+39;plugin_base_backup_data_type;Data type;Tipo de datos
+40;plugin_base_backup_file_size;File size;Tamaño del archivo
+41;plugin_base_backup_delete_confirmation;Are you sure you want to delete the selected file?;¿Estás seguro de que deseas eliminar el archivo seleccionado?
+42;plugin_base_backup_delete_selected;Delete selected;Eliminar seleccionados
+43;plugin_base_backup_backup_made;Back-up made;Copia de seguridad realizada exitosamente
+44;plugin_base_backup_file_name;File name;Nombre del archivo
+45;plugin_base_menu_sms_settings;SMS Settings;Configuraciones de mensajes SMS
+46;plugin_base_infobox_sms_settings_title;SMS Settings;Configuraciones de mensajes SMS
+47;plugin_base_infobox_sms_settings_desc;Enter your SMS API key and view messages sent by the system.;Ingrese su clave API de SMS y vea los mensajes enviados por el sistema.
+48;plugin_base_sms_tab_settings;Settings;Configuraciones
+49;plugin_base_sms_tab_messages_sent;Messages sent;Mensajes enviados
+50;plugin_base_sms_infobox_api_settings;"To send SMS you need a valid API Key. If you have one, enter it in the box below. Click on ""Verify your key"" button to check if key is valid. Click on ""Send a test message"" button to send a test message to your phone.";"Para enviar SMS necesita una clave API válida. Si tiene una, ingrésela en el cuadro a continuación. Haga clic en el botón ""Verificar su clave"" para verificar si la clave es válida. Haga clic en el botón ""Enviar un mensaje de prueba"" para enviar un mensaje de prueba a su teléfono."
+51;plugin_base_btn_send_test_message;Send a test message;Enviar un mensaje de prueba
+52;plugin_base_sms_api_key;SMS API Key;Clave API de mensajes SMS
+53;plugin_base_btn_verify_your_key;Verify your key;Verifica tu clave
+54;plugin_base_this_field_is_required;This field is required.;Este campo es requerido.
+55;plugin_base_error_titles_ARRAY_PSS01;SMS API key saved!;¡Clave de API de mensajes SMS guardada!
+56;plugin_base_error_bodies_ARRAY_PSS01;SMS API key has been successfully saved!;¡La clave API de mensajes SMS se ha guardado correctamente!
+57;plugin_base_sms_statuses_ARRAY_0;Account limit reached;Límite de cuenta alcanzado
+58;plugin_base_sms_statuses_ARRAY_1;Message sent;Mensaje enviado
+59;plugin_base_sms_statuses_ARRAY_2;Message not sent;Mensaje no enviado
+60;plugin_base_sms_statuses_ARRAY_3;Account not confirmed;Cuenta no confirmada
+61;plugin_base_sms_statuses_ARRAY_4;Incorrect API key;Clave API incorrecta
+62;plugin_base_sms_statuses_ARRAY_6;Account is disabled;La cuenta está desactivada
+63;plugin_base_btn_search;Search;Buscar
+64;plugin_base_sms_date_time_sent;Date/time sent;Fecha / hora enviada
+65;plugin_base_sms_number;Number;Número
+66;plugin_base_sms_message;Message;Mensaje
+67;plugin_base_sms_status;Status;Estado
+68;plugin_base_sms_key_is_correct;Key is correct.;La clave es correcta.
+69;plugin_base_sms_key_is_invalid;Key is not valid.;La clave no es válida.
+70;plugin_base_sms_test_message;Test message for SMS API key.;Mensaje de prueba para clave API de mensajes SMS.
+71;plugin_base_sms_test_sms_sent_to;Test SMS has been sent to;El mensaje SMS de prueba ha sido enviado a
+72;plugin_base_sms_test_sms_title;Send Test SMS;Enviar mensaje SMS de prueba
+73;plugin_base_sms_test_sms_text;Enter your mobile phone number and system will send a test message to it. Include international country code too!;Ingrese su número de teléfono móvil y el sistema le enviará un mensaje de prueba. ¡Incluya también el código internacional del país!
+74;plugin_base_btn_send_sms;Send SMS;Enviar mensaje SMS
+75;plugin_base_btn_cancel;Cancel;Cancelar
+76;plugin_base_sms_sent;SMS sent!;Mensaje SMS enviado!
+77;plugin_base_sms_failed_to_send;SMS failed to send!;Mensaje SMS no pudo enviar!
+78;plugin_base_menu_visual_branding;Visual & Branding;Marca visual
+79;plugin_base_error_titles_ARRAY_PBS02;All changes saved!;¡Todos los cambios guardados!
+80;plugin_base_error_bodies_ARRAY_PBS02;All changes on Visual & Branding have been saved.;Todos los cambios de marca visual se han guardado.
+81;plugin_base_infobox_visual_branding_title;Visual & Branding;Marca visual
+82;plugin_base_infobox_visual_branding_desc;Choose a preferred color theme for the back-end of the system and change system branding.;Elija un tema de color preferido para el back-end del sistema y cambie la marca del sistema.
+83;plugin_base_opt_o_theme;Color theme;Tema de color
+84;plugin_base_opt_o_hide_phpjabbers_logo;Hide PHPJabbers.com logo;Ocultar el logotipo de PHPJabbers.com
+85;plugin_base_opt_o_hide_footer;Hide footer text;Ocultar texto de pie de página
+86;plugin_base_opt_o_footer_text;Custom footer text;Texto de pie de página personalizado
+87;plugin_base_menu_email_settings;Email Settings;Ajustes de correo electrónico
+88;plugin_base_error_titles_ARRAY_PBS03;Email settings saved!;Configuraciones de correo electrónico guardada!
+89;plugin_base_error_bodies_ARRAY_PBS03;Email settings have been successfully saved.;La configuración del correo electrónico se ha guardado correctamente.
+90;plugin_base_infobox_email_settings_title;Email Settings;Ajustes de correo electrónico
+91;plugin_base_infobox_email_settings_desc;Use the form below to define the settings for sending emails.;Use el siguiente formulario para definir la configuración para enviar correos electrónicos.
+92;plugin_base_opt_o_send_email;Sending method;Método de envío
+93;plugin_base_opt_o_smtp_host;SMTP Host;Host SMTP
+94;plugin_base_opt_o_smtp_port;SMTP Port;Puerto SMTP
+95;plugin_base_opt_o_smtp_user;SMTP Username;Nombre de usuario SMTP
+96;plugin_base_opt_o_smtp_pass;SMTP Password;Contraseña SMTP
+97;plugin_base_opt_o_smtp_auth;SMTP Auth Type;Tipo de autenticación SMTP
+98;plugin_base_opt_o_sender_email;"Email address (""From"" header)";"Dirección de correo electrónico (encabezado ""De"")"
+99;plugin_base_test_connection;Test connection;Probar la conexion
+100;plugin_base_send_test_email;Send test email;Enviar correo electrónico de prueba
+101;plugin_base_test_smtp_title;Test SMTP;Prueba SMTP
+102;plugin_base_test_smtp_text;Are you sure you want to test the SMTP connection?;¿Esta seguro que quieres probar la conexión SMTP?
+103;plugin_base_btn_yes_connect;Yes, connect;Sí, conectar
+104;plugin_base_opt_o_smtp_secure;SMTP Secure;SMTP seguro
+105;plugin_base_send_test_email_title;Send Test Email;Enviar correo electrónico de prueba
+106;plugin_base_btn_send_email;Send Email;Enviar correo electrónico
+107;plugin_base_send_test_email_text;Enter your email address and a test message will be sent to it to verify that system is able to send emails.;Ingrese su dirección de correo electrónico y se le enviará un mensaje de prueba para verificar que el sistema pueda enviar correos electrónicos.
+108;plugin_base_send_test_email_address;Email Address;Dirección de correo electrónico
+109;plugin_base_test_email_subject;Test email subject;Asunto de correo electrónico de prueba
+110;plugin_base_test_email_message;Test email message;Probar mensaje de correo electrónico
+111;plugin_base_menu_languages;Languages;Idiomas
+112;plugin_base_locale_infobox_languages_title;Languages;Idiomas
+113;plugin_base_locale_infobox_languages_desc;Add as many languages as you need to your script. For each of the languages added you need to translate all the text titles.;Agregue tantos idiomas como necesite. Para cada uno de los idiomas agregados, necesita traducir todos los títulos de texto.
+114;plugin_base_languages_tab_languages;Languages;Idiomas
+115;plugin_base_languages_tab_labels;Labels;Etiquetas
+116;plugin_base_btn_add_language;Add Language;Añadir idioma
+117;plugin_base_locale_lbl_language;Language;Idioma
+118;plugin_base_locale_lbl_frontend_title;Front-end title;Título de front-end
+119;plugin_base_locale_lbl_flag;Flag;Bandera
+120;plugin_base_locale_lbl_text_direction;Text direction;Dirección del texto
+121;plugin_base_locale_dir_ARRAY_ltr;Left to Right;De izquierda a derecha
+122;plugin_base_locale_dir_ARRAY_rtl;Right to Left;De derecha a izquierda
+123;plugin_base_locale_lbl_is_default;Is default;Por defecto
+124;plugin_base_locale_lbl_order;Order;Orden
+125;plugin_base_locale_btn_reset;Reset;Resetear
+126;plugin_base_btn_close;Close;Cerrar
+127;plugin_base_locale_tooltip_reset;Click to reset;Haga clic para restablecer
+128;plugin_base_locale_tooltip_upload;Click to upload;Haga clic para cargar
+129;plugin_base_locale_infobox_labels_title;Labels;Etiquetas
+130;plugin_base_locale_infobox_labels_desc;Using the form below you can edit all the text in the software.;Usando el siguiente formulario puedes editar todo el texto en el software.
+131;plugin_base_lbl_search;Search;Buscar
+132;plugin_base_languages_advanced_on;Advanced Translation is ON;La traducción avanzada está activada
+133;plugin_base_languages_advanced_off;Advanced Translation is OFF;La traducción avanzada está desactivada
+134;plugin_base_languages_advanced_title;Info;Informacion
+135;plugin_base_languages_advanced_desc;"Each piece of text used in the software is saved in the database and has its own unique ID. To show these IDs in the script itself turn on the ""Show labels ID"" switch. This will show the corresponding :ID: for each label in the script. Please, note that ONLY you will see these IDs. Now you can search for any ID and easily change and/or translate the text. Have in the mind that you should use : before and after the ID when you search for it.";"Cada texto utilizado en el software se guarda en la base de datos y tiene su propia identificación única. Para mostrar estas ID en el script, active el interruptor ""Mostrar ID de etiquetas"". Esto mostrará el correspondiente: ID: para cada etiqueta en el script. Tenga en cuenta que SOLO verá estas ID. Ahora puede buscar cualquier ID y cambiar y/o traducir el texto fácilmente. Tenga en cuenta que debe usar: antes y después de la identificación cuando la busque."
+136;plugin_base_languages_advanced_show_id;Show labels ID;Mostrar ID de etiquetas
+137;plugin_base_btn_confirm;Confirm;Confirmar
+138;plugin_base_locale_showid_dialog_title;Show IDs;Mostrar ID
+139;plugin_base_locale_showid_dialog_desc;ID will be displayed next to each text found in the software. You can then search for an ID to easily change or translate the text.;La ID se mostrará junto a cada texto encontrado en el software. Luego puede buscar una identificación para cambiar o traducir fácilmente el texto.
+140;plugin_base_locale_translate_to;Translate to;Traducir a
+141;plugin_base_locale_id;ID;ID
+142;plugin_base_default_language;Default language;Idioma predeterminado
+143;plugin_base_opt_o_hide_page;Hide this page;Ocultar esta página
+144;plugin_base_menu_login_protection;Login & Protection;Login y contraseña 222
+145;plugin_base_infobox_login_protection_title;Login & Protection;Login y contraseña 222
+146;plugin_base_infobox_login_protection_desc;Configure system login and security settings.;Configure el inicio de sesión y la configuración de seguridad.
+147;plugin_base_error_titles_ARRAY_PBS04;Login & Protection saved!;¡Login y contraseña guardados! 222
+148;plugin_base_error_bodies_ARRAY_PBS04;Login & Protection settings have been successfully saved.;La configuración de login y contraseña se ha guardado correctamente. 222
+149;plugin_base_options_password_title;Password;Contraseña
+150;plugin_base_options_password_desc;Set various settings related to the password used by users to login the backend of the system.;Establezca varias configuraciones relacionadas con la contraseña utilizada por los usuarios para iniciar sesión en el back-end del sistema.
+151;plugin_base_options_secure_login_title;Secure Login;Inicio de sesión seguro
+152;plugin_base_options_secure_login_desc;Set various settings related to system login.;Establezca varias configuraciones relacionadas con el inicio de sesión del sistema.
+153;plugin_base_options_failed_login_title;Failed Login;Inicio de sesión fallido
+154;plugin_base_options_failed_login_desc;Set various settings related to what happens when user fails to login.;Establezca varias configuraciones relacionadas con lo que sucede cuando el usuario no puede iniciar sesión.
+155;plugin_base_options_forgot_password_title;Forgot Password;Se te olvidó tu contraseña
+156;plugin_base_options_forgot_password_desc;Set various settings related to forgot password feature.;Establezca varias configuraciones relacionadas con la función de contraseña olvidada.
+157;plugin_base_opt_o_password_min_length;Minimum length;Longitud mínima
+158;plugin_base_opt_o_password_chars_used;Characters used;Caracteres usados
+159;plugin_base_opt_o_password_special_symbol;Require special symbol;Requerir símbolo especial
+160;plugin_base_opt_o_password_capital_letter;Require capital letter;Requerir mayúscula
+161;plugin_base_opt_o_password_change_every;Require users to change password every;Requerir a los usuarios que cambien la contraseña cada
+162;plugin_base_password_every_ARRAY_days;days;dias
+163;plugin_base_password_every_ARRAY_weeks;weeks;semanas
+164;plugin_base_password_every_ARRAY_months;months;meses
+165;plugin_base_opt_o_secure_login_use_captcha;Use captcha;Usar captcha
+166;plugin_base_opt_o_secure_login_1_active_login;Allow only 1 active login per user;Permitir solo 1 inicio de sesión activo por usuario
+167;plugin_base_opt_o_secure_login_2factor_auth;Two-Factor Authentication;Autenticación de dos factores
+168;plugin_base_opt_o_secure_login_send_password_to;Send temporary password to;Enviar contraseña temporal a
+169;plugin_base_enum_send_to_ARRAY_email;Email;Correo electrónico
+170;plugin_base_enum_send_to_ARRAY_sms;SMS;Mensaje SMS
+171;plugin_base_opt_o_failed_login_lock_after;Lock account after;Bloquear cuenta después de
+172;plugin_base_opt_o_failed_login_disable_form;Disable login form for;Desactivar formulario de inicio de sesión para
+173;plugin_base_opt_o_failed_login_required_captcha_after;Temporary require Captcha after;Temporalmente requiere Captcha después de
+174;plugin_base_opt_o_failed_login_send_email_after;Send notification to account owner after;Enviar notificación al propietario de la cuenta después de
+175;plugin_base_opt_o_failed_login_send_sms_after;Send SMS to account owner after;Enviar mensaje SMS al propietario de la cuenta después
+176;plugin_base_failed_login_attempts;failed login attempts;intentos fallidos de inicio de sesión
+177;plugin_base_enum_disable_units_ARRAY_hours;hours;horas
+178;plugin_base_enum_disable_units_ARRAY_minutes;minutes;minutos
+179;plugin_base_enum_disable_units_ARRAY_days;days;dias
+180;plugin_base_enum_disable_units_ARRAY_weeks;weeks;semanas
+181;plugin_base_enum_disable_units_ARRAY_months;months;meses
+182;plugin_base_label_after;after;después
+183;plugin_base_opt_o_forgot_email_confirmation;Forgot password email;Olvidé mi contraseña de correo electrónico
+184;plugin_base_opt_o_forgot_sms_confirmation;Forgot password SMS;Olvidé mi contraseña mensaje SMS
+185;plugin_base_opt_o_forgot_contact_admin;Contact admin;Contacta al administrador
+186;plugin_base_opt_o_forgot_use_captcha;Use captcha on forgot password page;Usar captcha en la página de contraseña olvidada
+187;plugin_base_menu_captcha_spam;Captcha &  Spam;Captcha y Spam
+188;plugin_base_error_titles_ARRAY_PBS05;Captcha & Spam settings saved!;Configuracion Captcha & Spam guardada!
+189;plugin_base_error_bodies_ARRAY_PBS05;All changes on Captcha & Spam settings have been successfully saved.;Todos los cambios en la configuración de Captcha y Spam se han guardado correctamente.
+190;plugin_base_opt_o_captcha_location;Captcha Location;Ubicación del Captcha
+191;plugin_base_opt_o_captcha_type;Type;Tipo
+192;plugin_base_opt_o_captcha_background;Background;Fondo
+193;plugin_base_opt_o_captcha_mode;Mode;Modo
+194;plugin_base_opt_o_captcha_length;Length;Longitud
+195;plugin_base_opt_o_spam_banned_words;Banned words;Palabras prohibidas
+196;plugin_base_opt_o_spam_banned_ip;Banned IP addresses;Direcciones IP prohibidas
+197;plugin_base_options_captcha_title;Captcha (Back-end);Capcha (Back-end)
+198;plugin_base_options_captcha_desc;Set options for the captcha used on the back-end login page.;Establezca las opciones para el captcha utilizado en la página de inicio de sesión del Back-end.
+199;plugin_base_options_spam_title;SPAM Protection;Protección contra el spam
+200;plugin_base_options_spam_desc;Enter IP addresses that you want to prevent from accessing back-end and front-end of the system. Enter one IP address per line.;Ingrese las direcciones IP que desea evitar que accedan al back-end y al front-end del sistema. Ingrese una dirección IP por línea.
+201;plugin_base_lbl_symbols;symbols;símbolos
+202;plugin_base_infobox_captcha_spam_title;Captcha & SPAM;Captcha y Spam
+203;plugin_base_infobox_captcha_spam_desc;Set captcha and spam protection settings.;Establezca la configuración de protección de captcha y spam.
+204;plugin_base_enum_captcha_location_ARRAY_admin;Administration page;Página de administración
+205;plugin_base_enum_captcha_location_ARRAY_front;Front-end;Front-end
+206;plugin_base_enum_captcha_types_ARRAY_system;System;Sistema
+207;plugin_base_enum_captcha_types_ARRAY_google;Google;Google
+208;plugin_base_enum_background_ARRAY_plain;Plain;Plano
+209;plugin_base_enum_background_ARRAY_pattern;Pattern;Patron de estampado
+210;plugin_base_enum_modes_ARRAY_string;String;Cadena de caracteres
+211;plugin_base_enum_modes_ARRAY_addition;Addition;Suma
+212;plugin_base_enum_modes_ARRAY_subtraction;Subtraction;Resta
+213;plugin_base_enum_modes_ARRAY_random_math;Random math;Matemáticas al azar
+214;plugin_base_opt_o_captcha_site_key;Google reCaptcha site key;Clave del sitio de Google reCaptcha
+215;plugin_base_opt_o_captcha_secret_key;Google reCaptcha secret key;Clave secreta de Google reCaptcha
+216;plugin_base_login_email;Email;Correo electrónico
+217;plugin_base_login_password;Password;Contraseña
+218;plugin_base_email_invalid;Email address is not valid.;La dirección de correo electrónico es inválida.
+219;plugin_base_btn_login;Login;Iniciar sesión
+220;plugin_base_link_forgot_password;Forgot password;Se te olvidó tu contraseña
+221;plugin_base_login_err_ARRAY_4;Parameters are missing.;Faltan parámetros
+222;plugin_base_login_err_ARRAY_5;Your account has been locked after %u failed login attempts.;Su cuenta ha sido bloqueada después de %u intentos fallidos al iniciar sesión.
+223;plugin_base_login_err_ARRAY_6;Email address does not exist.;La dirección de correo electrónico no existe.
+224;plugin_base_login_err_ARRAY_7;Password is not correct.;La contraseña no es correcta
+225;plugin_base_disable_form_message;Login form is disabled after failed login attempts.;El formulario de inicio de sesión se desactiva después de intentos fallidos de inicio de sesión.
+226;plugin_base_login_captcha;Captcha;Captcha
+227;plugin_base_captcha_incorrect;Captcha is not correct.;Captcha no es correcto.
+228;plugin_base_menu_users;Users;Usuarios
+229;plugin_base_infobox_users_title;Users;Usuarios
+230;plugin_base_infobox_users_desc;Add and manage system users. Set users as 'Inactive' if you wish to temporarily restrict their access to the system without deleting them. Click on permissions icon to configure user permission levels.;Añadir y administrar usuarios del sistema. Configure los usuarios como 'Inactivos' si desea restringir temporalmente su acceso al sistema sin eliminarlos. Haga clic en el icono de permisos para configurar los niveles de permisos del usuario.
+231;plugin_base_error_titles_ARRAY_PU01;User updated!;Usuario actualizado!
+232;plugin_base_error_bodies_ARRAY_PU01;All the changes made to this user have been saved. ;Se han guardado todos los cambios realizados a este usuario.
+233;plugin_base_error_titles_ARRAY_PU03;User added!;Usuario añadido!
+234;plugin_base_error_bodies_ARRAY_PU03;The user has been added into the system.;El usuario ha sido agregado al sistema.
+235;plugin_base_error_titles_ARRAY_PU04;User failed to add!;¡El usuario no se pudo añadir!
+236;plugin_base_error_bodies_ARRAY_PU04;The user could not be added into the system successfully.;El usuario no pudo ser agregado al sistema con éxito.
+237;plugin_base_error_titles_ARRAY_PU08;User not found!;¡Usuario no encontrado!
+238;plugin_base_error_bodies_ARRAY_PU08;The user you are looking for is missing. Please try again.;Falta el usuario que busca. Inténtalo de nuevo.
+239;plugin_base_btn_add_user;Add user;Añadir usuario
+240;plugin_base_lbl_all;All;Todos
+241;plugin_base_filter_ARRAY_active;Active;Activo
+242;plugin_base_filter_ARRAY_inactive;Inactive;Inactivo
+243;plugin_base_name;Name;Nombre
+244;plugin_base_email;Email;Correo electrónico
+245;plugin_base_last_login;Last login;Último acceso
+246;plugin_base_role;Role;Rol
+247;plugin_base_status;Status;Estado
+248;plugin_base_revert_status;Revert status;Revertir estado
+249;plugin_base_export;Export;Exportar
+250;plugin_base_delete_selected;Delete selected;Eliminar seleccionado
+251;plugin_base_delete_confirmation;Are you sure you want to delete the selected record(s)?;¿Está seguro de que desea eliminar los registros seleccionados?
+252;plugin_base_infobox_add_user_title;Add User;Añadir usuario
+253;plugin_base_infobox_add_user_desc;Fill out the fields and click on 'Save' button to add new user to the system.;Complete los campos y haga clic en el botón 'Guardar' para añadir un nuevo usuario al sistema.
+254;plugin_base_choose;Choose;Seleccionar
+255;plugin_base_password;Password;Contraseña
+256;plugin_base_phone;Phone;Teléfono
+257;plugin_base_email_in_used;Email address was already used.;La dirección de correo electrónico ya esta en uso.
+258;plugin_base_invalid_password_title;Invalid Password;Contraseña invalida
+259;plugin_base_btn_ok;OK;OK
+260;plugin_base_infobox_update_user_title;Update User;Actualizar usuario
+261;plugin_base_infobox_update_user_desc;Review and update User's data.;Revisar y actualizar los datos del usuario.
+262;plugin_base_registration_date_time;Registration date/time;Fecha / hora de registro
+263;plugin_base_ip_address;IP address;Dirección IP
+264;plugin_base_error_titles_ARRAY_PPR01;Permission updated!;Permiso actualizado!
+265;plugin_base_error_bodies_ARRAY_PPR01;Permission changes have been saved successfully.;Los cambios de permisos se han guardado correctamente.
+266;plugin_base_infobox_permissions_title;Permissions;Permisos
+267;plugin_base_infobox_permissions_desc;You can see below the list of permissions.;Puede ver a continuación la lista de permisos.
+268;plugin_base_permission_title;Title;Título
+269;plugin_base_permission_key;Key;Llave
+270;plugin_base_btn_set_role_permission;Set permissions for role;Establecer permisos para el rol
+271;plugin_base_infobox_role_permissions_title;Set permissions for role;Establecer permisos para el rol
+272;plugin_base_infobox_role_permissions_desc;You can set the permission for the selected role by using the form below.;Puede establecer el permiso para el rol seleccionado mediante el siguiente formulario.
+273;plugin_base_set_permissions;Set permissions;Establecer permisos
+274;plugin_base_reset_permissions;Reset permissions;Restablecer permisos
+275;plugin_base_reset_user_permissions_title;Reset user permissions;Restablecer permisos de usuario
+276;plugin_base_reset_user_permissions_text;Are you sure you want to reset the permissions of this user? If yes, the current permissions will be replaced with the default role permissions based on user's role.;¿Está seguro de que desea restablecer los permisos de este usuario? En caso afirmativo, los permisos actuales se reemplazarán con los permisos de rol predeterminados según el rol del usuario.
+277;plugin_base_infobox_user_permissions_title;Set permissions for user;Establecer permisos para el usuario
+278;plugin_base_infobox_user_permissions_desc;You can set the permission for the selected user by using the form below.;Puede establecer el permiso para el usuario seleccionado mediante el siguiente formulario.
+279;plugin_base_access_denied_title;Access denied;Acceso denegado
+280;plugin_base_access_denied_desc;You don't have requisite rights to access this page.;No tiene los derechos necesarios para acceder a esta página.
+281;plugin_base_opt_o_captcha_type_front;Type;Tipo
+282;plugin_base_opt_o_captcha_background_front;Background;Fondo
+283;plugin_base_opt_o_captcha_mode_front;Mode;Modo
+284;plugin_base_opt_o_captcha_length_front;Length;Longitud
+285;plugin_base_opt_o_captcha_site_key_front;Google reCaptcha site key;Clave del sitio de Google reCaptcha
+286;plugin_base_opt_o_captcha_secret_key_front;Google reCaptcha secret key;Clave secreta de Google reCaptcha
+287;plugin_base_backup_enable_auto_backup;Enable auto-backup;Habilitar copia de seguridad automática
+288;plugin_base_error_titles_ARRAY_PBS06;API Keys updated!;API Keys actualizadas!
+289;plugin_base_error_bodies_ARRAY_PBS06;API keys have been saved successfully!;¡Las claves API se han guardado correctamente!
+290;plugin_base_menu_api_keys;API Keys;Claves API
+291;plugin_base_infobox_api_keys_title;API Keys;Claves API
+292;plugin_base_infobox_api_keys_desc;Set API keys for third-party services used by the system.;Establecer claves API para servicios de terceros utilizados por el sistema.
+293;plugin_base_no_api_keys_added;No API keys added!;¡No se añadieron claves API!
+294;plugin_base_btn_verify_key;Verify Key;Clave de verificación
+295;plugin_base_menu_cron_jobs;Cron jobs;Cron jobs
+296;plugin_base_infobox_cron_jobs_title;Cron Jobs;Cron Jobs
+297;plugin_base_infobox_cron_jobs_desc;Cron jobs are scheduled tasks that will automatically be run at specific times. In order to enable cron jobs you need to configure a cron script using your hosting account control panel. Depending on the software your server uses you will need either server path or URL to set the cron jobs. Set this cron.php script to run every 5 minutes!;"Los ""Cron Jobs"" son tareas programadas que se ejecutarán automáticamente en momentos específicos. Para habilitar los cron jobs, debe configurar un script cron utilizando el cPanel de su cuenta de hosting. Dependiendo del software que use su servidor, necesitará la ruta del servidor o la URL para configurar los cron jobs. ¡Configure este script cron.php para que se ejecute cada 5 minutos!"
+298;plugin_base_cron_url;URL;URL
+299;plugin_base_cron_type;Cron Type;Tipo de Cron
+300;plugin_base_cron_interval;Interval;Intervalo
+301;plugin_base_cron_next_run;Next run;Próxima ejecucion
+302;plugin_base_cron_last_run;Last run;Última ejecucion
+303;plugin_base_cron_status;Status;Estado
+304;plugin_base_cron_no_cron_jobs;There are no cron jobs found.;No se encontraron cron jobs.
+305;plugin_base_cron_periods_ARRAY_minute;minute(s);minuto (s)
+306;plugin_base_cron_periods_ARRAY_hour;hour(s);hora (s)
+307;plugin_base_cron_periods_ARRAY_day;day(s);dia (s)
+308;plugin_base_cron_periods_ARRAY_week;week(s);semana (s)
+309;plugin_base_cron_periods_ARRAY_month;month(s);mese (s)
+310;plugin_base_cron_run_now;Run now;Ejecutar ahora
+311;plugin_base_lbl_na;N/A;N/D
+312;plugin_base_cront_alert_title;Run cron job?;Ejecutar cron jobs?
+313;plugin_base_cront_alert_text;Are you sure that you want to run this cron job?;¿Estás seguro de que quieres ejecutar este cron job?
+314;plugin_base_languages_tab_import_export;Import / Export;Importación y exportación
+315;plugin_base_locale_infobox_ie_title;Import / Export;Importación y exportación
+316;plugin_base_locale_infobox_ie_desc;Use form below to Import or Export CSV with all titles. Please, do not change first row and first and second column in the CSV file.;Utilice el siguiente formulario para importar o exportar CSV con todos los títulos. Por favor, no cambie la primera fila y la primera y segunda columna en el archivo CSV.
+317;plugin_base_locale_lbl_import;Import;Importar
+318;plugin_base_locale_delimiter;Delimiter;Delimitador
+319;plugin_base_locale_separators_ARRAY_comma;Comma;Coma
+320;plugin_base_locale_separators_ARRAY_semicolon;Semicolon;Punto y coma
+321;plugin_base_locale_separators_ARRAY_tab;Tab;Tab
+322;plugin_base_locale_browse_csv_file;Browse CSV file;Examinar archivo CSV
+323;plugin_base_locale_select_file;Select File;Seleccione Archivo
+324;plugin_base_locale_change_file;Change File;Cambiar archivo
+325;plugin_base_btn_import;Import;Importar
+326;plugin_base_locale_lbl_export;Export;Exportar
+327;plugin_base_btn_export;Export;Exportar
+328;plugin_base_error_titles_ARRAY_PAL01;Titles Updated;Títulos actualizados
+329;plugin_base_error_bodies_ARRAY_PAL01;All the changes made to titles have been saved.;Se han guardado todos los cambios realizados en los títulos.
+330;plugin_base_error_titles_ARRAY_PAL02;Import error;Error de importación
+331;plugin_base_error_bodies_ARRAY_PAL02;Import failed due missing parameters.;La importación falló debido a la falta de parámetros.
+332;plugin_base_error_titles_ARRAY_PAL03;Import complete;Importación completada
+333;plugin_base_error_bodies_ARRAY_PAL03;The import was performed successfully.;La importación se realizó con éxito.
+334;plugin_base_error_titles_ARRAY_PAL04;Import error;Error de importación
+335;plugin_base_error_bodies_ARRAY_PAL04;Import failed due empty data.;Error de importación debido a datos vacíos.
+336;plugin_base_error_titles_ARRAY_PAL05;Import error;Error de importación
+337;plugin_base_error_bodies_ARRAY_PAL05;Import failed because file cannot be open.;La importación falló porque el archivo no se puede abrir.
+338;plugin_base_error_bodies_ARRAY_PAL20;The following languages have been found. Select those you want to import.;Se han encontrado los siguientes idiomas. Seleccione los que desea importar.
+339;plugin_base_error_titles_ARRAY_PAL20;Import confirmation;Confirmar importación
+340;plugin_base_error_titles_ARRAY_PAL11;Import failed;Importación fallida
+341;plugin_base_error_bodies_ARRAY_PAL11;Missing, empty or invalid parameters.;Parámetros faltantes, vacíos o inválidos.
+342;plugin_base_error_titles_ARRAY_PAL12;Import failed;Importación fallida
+343;plugin_base_error_bodies_ARRAY_PAL12;File have not been uploaded.;El archivo no ha sido cargado.
+344;plugin_base_error_titles_ARRAY_PAL13;Import failed;Importación fallida
+345;plugin_base_error_bodies_ARRAY_PAL13;Uploaded file cannot open for reading.;El archivo cargado no se puede abrir para leer.
+346;plugin_base_error_titles_ARRAY_PAL14;Import failed;Importación fallida
+347;plugin_base_error_bodies_ARRAY_PAL14;New line(s) have been found.;Se han encontrado nuevas líneas.
+348;plugin_base_error_titles_ARRAY_PAL15;Import failed;Importación fallida
+349;plugin_base_error_bodies_ARRAY_PAL15;Uploaded file doesn't contain the necessary columns.;El archivo cargado no contiene las columnas necesarias.
+350;plugin_base_error_titles_ARRAY_PAL16;Import failed;Importación fallida
+351;plugin_base_error_bodies_ARRAY_PAL16;Number of columns are not equal on every row.;El número de columnas no es igual en cada fila.
+352;plugin_base_error_titles_ARRAY_PAL17;Import failed;Importación fallida
+353;plugin_base_error_bodies_ARRAY_PAL17;Invalid data found.;Datos no válidos encontrados.
+354;plugin_base_error_titles_ARRAY_PAL18;Import failed;Importación fallida
+355;plugin_base_error_bodies_ARRAY_PAL18;Missing columns.;Faltan columnas.
+356;plugin_base_error_titles_ARRAY_PAL19;Import failed;Importación fallida
+357;plugin_base_error_bodies_ARRAY_PAL19;Invalid data found.;Datos no válidos encontrados.
+358;plugin_base_locale_error_line;The error was found at line: %s;El error se encontró en la línea: %s
+359;plugin_base_menu_profile;Profile;Perfil
+360;plugin_base_menu_logout;Log out;Cerrar sesión
+361;plugin_base_header_welcome;Welcome, {NAME}.;Bienvenido, {NAME}.
+362;plugin_base_admin_login;Admin Login;Inicio de sesión de administrador
+363;plugin_base_opt_o_dashboard;Dashboard page URL;URL del Dashboard
+364;plugin_base_log_menu_log;Log;Log
+365;plugin_base_log_menu_config;Config log;Log de configuración
+366;plugin_base_log_btn_empty;Empty log;Log vacío
+367;plugin_base_error_titles_ARRAY_PLG01;Config log updated.;Registro de configuración actualizado.
+368;plugin_base_error_bodies_ARRAY_PLG01;The config log have been updated.;El registro de configuración se ha actualizado.
+369;plugin_base_api_key;API key;Clave API
+370;plugin_base_editor_phone_portrait;Phone Portrait View;Vista retrato del teléfono
+371;plugin_base_editor_phone_landscape;Phone Landscape View;Vista landscape del teléfono
+372;plugin_base_editor_tablet_portrait;Tablet Portrait View;Vista retrato de la tableta
+373;plugin_base_editor_tablet_landscape;Tablet Landscape View;Vista landscape de la tableta
+374;plugin_base_editor_phone_portrait_info;See how your website looks on mobile phone in portrait mode - 320px x 490px.;Vea cómo se ve su sitio web en el teléfono móvil en modo vertical: 320 px x 490 px.
+375;plugin_base_editor_phone_landscape_info;See how your website looks on mobile phone in landscape mode - 490px x 320px.;Vea cómo se ve su sitio web en el teléfono móvil en modo horizontal: 490 px x 320 px.
+376;plugin_base_editor_tablet_portrait_info;See how your website looks on a tablet in portrait mode - 770px x 990px.;Vea cómo se ve su sitio web en una tableta en modo vertical: 770 px x 990 px.
+377;plugin_base_editor_tablet_landscape_info;See how your website looks on a tablet in landscape mode - 990px x 770px.;Vea cómo se ve su sitio web en una tableta en modo horizontal: 990 px x 770 px.
+378;plugin_base_opt_o_hide_page_text;If you choose to hide this page then it will not be available in the menu and you can only access it by using its URL: {URL};Si elige ocultar esta página, no estará disponible en el menú y solo podrá acceder a ella utilizando su URL: {URL}
+379;plugin_base_backup_enable_auto_backup_text;"Please, make sure CRON jobs are configured. Please, go to <a href=""index.php?controller=pjBaseCron&action=pjActionIndex"">System Options - Cron jobs</a> and follow the instructions.";"Por favor, asegúrese de que los CRON JOBS estén configurados. Vaya a <a href=""index.php?controller=pjBaseCron&action=pjActionIndex""> Opciones del sistema - Cron jobs </a> y siga las instrucciones."
+380;plugin_base_server_path;Server path;Ruta del servidor
+381;plugin_base_account_locked;Account locked;Cuenta bloqueada
+382;plugin_base_available_tokens;Available tokens;Tokens disponibles
+383;plugin_base_opt_o_failed_login_send_email_subject;Email subject;Asunto del correo electrónico
+384;plugin_base_opt_o_failed_login_send_email_message;Email message;Mensaje de correo electrónico
+385;plugin_base_opt_o_failed_login_send_sms_message;SMS message sent to account owner;Mensaje SMS enviado al propietario de la cuenta
+386;plugin_base_link_resend_password;Not received your password? Click here to resend;No recibió su contraseña? Haga clic aquí para regresar a enviar
+387;plugin_base_two_factor_auth_email_title;Please enter the temporary password that was sent to your email to login.;Introduzca la contraseña temporal que se envió a su correo electrónico para iniciar sesión.
+388;plugin_base_two_factor_auth_sms_title;Please enter the temporary password that was sent to you as SMS to login.;Por favor, introduzca la contraseña temporal que se le envió como mensaje SMS para iniciar sesión.
+389;plugin_base_opt_o_secure_login_send_password_to_email_subject;Email subject;Asunto del correo electrónico
+390;plugin_base_opt_o_secure_login_send_password_to_email_message;Email message;Mensaje de correo electrónico
+391;plugin_base_opt_o_secure_login_send_password_to_sms_message;SMS message;Mensaje SMS
+392;plugin_base_disabled_login_form_text;The form is disabled because of too many failed login attempts. Please try again after {REMAINING_TIME}.;El formulario está deshabilitado debido a demasiados intentos de inicio de sesión fallidos. Inténtelo de nuevo después de {REMAINING_TIME}.
+393;plugin_base_admin_forgot;Forgot Password?;Olvidó su contraseña?
+394;plugin_base_link_login;User login;Login de usuario
+395;plugin_base_opt_o_forgot_email_subject;Email subject;Asunto del correo electrónico
+396;plugin_base_opt_o_forgot_email_message;Email message;Mensaje de correo electrónico
+397;plugin_base_opt_o_forgot_sms_message;SMS message;Mensaje SMS
+398;plugin_base_login_err_ARRAY_8;The password reminder email has been sent successfully.;El correo electrónico de recordatorio de contraseña se ha enviado correctamente.
+399;plugin_base_login_err_ARRAY_9;The password reminder SMS has been sent successfully.;El mensaje SMS recordatorio de contraseña se ha enviado con éxito.
+400;plugin_base_login_err_ARRAY_10;Password reminder failed to send!;Recordatorio de contraseña no se pudo enviar!
+401;plugin_base_locale_field_type;Field type;Tipo de campo
+402;plugin_base_locale_type_backend;Back-end;Back-end
+403;plugin_base_locale_type_frontend;Front-end;Front-end
+404;plugin_base_locale_type_arrays;Special title (Array);Título especial (Arreglo)
+405;plugin_base_locale_type_script;Script;Script
+406;plugin_base_locale_type_plugin;Plugin;Plugin
+407;plugin_base_opt_o_forgot_contact_admin_message;Contact admin email message;Póngase en contacto con el administrador por medio de correo electrónico
+408;plugin_base_login_err_ARRAY_11;Your IP address was already blocked.;Su dirección IP ya estaba bloqueada.
+409;plugin_base_login_err_ARRAY_12;Forgot password SMS cannot be sent.;Olvidé la contraseña, el mensaje SMS no se puede enviar.
+410;plugin_base_login_err_ARRAY_13;Forgot password SMS cannot be sent, user's phone number is not added.;Olvidé la contraseña, el mensaje SMS no se puede enviar, el número de teléfono del usuario no se agregara.
+411;plugin_base_login_err_ARRAY_14;Forgot password SMS cannot be sent, SMS message is not added.;Olvidé la contraseña, el mensaje SMS no se puede enviar, no se agrega un mensaje SMS.
+412;plugin_base_opt_o_google_maps_api_key;Google Maps API Browser key;Clave del navegador de la API de Google Maps
+413;plugin_base_opt_o_google_maps_api_key_text;"Enter your Google maps API key here in order for Google maps to work with your system. If you do not have such key <a href=""https://developers.google.com/maps/documentation/javascript/get-api-key"" target=""_blank"">get a key here.</a>";"Ingresa tu clave de API de Google Maps aquí para que Google Maps funcione con tu sistema. Si no tiene esa clave <a href=""https://developers.google.com/maps/documentation/javascript/get-api-key"" target=""_blank"">get a key here.</a>"
+414;plugin_base_login_err_ARRAY_15;Email could not be sent.;No se pudo enviar el correo electrónico.
+415;plugin_base_login_err_ARRAY_16;Email could not be sent because the email template is empty.;No se pudo enviar correo electrónico porque la plantilla de correo electrónico está vacía.
+416;plugin_base_login_err_ARRAY_17;SMS could not be sent beause the SMS key is not set.;No se pudo enviar mensaje SMS porque la clave SMS no está configurada.
+417;plugin_base_login_err_ARRAY_18;SMS could not be sent beause the SMS template is empty.;No se pudo enviar mensaje SMS porque la plantilla de SMS está vacía.
+418;plugin_base_login_err_ARRAY_19;SMS could not be sent beause the phone number is missing.;No se pudo enviar mensaje SMS porque falta el número de teléfono.
+419;plugin_base_login_err_ARRAY_30;SMS could not be sent.;No se pudo enviar mensaje SMS.
+420;plugin_base_opt_o_forgot_contact_admin_subject;Contact admin email subject;Asunto correo electrónico del administrador
+421;plugin_base_btn_send_password_reminder;Send Password Reminder;Enviar recordatorio de contraseña
+422;plugin_base_opt_o_failed_login_send_email;Send notification to account owner;Enviar notificación al propietario de la cuenta
+423;plugin_base_opt_o_failed_login_send_sms;Send SMS to account owner;Enviar mensaje SMS al propietario de la cuenta
+424;plugin_base_create_backup_title;Manually make a back-up;Hacer manualmente una copia de seguridad
+425;plugin_base_new_password;New password;Nueva contraseña
+426;plugin_base_login_err_ARRAY_33;Missing, empty or invalid URL parameters.;Parámetros de URL faltantes, vacíos o no válidos.
+427;plugin_base_login_err_ARRAY_32;Account not found.;Cuenta no encontrada.
+428;plugin_base_login_err_ARRAY_31;Invalid URL parameters.;Parámetros de URL no válidos.
+429;plugin_base_admin_reset_success;New password generated!;Nueva contraseña generada!
+430;plugin_base_options_captcha_desc_front;Set options for the captcha used on the front-end.;Establecer opciones para el captcha utilizado en el front-end.
+431;plugin_base_options_captcha_title_front;Captcha (Front-end);Captcha (Front-end)
+432;plugin_base_opt_o_base_theme;Color theme;Color del tema
+433;plugin_base_sms_warning;"Please make sure you have set an SMS key. More details <a href=""index.php?controller=pjBaseSms&action=pjActionIndex"">here</a>.";"Por favor, asegúrese de haber establecido una clave de SMS. Más detalles <a href=""index.php?controller=pjBaseSms&action=pjActionIndex"">here</a>."
+434;plugin_base_change_pswd_title;Notice!;¡Aviso!
+435;plugin_base_change_pswd_desc;Since you have not changed your password recently we recommend you to change your password.;Como no ha cambiado su contraseña recientemente, le recomendamos que cambie su contraseña.
+436;plugin_base_opt_o_sender_name;"Name (""From"" header)";"Nombre (""De"" encabezado)"
+437;plugin_base_captcha_reload;Can't read the text? Click to reload.;No se puede leer el texto? Haga clic para volver a cargar.
+438;plugin_base_login_welcome;Welcome back.;Bienvenido de regreso.
+439;plugin_base_login_welcome_prefix;Log in;Iniciar sesión
+440;plugin_base_login_welcome_suffix;administration page;página de administración
+441;plugin_base_login_err_ARRAY_44;Captcha doesn't match.;El codigo captcha no coincide.
+442;opt_o_secure_login_send_password_to_email_message_text;"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n<p>{Password}</p>\n</div>\n";"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n<p>{Password}</p>\n</div>\n"
+443;opt_o_secure_login_send_password_to_sms_message_text;"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n<p>{Password}</p>\n</div>\n";"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n<p>{Password}</p>\n</div>\n"
+444;opt_o_failed_login_send_email_message_text;"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n</div>\n<div class=""col-xs-6"">\n<p>{LoginAttempts}</p>\n<p>{LoginAttemptsToLock}</p>\n</div>\n";"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n</div>\n<div class=""col-xs-6"">\n<p>{LoginAttempts}</p>\n<p>{LoginAttemptsToLock}</p>\n</div>\n"
+445;opt_o_failed_login_send_sms_message_text;"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n</div>\n<div class=""col-xs-6"">\n<p>{LoginAttempts}</p>\n<p>{LoginAttemptsToLock}</p>\n</div>\n";"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Email}</p>\n<p>{Phone}</p>\n</div>\n<div class=""col-xs-6"">\n<p>{LoginAttempts}</p>\n<p>{LoginAttemptsToLock}</p>\n</div>\n"
+446;opt_o_forgot_email_message_text;"<div class=""col-xs-6""><p>{Name}</p><p>{Email}</p><p>{Phone}</p><p>{URL}</p></div>";"<div class=""col-xs-6""><p>{Name}</p><p>{Email}</p><p>{Phone}</p><p>{URL}</p></div>"
+447;plugin_base_send_test_swal_success_title;Success!;¡Exito!
+448;plugin_base_send_test_swal_smg_title;Email sent!;Correo electrónico enviado!
+449;plugin_base_send_test_swal_error_title;Error!;¡Error!
+450;plugin_base_email_text_ARRAY_1;Missing headers.;Faltan encabezados.
+451;plugin_base_email_text_ARRAY_2;Invalid request.;Solicitud no válida.
+452;plugin_base_email_text_ARRAY_3;Missing, empty or invalid parameters.;Parámetros faltantes, vacíos o no válidos.
+453;plugin_base_email_text_ARRAY_4;Connection has been established successfully.;La conexión se ha establecido con éxito.
+454;plugin_base_email_text_ARRAY_5;Connection fails.;La conexión falla.
+455;plugin_base_email_text_ARRAY_6;Email address is missing.;Falta la dirección de correo electrónico.
+456;plugin_base_email_text_ARRAY_7;Email address is not valid.;La dirección de correo electrónico no es válida.
+457;plugin_base_email_text_ARRAY_8;Email failed to sent.;Error al enviar el correo electrónico.
+458;plugin_base_email_text_ARRAY_9;Test email has been sent to;El correo electrónico de prueba ha sido enviado a
+459;plugin_base_api_key_text_ARRAY_100;HTTP method is not allowed.;El método HTTP no está permitido.
+460;plugin_base_api_key_text_ARRAY_101;Option cannot be found.;No se puede encontrar la opción.
+461;plugin_base_api_key_text_ARRAY_102;API key is empty.;La clave API está vacía.
+462;plugin_base_api_key_text_ARRAY_103;Key is not correct!;La clave no es correcta!
+463;plugin_base_api_key_text_ARRAY_200;Key is correct!;La clave es correcta!
+464;plugin_base_sms_key_text_ARRAY_100;HTTP method is not allowed.;El método HTTP no está permitido.
+465;plugin_base_sms_key_text_ARRAY_101;API key is empty.;La clave API está vacía.
+466;plugin_base_sms_key_text_ARRAY_4;Incorrect API key.;Clave API incorrecta.
+467;plugin_base_validate_select_file;Please select file to import.;Seleccione el archivo que desea importar.
+468;plugin_base_ajax_error;An unexpected error occurred.;Se ha producido un error inesperado.
+469;plugin_base_login_err_ARRAY_3;Your account was disabled.;Su cuenta fue desactivada.
+470;plugin_base_menu_countries;Countries;Paises
+471;plugin_base_infobox_countries_title;Countries;Paises
+472;plugin_base_infobox_countries_desc;Use grid below to organize your country list.;Use la cuadrícula a continuación para organizar su lista de países.
+473;plugin_base_infobox_add_country_title;Add country;Añadir país
+474;plugin_base_infobox_add_country_desc;Use form below to add a country.;Utilice el siguiente formulario para añadir un país.
+475;plugin_base_infobox_update_country_title;Update country;Actualizar país
+476;plugin_base_infobox_update_country_desc;Use form below to update a country.;Utilice el siguiente formulario para actualizar un país.
+477;plugin_base_error_titles_ARRAY_PCY01;Country updated;País actualizado
+478;plugin_base_error_titles_ARRAY_PCY03;Country added;País añadido
+479;plugin_base_error_titles_ARRAY_PCY04;Country failed to add;El país no se pudo añadir
+480;plugin_base_error_titles_ARRAY_PCY08;Country not found;País no encontrado
+481;plugin_base_error_bodies_ARRAY_PCY01;Country has been updated successfully.;El país se ha actualizado correctamente.
+482;plugin_base_error_bodies_ARRAY_PCY03;Country has been added successfully.;El país se ha agregado correctamente.
+483;plugin_base_error_bodies_ARRAY_PCY04;Country has not been added successfully.;El país no se ha agregado correctamente.
+484;plugin_base_error_bodies_ARRAY_PCY08;Country you are looking for has not been found.;No se ha encontrado el país que está buscando.
+485;plugin_base_btn_add_country;Add country;Añadir país
+486;plugin_base_country_name;Country name;Nombre del país
+487;plugin_base_alpha_2;Alpha 2;Alpha 2
+488;plugin_base_alpha_3;Alpha 3;Alpha 3
+489;plugin_base_duplicated_alpha_2;Duplicated alpha 2;Duplicado alpha 2
+490;plugin_base_duplicated_alpha_3;Duplicated alpha 3;Duplicado alpha 3
+491;plugin_base_infobox_user_profile_title;User Profile;Perfil de usuario
+492;plugin_base_infobox_user_profile_desc;Reivew and update your profile.;Revisar y actualizar su perfil.
+493;plugin_base_menu_role_permissions;Role permissions;Permisos de rol
+494;opt_o_forgot_sms_message_text;"<div class=""col-xs-6""><p>{Name}</p><p>{Email}</p><p>{Phone}</p><p>{URL}</p></div>";"<div class=""col-xs-6""><p>{Name}</p><p>{Email}</p><p>{Phone}</p><p>{URL}</p></div>"
+495;opt_o_forgot_contact_admin_message_text;"<div class=""col-xs-6""><p>{Name}</p><p>{Email}</p><p>{Phone}</p><p>{URL}</p></div>";"<div class=""col-xs-6""><p>{Name}</p><p>{Email}</p><p>{Phone}</p><p>{URL}</p></div>"
+496;plugin_base_grid_choose_action;Choose Action;Seleccione una acción
+497;plugin_base_grid_go_to_page;Go to page:;Ir a la página:
+498;plugin_base_grid_total_items;Total items:;Total de items:
+499;plugin_base_grid_items_per_page;Items per page;Items por página
+500;plugin_base_grid_prev_page;Prev page;Página anterior
+501;plugin_base_grid_prev;"&laquo; Prev";"&laquo; Anterior"
+502;plugin_base_grid_next_page;Next page;Página siguiente
+503;plugin_base_grid_next;"Next &raquo;";"Siguiente &raquo;"
+504;plugin_base_grid_delete_confirmation;Delete confirmation;Eliminar confirmación
+505;plugin_base_grid_confirmation_title;Are you sure you want to delete selected record?;¿Está seguro de que desea eliminar el registro seleccionado?
+506;plugin_base_grid_action_title;Action confirmation;Confirmación de la acción
+507;plugin_base_grid_btn_ok;OK;OK
+508;plugin_base_grid_btn_cancel;Cancel;Cancelar
+509;plugin_base_grid_btn_delete;Delete;Eliminar
+510;plugin_base_grid_empty_result;No records found;No se encontraron registros
+511;plugin_base_grid_total_prefix;of;de
+512;plugin_base_grid_total_suffix;total;total
+513;plugin_base_grid_show;Show;Mostrar
+514;plugin_base_grid_empty_date;(empty date);(fecha vacía)
+515;plugin_base_grid_invalid_date;(invalid date);(fecha inválida)
+516;plugin_base_role_arr_ARRAY_1;Administrator;Administrador
+517;plugin_base_role_arr_ARRAY_2;Regular User;Usuario regular
+518;plugin_base_enum_arr_ARRAY_letters;Letters only;Sólo caracteres
+519;plugin_base_enum_arr_ARRAY_digits;Digits only;Sólo dígitos
+520;plugin_base_enum_arr_ARRAY_both;Letter & Digits;Dígitos y Caracteres
+521;plugin_base_enum_arr_ARRAY_system;System;Sistema
+522;plugin_base_enum_arr_ARRAY_google;Google;Google
+523;plugin_base_enum_arr_ARRAY_string;String;Cadena
+524;plugin_base_enum_arr_ARRAY_addition;Addition;Suma
+525;plugin_base_enum_arr_ARRAY_subtraction;Subtraction;Resta
+526;plugin_base_enum_arr_ARRAY_random_math;Random math;Matemáticas aleatorias
+527;plugin_base_grid_action_empty_title;No records selected;No hay registros seleccionados
+528;plugin_base_grid_action_empty_body;You need to select at least a single record;Debe seleccionar al menos un solo registro
+529;plugin_base_opt_o_google_geocoding_api_key;Google Maps API Server key;Clave del servidor API de Google Maps
+530;plugin_base_opt_o_google_geocoding_api_key_text;"Enter your Google Geocoding API key here in order for Google maps to work with your system. If you do not have such key <a href=""https://developers.google.com/maps/documentation/geocoding/get-api-key"" target=""_blank"">get a key here.</a>";"Introduce aquí tu clave de Google Geocoding API para que Google Maps funcione con tu sistema. Si no tiene esa clave <a href=""https://developers.google.com/maps/documentation/geocoding/get-api-key"" target=""_blank"">get a key here.</a>"
+531;plugin_base_sms_test_invalid_method;HTTP method not allowed.;Método HTTP no permitido.
+532;plugin_base_sms_test_empty_api_key;API key is empty.;La clave API está vacía.
+533;plugin_base_sms_test_empty_number;Number is empty.;El número está vacío.
+534;plugin_base_opt_o_smtp_sender;SMTP Sender;Remitente de SMTP
+535;plugin_auth_pwd_error_ARRAY_100;Password minimum length should be %u.;La longitud mínima de la contraseña debe ser %u.
+536;plugin_auth_pwd_error_ARRAY_101;Password must contain letters only.;La contraseña debe contener sólo letras.
+537;plugin_auth_pwd_error_ARRAY_105;Password must contain at least one capital letter.;La contraseña debe contener al menos una letra mayúscula.
+538;plugin_auth_pwd_error_ARRAY_102;Password must contain digits only.;La contraseña debe contener solo dígitos.
+539;plugin_auth_pwd_error_ARRAY_103;Password must contain at least one letter and one digit.;La contraseña debe contener al menos una letra y un dígito.
+540;plugin_auth_pwd_error_ARRAY_104;Password must contain at least one special character.;La contraseña debe contener al menos un carácter especial.
+541;pjBaseBackup_pjActionBackup;Do back-up files;Hacer copia de seguridad de archivos
+542;pjBaseBackup_pjActionDelete;Delete back-up file;Eliminar archivo de copia de seguridad
+543;pjBaseBackup_pjActionDeleteBulk;Delete multiple back-up files;Eliminar varios archivos de copia de seguridad
+544;pjBaseBackup_pjActionDownload;Download back-up file;Descargar archivo de copia de seguridad
+545;pjBaseBackup_pjActionIndex;Back-up Menu;Menú de copia de seguridad
+546;pjBaseCountries;Countries Menu;Menú de países
+547;pjBaseCountries_pjActionCreate;Create Country;Crear país
+548;pjBaseCountries_pjActionDeleteCountry;Delete single Country;Eliminar un solo país
+549;pjBaseCountries_pjActionDeleteCountryBulk;Delete Multiple Countries;Eliminar varios países
+550;pjBaseCountries_pjActionIndex;Countries List;Lista de países
+551;pjBaseCountries_pjActionStatusCountry;Revert country status;Revertir el estado del país
+552;pjBaseCountries_pjActionUpdate;Update Country;Actualizar país
+553;pjBaseCron_pjActionExecute;Execute Cron Job;Ejecutar Cron jobs
+554;pjBaseCron_pjActionIndex;Cron Jobs Menu;Menú Cron jobs
+555;pjBaseLocale;Languages Menu;Menú de idiomas
+556;pjBaseLocale_pjActionDeleteLocale;Delete Language;Eliminar idioma
+557;pjBaseLocale_pjActionImportExport;Import / Export;Importar / Exportar
+558;pjBaseLocale_pjActionImportExport_export;Export;Exportación
+559;pjBaseLocale_pjActionImportExport_import;Import;Importación
+560;pjBaseLocale_pjActionIndex;Languages List;Lista de idiomas
+561;pjBaseLocale_pjActionLabels;Labels;Etiqueta
+562;pjBaseLocale_pjActionLabels_showIds;Advanced Translation ON/OFF;Traducción avanzada ON/OFF
+563;pjBaseLocale_pjActionSaveLocale;Add & Update Language;Añadir y actualizar idioma
+564;pjBaseOptions_pjActionApiKeys;API Keys;Claves API
+565;pjBaseOptions_pjActionCaptchaSpam;Captcha & SPAM;Captcha & Spam
+566;pjBaseOptions_pjActionCaptchaSpam_captcha;Captcha Settings;Configuración de Captcha
+567;pjBaseOptions_pjActionCaptchaSpam_spam;SPAM Protection;Protección de spam
+568;pjBaseOptions_pjActionEmailSettings;Email Settings;Configuración de correo electrónico
+569;pjBaseOptions;System Options Menu;Menú Opciones del sistema
+570;pjBaseOptions_pjActionIndex;General Menu;Menú General
+571;pjBaseOptions_pjActionLoginProtection;Login & Protection;Inicio de sesión y protección
+572;pjBaseOptions_pjActionLoginProtection_failed_login;Failed Login Settings;Error en la configuración de inicio de sesión
+573;pjBaseOptions_pjActionLoginProtection_forgot;Forgot Password Settings;Olvidó la configuración de contraseña
+574;pjBaseOptions_pjActionLoginProtection_password;Password Strength Settings;Configuración de contraseña fuerte
+575;pjBaseOptions_pjActionLoginProtection_secure_login;Secure Login Settings;Configuración de inicio de sesión seguro
+576;pjBaseOptions_pjActionVisual;Visual & Branding;Marca visual
+577;pjBasePermissions_pjActionUserPermission;Update User Permissions;Actualizar permisos de usuario
+578;pjBaseSms;SMS Settings Menu;Menú de configuración de mensajes SMS
+579;pjBaseSms_pjActionIndex_list;View list of messages sent;Ver lista de mensajes enviados
+580;pjBaseSms_pjActionIndex_settings;SMS Settings;Configuración de mensajes SMS
+581;pjBaseUsers;Users Menu;Menú Usuarios
+582;pjBaseUsers_pjActionCreate;Create User;Crear usuario
+583;pjBaseUsers_pjActionDeleteUser;Delete single user;Eliminar usuario
+584;pjBaseUsers_pjActionDeleteUserBulk;Delete multiple users;Eliminar varios usuarios
+585;pjBaseUsers_pjActionExportUser;Export users;Exportar usuarios
+586;pjBaseUsers_pjActionIndex;Users List;Lista de usuarios
+587;pjBaseUsers_pjActionProfile;Profile;Perfil
+588;pjBaseUsers_pjActionStatusUser;Revert user status;Revertir el estado del usuario
+589;pjBaseUsers_pjActionUnlockAccount;Unlock user account;Desbloquear cuenta de usuario
+590;pjBaseUsers_pjActionUpdate;Update User;Actualizar usuario
+591;pjVouchers;Vouchers Menu;Menú de cupones
+592;pjVouchers_pjActionCreate;Add vouchers;Añadir cupones
+593;pjVouchers_pjActionDeleteVoucher;Delete single voucher;Eliminar cupon
+594;pjVouchers_pjActionDeleteVoucherBulk;Delete multiple vouchers;Eliminar varios cupones
+595;pjVouchers_pjActionExportVoucher;Export vouchers;Exportación de cupones
+596;pjVouchers_pjActionUpdate;Edit vouchers;Editar cupones
+597;user;Username;Nombre de usuario
+598;pass;Password;Contraseña
+599;email;Email;Correo
+600;url;URL;URL
+601;created;DateTime;Fecha/Hora
+602;btnSave;Save;Guardar
+603;btnReset;Reset;Resetear
+604;addLocale;Add language;Añadir idioma
+605;menuLang;Multi Lang;Múltiples idiomas
+606;menuPlugins;Plugins;Plugins
+607;menuUsers;Users;Usuario
+608;menuSchedule;Schedule;Programacion
+609;menuOptions;Options;Opciones
+610;menuLogout;Logout;Cerrar sesión
+611;btnUpdate;Update;Actualizar
+612;lblChoose;Choose;Seleccionar
+613;btnSearch;Search;Búscar
+614;backend;Back-end titles;Títulos de back-end
+615;frontend;Front-end titles;Títulos de front-end
+616;locales;Languages;Idioma
+617;adminLogin;Admin Login;Inicio de sesión de administrador
+618;btnLogin;Login;Sesión
+619;menuDashboard;Dashboard;Dashboard
+620;lblOptionList;Option list;Lista de opciones
+621;btnAdd;Add;Añadir
+622;lblDelete;Delete;Eliminar
+623;lblType;Type;Tipo
+624;lblName;Name;Nombre
+625;lblRole;Role;Rol
+626;lblStatus;Status;Estatus
+627;lblIsActive;Is confirmed;Se confirmo
+628;lblUpdateUser;Update user;Actualizar usuario
+629;lblAddUser;Add user;Añadir usuario
+630;lblValue;Value;Valor
+631;lblOption;Option;Opcion
+632;lblDays;days;dias
+633;menuLocales;Languages;Idioma
+634;lblYes;Yes;Sí
+635;lblNo;No;No
+636;lblError;Error;Error
+637;btnBack;"&laquo; Back";"&laquo; Anterior"
+638;btnCancel;Cancel;Cancelar
+639;lblForgot;Forgot password;Recuperar contraseña
+640;adminForgot;Password reminder;Recordatorio de contraseña
+641;btnSend;Send;Enviar
+642;emailForgotSubject;Password reminder;Recordatorio de contraseña
+643;emailForgotBody;Dear {Name},Your password: {Password};Estimado {Name}, su contraseña: {Password}
+644;menuProfile;Profile;Perfil
+645;infoLocalesTitle;Languages Title;Idiomas Título
+646;infoLocalesBody;Languages Body;Idiomas Cuerpo
+647;infoLocalesBackendTitle;Languages Backend Title;Título idiomas Back-end
+648;infoLocalesBackendBody;Languages Backend Body;Cuerpo idiomas Back-end
+649;infoLocalesFrontendTitle;Languages Frontend Title;Título idiomas Front-end
+650;infoLocalesFrontendBody;Languages Frontend Body;Cuerpo idiomas Front-end
+651;infoListingPricesTitle;Listing Prices Title;Título listado Precios
+652;infoListingPricesBody;Listing Prices Body;Cuerpo listado de precios
+653;infoListingBookingsTitle;Listing Bookings Title;Título listado Reservas
+654;infoListingBookingsBody;Listing Bookings Body;Cuerpo listado Reservas
+655;infoListingContactTitle;Listing Contact Title;Título listado de contacto
+656;infoListingContactBody;Listing Contact Body;Cuerpo listado de contacto
+657;infoListingAddressTitle;Listing Address Title;Título listado Dirección
+658;infoListingAddressBody;Listing Address Body;Cuerpo listado de dirección
+659;infoListingExtendTitle;Extend exp.date Title;Título extender fecha exp.
+660;infoListingExtendBody;Extend exp.date Body;Cuerpo extender fecha exp.
+661;menuBackup;Backup;Copia de seguridad
+662;btnBackup;Backup;Copia de seguridad
+663;lblBackupDatabase;Backup database;Copia de seguridad base de datos
+664;lblBackupFiles;Backup files;Archivos de copia de seguridad
+665;gridChooseAction;Choose Action;Elija Acción
+666;gridGotoPage;Go to page:;Ir a la página:
+667;gridTotalItems;Total items:;Total de artículos:
+668;gridItemsPerPage;Items per page;Artículos por página
+669;gridPrevPage;Prev page;Página anterior
+670;gridPrev;"&laquo; Prev";"&laquo; Anterior"
+671;gridNextPage;Next page;Página siguiente
+672;gridNext;"Next &raquo;";"Siguiente &raquo;"
+673;gridDeleteConfirmation;Delete confirmation;Eliminar confirmación
+674;gridConfirmationTitle;Are you sure you want to delete selected record?;¿Está seguro de que desea eliminar el registro seleccionado?
+675;gridActionTitle;Action confirmation;Confirmación de la acción
+676;gridBtnOk;OK;OK
+677;gridBtnCancel;Cancel;Cancelar
+678;gridBtnDelete;Delete;Eliminar
+679;gridEmptyResult;No records found;No se encontraron registros
+680;multilangTooltip;Lorem ipsum dolor sit amet, consectetur adipiscing elit.;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+681;lblIp;IP address;Dirección IP
+682;lblUserCreated;Registration date/time;Fecha/hora de inscripción
+683;u_statarr_ARRAY_T;Active;Activo
+684;u_statarr_ARRAY_F;Inactive;Inactivo
+685;filter_ARRAY_active;Active;Activo
+686;filter_ARRAY_inactive;Inactive;Inactivo
+687;_yesno_ARRAY_T;Yes;Sí
+688;_yesno_ARRAY_F;No;No
+689;personal_titles_ARRAY_mr;Mr.;Sr.
+690;personal_titles_ARRAY_mrs;Mrs.;Sra.
+691;personal_titles_ARRAY_miss;Miss;Srta.
+692;personal_titles_ARRAY_ms;Ms.;Sra.
+693;personal_titles_ARRAY_dr;Dr.;Dr.
+694;personal_titles_ARRAY_prof;Prof.;Prof.
+695;personal_titles_ARRAY_rev;Rev.;Rev.
+696;personal_titles_ARRAY_other;Other;Otro
+697;timezones_ARRAY_-43200;GMT-12:00;GMT-12:00
+698;timezones_ARRAY_-39600;GMT-11:00;GMT-11:00
+699;timezones_ARRAY_-36000;GMT-10:00;GMT-10:00
+700;timezones_ARRAY_-32400;GMT-09:00;GMT-09:00
+701;timezones_ARRAY_-28800;GMT-08:00;GMT-08:00
+702;timezones_ARRAY_-25200;GMT-07:00;GMT-07:00
+703;timezones_ARRAY_-21600;GMT-06:00;GMT-06:00
+704;timezones_ARRAY_-18000;GMT-05:00;GMT-05:00
+705;timezones_ARRAY_-14400;GMT-04:00;GMT-04:00
+706;timezones_ARRAY_-10800;GMT-03:00;GMT-03:00
+707;timezones_ARRAY_-7200;GMT-02:00;GMT-02:00
+708;timezones_ARRAY_-3600;GMT-01:00;GMT-01:00
+709;timezones_ARRAY_0;GMT;GMT
+710;timezones_ARRAY_3600;GMT+01:00;GMT+01:00
+711;timezones_ARRAY_7200;GMT+02:00;GMT+02:00
+712;timezones_ARRAY_10800;GMT+03:00;GMT+03:00
+713;timezones_ARRAY_14400;GMT+04:00;GMT+04:00
+714;timezones_ARRAY_18000;GMT+05:00;GMT+05:00
+715;timezones_ARRAY_21600;GMT+06:00;GMT+06:00
+716;timezones_ARRAY_25200;GMT+07:00;GMT+07:00
+717;timezones_ARRAY_28800;GMT+08:00;GMT+08:00
+718;timezones_ARRAY_32400;GMT+09:00;GMT+09:00
+719;timezones_ARRAY_36000;GMT+10:00;GMT+10:00
+720;timezones_ARRAY_39600;GMT+11:00;GMT+11:00
+721;timezones_ARRAY_43200;GMT+12:00;GMT+12:00
+722;timezones_ARRAY_46800;GMT+13:00;GMT+13:00
+723;error_titles_ARRAY_AU01;User updated!;Usuario actualizado!
+724;error_titles_ARRAY_AU03;User added!;Usuario añadido!
+725;error_titles_ARRAY_AU04;User failed to add.;El usuario no se pudo añadir.
+726;error_titles_ARRAY_AU08;User not found.;Usuario no encontrado.
+727;error_titles_ARRAY_AO01;Options updated!;Opciones actualizadas!
+728;error_titles_ARRAY_AB01;Backup;Copia de seguridad
+729;error_titles_ARRAY_AB02;Backup complete!;Copia de seguridad completa!
+730;error_titles_ARRAY_AB03;Backup failed!;¡La copia de seguridad falló!
+731;error_titles_ARRAY_AB04;Backup failed!;¡La copia de seguridad falló!
+732;error_titles_ARRAY_AA10;Account not found!;Cuenta no encontrada!
+733;error_titles_ARRAY_AA11;Password send!;Contraseña envíada!
+734;error_titles_ARRAY_AA12;Password not send!;Contraseña no enviada!
+735;error_titles_ARRAY_AA13;Profile updated!;Perfil actualizado!
+736;error_bodies_ARRAY_AU01;All the changes made to this user have been saved.;Todos los cambios realizados a este usuario se han guardado.
+737;error_bodies_ARRAY_AU03;All the changes made to this user have been saved.;Todos los cambios realizados a este usuario se han guardado.
+738;error_bodies_ARRAY_AU04;We are sorry, but the user has not been added.;Lo sentimos, pero el usuario no ha sido agregado.
+739;error_bodies_ARRAY_AU08;User your looking for is missing.;Falta el usuario que busca.
+740;error_bodies_ARRAY_AO01;All the changes made to options have been saved.;Todos los cambios realizados en las opciones se han guardado.
+741;error_bodies_ARRAY_ALC01;All the changes made to titles have been saved.;Todos los cambios realizados en los títulos se han guardado.
+742;error_bodies_ARRAY_AB01;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at ligula non arcu dignissim pretium. Praesent in magna nulla, in porta leo.;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at ligula non arcu dignissim pretium. Praesent en magna nulla, en porta leo.
+743;error_bodies_ARRAY_AB02;All backup files have been saved.;Todos los archivos de copia de seguridad se han guardado.
+744;error_bodies_ARRAY_AB03;No option was selected.;No se ha seleccionado ninguna opción.
+745;error_bodies_ARRAY_AB04;Backup not performed.;Copia de seguridad no realizada.
+746;error_bodies_ARRAY_AA10;Given email address is not associated with any account.;Esta dirección de correo electrónico no está asociada con ninguna cuenta.
+747;error_bodies_ARRAY_AA11;For further instructions please check your mailbox.;Para obtener más instrucciones, consulte su buzón de correo.
+748;error_bodies_ARRAY_AA12;We're sorry, please try again later.;Lo sentimos, por favor inténtelo de nuevo más tarde.
+749;error_bodies_ARRAY_AA13;All the changes made to your profile have been saved.;Todos los cambios realizados en su perfil se han guardado.
+750;months_ARRAY_1;January;Enero
+751;months_ARRAY_2;February;Febrero
+752;months_ARRAY_3;March;Marzo
+753;months_ARRAY_4;April;Abril
+754;months_ARRAY_5;May;Mayo
+755;months_ARRAY_6;June;Junio
+756;months_ARRAY_7;July;Julio
+757;months_ARRAY_8;August;Agosto
+758;months_ARRAY_9;September;Septiembre
+759;months_ARRAY_10;October;Octubre
+760;months_ARRAY_11;November;Noviembre
+761;months_ARRAY_12;December;Diciembre
+762;days_ARRAY_0;Sunday;Domingo
+763;days_ARRAY_1;Monday;Lunes
+764;days_ARRAY_2;Tuesday;Martes
+765;days_ARRAY_3;Wednesday;Miércoles
+766;days_ARRAY_4;Thursday;Jueves
+767;days_ARRAY_5;Friday;Viernes
+768;days_ARRAY_6;Saturday;Sabado
+769;day_names_ARRAY_0;S;D
+770;day_names_ARRAY_1;M;L
+771;day_names_ARRAY_2;T;M
+772;day_names_ARRAY_3;W;M
+773;day_names_ARRAY_4;T;J
+774;day_names_ARRAY_5;F;V
+775;day_names_ARRAY_6;S;S
+776;short_months_ARRAY_1;Jan;Ene
+777;short_months_ARRAY_2;Feb;Feb
+778;short_months_ARRAY_3;Mar;Mar
+779;short_months_ARRAY_4;Apr;Abr
+780;short_months_ARRAY_5;May;May
+781;short_months_ARRAY_6;Jun;Jun
+782;short_months_ARRAY_7;Jul;Jul
+783;short_months_ARRAY_8;Aug;Ago
+784;short_months_ARRAY_9;Sep;Sep
+785;short_months_ARRAY_10;Oct;Oct
+786;short_months_ARRAY_11;Nov;Nov
+787;short_months_ARRAY_12;Dec;Dic
+788;status_ARRAY_1;You are not loged in.;No has iniciado sesión.
+789;status_ARRAY_2;Access denied. You have not requisite rights to.;Acceso denegado. Usted no tiene los derechos necesarios para.
+790;status_ARRAY_3;Empty resultset.;Resultados vacíos.
+791;status_ARRAY_7;The operation is not allowed in demo mode.;La operación no está permitida en modo de demostración.
+792;status_ARRAY_123;Your hosting account does not allow uploading such a large image.;Su cuenta de alojamiento no permite cargar una imagen tan grande.
+793;status_ARRAY_999;No permisions to edit the property;No hay permisiones para editar la propiedad
+794;status_ARRAY_998;No permisions to edit the reservation;No hay permisiones para editar la reserva
+795;status_ARRAY_997;No reservation found;No se ha encontrado ninguna reserva
+796;status_ARRAY_996;No property for the reservation found;No se encontró ninguna propiedad para la reserva
+797;status_ARRAY_9999;Your registration was successfull.;Su inscripción fue exitosa.
+798;status_ARRAY_9998;Your registration was successfull. Your account needs to be approved.;Su inscripción fue exitosa. Su cuenta debe ser aprobada.
+799;status_ARRAY_9997;E-Mail address already exist;La dirección de correo electrónico ya existe
+800;login_err_ARRAY_1;Wrong username or password;Nombre de usuario o contraseña incorrecto
+801;login_err_ARRAY_2;Access denied;Acceso denegado
+802;login_err_ARRAY_3;Account is disabled;La cuenta está deshabilitada
+803;localeArrays;Arrays titles;Títulos de matrices
+804;infoLocalesArraysTitle;Languages Arrays Title;Título Idiomas Matrices
+805;infoLocalesArraysBody;Languages Array Body;Cuerpo de matriz de idiomas
+806;lnkBack;Back;Regresar
+807;locale_order;Order;Orden
+808;locale_is_default;Is default;Por defecto
+809;locale_flag;Flag;Bandera
+810;locale_title;Title;Titulo
+811;btnDelete;Delete;Eliminar
+812;btnContinue;Continue;Continuar
+813;vr_email_taken;Email address is already in use;La dirección de correo electrónico ya está en uso
+814;revert_status;Revert status;Restaurar estado
+815;lblExport;Export;Exportación
+816;menuServices;Services;Servicio
+817;menuEmployees;Employees;Empleado
+818;service_add;Add service;Añadir servicio
+819;lblAll;All;Todo
+820;service_name;Service name;Nombre del servicio
+821;service_price;Price;Precio
+822;service_before;Before;Antes
+823;service_after;After;Despues
+824;service_total;Total;Total
+825;service_length;Length;Longitud
+826;service_desc;Service description;Descripción del servicio
+827;service_status;Status;Estatus
+828;service_employees;Employees;Empleado
+829;service_update;Update service;Servicio de actualización
+830;is_active_ARRAY_1;Active;Activo
+831;is_active_ARRAY_0;Inactive;Inactivo
+832;delete_selected;Delete selected;Eliminar seleccionado
+833;delete_confirmation;Are you sure you want to delete selected records?;¿Está seguro de que desea eliminar los registros seleccionados?
+834;error_bodies_ARRAY_AS08;Service your are looking for is missing.;Falta el servicio que está buscando.
+835;error_titles_ARRAY_AS01;Service updated!;Servicio actualizado!
+836;error_titles_ARRAY_AS03;Service added!;Servicio añadido!
+837;error_titles_ARRAY_AS04;Service failed to add.;Error al añadir el servicio.
+838;error_titles_ARRAY_AS08;Service not found.;Servicio no encontrado.
+839;error_bodies_ARRAY_AS01;All the changes made to this service have been saved.;Todos los cambios realizados en este servicio se han guardado.
+840;error_bodies_ARRAY_AS03;All the changes made to this service have been saved.;Todos los cambios realizados en este servicio se han guardado.
+841;error_bodies_ARRAY_AS04;We are sorry, but the service has not been added.;Lo sentimos, pero el servicio no ha sido agregado.
+842;error_titles_ARRAY_AS09;Add a service;Añadir un servicio
+843;error_bodies_ARRAY_AS09;Fill in the form below to add a new service. You can add title, description, price, length and employees who do this service.;Rellene el siguiente formulario para añadir un nuevo servicio. Puede añadir título, descripción, precio, duración y empleados que realizan este servicio.
+844;error_bodies_ARRAY_AS10;Use the form below to modify the service. You can change title, description, price, length and employees who do this service.;Utilice el siguiente formulario para modificar el servicio. Puede cambiar el título, la descripción, el precio, la duración y los empleados que prestan este servicio.
+845;error_titles_ARRAY_AS10;Update a service;Actualizar un servicio
+846;employee_add;Add employee;Añadir empleado
+847;employee_name;Employee name;Nombre del empleado
+848;employee_email;Email;Correo
+849;employee_phone;Phone;Teléfono
+850;employee_company;Company;Empresa
+851;employee_services;Services;Servicio
+852;employee_status;Status;Estatus
+853;employee_update;Update employee;Actualizar empleado
+854;error_titles_ARRAY_AE09;Add an employee;Añadir un empleado
+855;error_titles_ARRAY_AE10;Update an employee;Actualizar un empleado
+856;error_bodies_ARRAY_AE10;Use the form below to update employee's details. You can select the service that this employee does. You can also configure it so an email and/or sms notification is sent to the employee when a booking is made. Each employee can access the Appointment Scheduler and manage his/her bookings only.;Utilice el siguiente formulario para actualizar los detalles de los empleados. Puede seleccionar el servicio que realiza este empleado. También puede configurarlo para que se envíe una notificación de correo electrónico y / o sms al empleado cuando se realiza una reserva. Cada empleado puede acceder al Programador de citas y gestionar sus reservas solamente.
+857;error_bodies_ARRAY_AE09;Fill in the form below to add a new employee. You can select the service that this employee does. You can also configure it so an email and/or sms notification is sent to the employee when a booking is made. Each employee can access the Appointment Scheduler and manage his/her bookings only.;Rellene el siguiente formulario para añadir un nuevo empleado. Puede seleccionar el servicio que realiza este empleado. También puede configurarlo para que se envíe una notificación de correo electrónico y / o sms al empleado cuando se realiza una reserva. Cada empleado puede acceder al Programador de citas y gestionar sus reservas solamente.
+858;employee_notes;Notes;Notas
+859;employee_is_subscribed;Send email when new booking is made;Enviar correo electrónico cuando se realiza una nueva reserva
+860;employee_password;Password;Contraseña
+861;error_bodies_ARRAY_AE01;All the changes made to this employee have been saved.;Todos los cambios realizados a este empleado se han guardado.
+862;error_titles_ARRAY_AE01;Employee updated!;Empleado actualizado!
+863;error_titles_ARRAY_AE03;Employee added!;Empleado añadió!
+864;error_bodies_ARRAY_AE03;All the changes made to this employee have been saved.;Todos los cambios realizados a este empleado se han guardado.
+865;error_bodies_ARRAY_AE08;Employee your are looking for is missing.;Falta el empleado que está buscando.
+866;error_titles_ARRAY_AE08;Employee not found.;Empleado no encontrado.
+867;error_titles_ARRAY_AE04;Employee failed to add.;El empleado no se pudo añadir.
+868;error_bodies_ARRAY_AE04;We are sorry, but the employee has not been added.;Lo sentimos, pero el empleado no ha sido añadido.
+869;employee_last_login;Last login;Último inicio de sesión
+870;menuTime;Working Time;Horario de trabajo
+871;error_titles_ARRAY_AT01;Working Time updated!;Horarios de trabajo actualizados!
+872;error_bodies_ARRAY_AT01;All the changes made to working time have been saved.;Todos los cambios realizados en el horario de trabajo se han guardado.
+873;error_titles_ARRAY_AT02;Custom Working Time saved!;¡Horario de trabajo personalizado guardado!
+874;error_bodies_ARRAY_AT02;All the changes made to custom working time have been saved.;Se han guardado todos los cambios realizados en el horario de trabajo personalizado.
+875;error_titles_ARRAY_AT03;Custom Working Time updated!;¡Horario de trabajo personalizado actualizado!
+876;error_bodies_ARRAY_AT03;All the changes made to custom working time have been saved.;Se han guardado todos los cambios realizados en el horario de trabajo personalizado.
+877;error_titles_ARRAY_AT04;Working Time;Horario de trabajo
+878;error_bodies_ARRAY_AT04;Different working time can be set for each day of the week. You can also set days off and a lunch break. Under Edit Employee page you can set up custom working time for each of your employees.;Se puede configurar un horario de trabajo diferente para cada día de la semana. También puede establecer días libres y horarios de almuerzo. En la página Editar empleado puede configurar el horario de trabajo personalizado para cada uno de sus empleados.
+879;time_update_custom;Update custom;Actualización personalizada
+880;time_default;Default;Predeterminado
+881;time_custom;Custom;Personalizar
+882;time_day;Day of week;Día de la semana
+883;time_from;Start Time;Hora de inicio
+884;time_to;End Time;Hora de finalizacion
+885;time_is;Is Day off;Es el día libre
+886;time_date;Date;Fecha
+887;employee_general;General;General
+888;time_default_wt;Default Working Time;Horario de trabajo predeterminado
+889;time_custom_wt;Custom Working Time;Horario de trabajo personalizado
+890;time_lunch_from;Lunch from;Almuerzo desde
+891;time_lunch_to;Lunch to;Almuerzo hasta
+892;menuInstall;Install;Instalar
+893;menuPreview;Preview;Vista previa
+894;menuBookings;Bookings;Reservas
+895;menuGeneral;General;General
+896;menuPayments;Payments;Pagos
+897;menuBookingForm;Booking form;Formulario de reserva
+898;menuConfirmation;Confirmation;Confirmación
+899;menuTerms;Terms;Terminos y condiciones
+900;opt_o_bf_address_1;Address 1;Dirección 1
+901;opt_o_bf_captcha;Captcha;Captcha
+902;opt_o_bf_city;City;Ciudad
+903;opt_o_bf_email;Email;Correo
+904;opt_o_bf_name;Name;Nombre
+905;opt_o_bf_notes;Notes;Nota
+906;opt_o_bf_phone;Phone;Teléfono
+907;opt_o_bf_state;State;Departamento
+908;opt_o_bf_terms;Terms;Terminos y condiciones
+909;opt_o_bf_zip;Zip;Codigo postal
+910;opt_o_bf_country;Country;Pais
+911;opt_o_paypal_address;Paypal address;Dirección de Paypal
+912;opt_o_accept_bookings;Accept Bookings;Aceptar reservas
+913;opt_o_allow_authorize;Allow payments with Authorize.net;Permitir pagos con Authorize.net
+914;opt_o_allow_bank;Provide Bank account details for wire transfers;Proporcione los detalles de la cuenta bancaria para las transferencias bancarias
+915;opt_o_allow_cash;Allow payment with cash;Permitir el pago en efectivo
+916;opt_o_allow_creditcard;Collect Credit Card details for offline processing;Recopilar detalles de la tarjeta de crédito para el procesamiento sin conexión
+917;opt_o_allow_paypal;Allow payments with PayPal;Permitir pagos con PayPal
+918;opt_o_authorize_key;Authorize.net transaction key;Clave de transacción Authorize.net
+919;opt_o_authorize_mid;Authorize.net merchant ID;ID de comerciante de Authorize.net
+920;opt_o_bank_account;Bank account;Cuenta bancaria
+921;opt_o_deposit;Set deposit amount to be collected for each appointment;Fije el monto del depósito que se cobrará por cada cita
+922;opt_o_disable_payments;Check if you want to disable payments and only collect reservation details;Compruebe si desea deshabilitar los pagos y solo recopile los detalles de la reserva
+923;opt_o_status_if_not_paid;Default status for booked dates if not paid;Estado predeterminado para las fechas reservadas si no se paga
+924;opt_o_status_if_paid;Default status for booked dates if paid;Estado predeterminado para las fechas reservadas si se paga
+925;opt_o_tax;Tax amount to be collected for each appointment;Importe del impuesto que se cobrará por cada cita
+926;opt_o_thankyou_page;URL for the web page where your clients will be redirected after online payment;URL de la página web donde sus clientes serán redirigidos después del pago en línea
+927;opt_o_authorize_tz;Authorize.net time zone;Authorize.net la zona horaria
+928;opt_o_email_new_reservation;New reservation received;Nueva reserva recibida
+929;opt_o_email_reservation_cancelled;Reservation cancelled;Reserva cancelada
+930;opt_o_email_password_reminder;Password reminder;Recordatorio de contraseña
+931;opt_o_bf_address_2;Address 2;Dirección 2
+932;opt_o_datetime_format;Date/Time format;Formato de fecha/hora
+933;opt_o_authorize_hash;Authorize.net hash value;Valor hash de Authorize.net
+934;confirmation_subject;Subject;Tema
+935;confirmation_body;Email body;Cuerpo de correo electrónico
+936;confirmation_client_confirmation;Client - booking confirmation email;Cliente - correo electrónico de confirmación de reserva
+937;confirmation_client_payment;Client - payment confirmation email;Cliente - correo electrónico de confirmación de pago
+938;confirmation_admin_confirmation;Admin - booking confirmation email;Administrador - correo electrónico de confirmación de reserva
+939;confirmation_admin_payment;Admin - payment confirmation email;Administrador - correo electrónico de confirmación de pago
+940;lblOptionsTermsURL;Booking terms URL;URL de términos y condiciones de la reserva
+941;lblOptionsTermsContent;Booking terms content;Términos y condiciones del contenido de la reserva
+942;booking_add;Add booking;Añadir reserva
+943;booking_statuses_ARRAY_confirmed;Confirmed;Confirmada
+944;booking_statuses_ARRAY_pending;Pending;Pendiente
+945;booking_statuses_ARRAY_cancelled;Cancelled;Cancelada
+946;booking_uuid;Unique ID;ID unico
+947;booking_status;Status;Estatus
+948;booking_update;Update booking;Actualizar reserva
+949;booking_cc_exp;CC Exp.date;CC fecha de exp.
+950;booking_cc_code;CC Code;CC codigo
+951;booking_cc_num;CC Number;CC numero
+952;booking_cc_type;CC Type;CC tipo
+953;booking_cc_types_ARRAY_maestro;Maestro;Maestro
+954;booking_cc_types_ARRAY_amex;AmericanExpress;AmericanExpress
+955;booking_cc_types_ARRAY_mastercard;MasterCard;MasterCard
+956;booking_cc_types_ARRAY_visa;Visa;Visa
+957;booking_phone;Phone;Teléfono
+958;booking_email;Email;Correo
+959;booking_invoice_details;Invoice details;Detalles de la factura
+960;booking_create_invoice;Create Invoice;Crear factura
+961;booking_customer;Customer details;Detalles del cliente
+962;booking_notes;Notes;Nota
+963;booking_address_2;Address Line 2;Dirección Línea 2
+964;booking_address_1;Address Line 1;Dirección Línea 1
+965;booking_name;Name;Nombre
+966;booking_zip;Zip;Codigo postal
+967;booking_city;City;Ciudad
+968;booking_state;State;Departamento
+969;booking_country;Country;Pais
+970;booking_tab_client;Client;Cliente
+971;booking_tab_details;Booking;Reserva
+972;booking_general;Booking details;Detalles de la reserva
+973;booking_choose;-- Choose --;** Seleccionar **
+974;booking_payment_method;Payment method;Forma de pago
+975;booking_price;Price;Precio
+976;booking_tax;Tax;Impuesto
+977;booking_deposit;Deposit;Deposito
+978;booking_total;Total;Total
+979;booking_created;Created;Creado
+980;payment_methods_ARRAY_bank;Bank account;Cuenta bancaria
+981;payment_methods_ARRAY_creditcard;Credit card;Tarjeta de crédito o debito
+982;payment_methods_ARRAY_paypal;Paypal;PayPal
+983;error_titles_ARRAY_AO24;Booking form;Formulario de reserva
+984;error_titles_ARRAY_AO25;Confirmation;Confirmación
+985;error_titles_ARRAY_AO26;Terms;Terminos y condiciones
+986;error_bodies_ARRAY_AO24;Choose the fields that should be available on the booking form.;Elija los campos que deben estar disponibles en el formulario de reserva.
+987;error_bodies_ARRAY_AO25;Email notifications will be sent to people who make a booking after the booking form is completed or/and payment is made. If you leave subject field blank no email will be sent.;Las notificaciones por correo electrónico se enviarán a las personas que realicen una reserva después de completar el formulario de reserva o / y el pago se realiza. Si deja el campo de asunto en blanco, no se enviará ningún correo electrónico.
+988;error_bodies_ARRAY_AO26;Enter booking terms and conditions. You can also include a link to external web page where your terms and conditions page is.;Introduzca los términos y condiciones de la reserva. También puede incluir un enlace a la página web externa donde se encuentra su página de términos y condiciones.
+989;error_bodies_ARRAY_AO27;Set different payment options for your Appointment Scheduler software. Enable or disable the available payment processing companies.;Establezca diferentes opciones de pago para su software Appointment Scheduler. Activar o desactivar las empresas de procesamiento de pagos disponibles.
+990;error_titles_ARRAY_AO27;Booking payment options;Opciones de pago de reserva
+991;error_bodies_ARRAY_AO23;Here you can set some general options about the booking process.;Aquí puede establecer algunas opciones generales sobre el proceso de reserva.
+992;error_titles_ARRAY_AO23;Booking options;Opciones de reserva
+993;error_bodies_ARRAY_AO21;Set-up general settings;Configuración de ajustes generales
+994;error_titles_ARRAY_AO21;General options;Opciones generales
+995;opt_o_hide_prices;Hide prices;Ocultar precios
+996;opt_o_step;Step (in minutes);Intervalo (en minutos)
+997;booking_services;Services;Servicio
+998;employee_avatar;Picture;Imagen
+999;employee_avatar_delete;Delete picture;Eliminar imagen
+1000;employee_avatar_dtitle;Delete confirmation;Eliminar confirmación
+1001;employee_avatar_dbody;Are you sure you want to delete this picture?;¿Está seguro de que desea eliminar esta imagen?
+1002;lblInstallJs1_title;Install instructions;Instrucciones de instalación
+1003;lblInstallJs1_body;In order to install the script on your website copy the code below and add it to your web page.;Para instalar el script en su sitio web, copie el siguiente código y agréguelo a su página web.
+1004;lblInstallJs1_1;Install Code;Código de instalación
+1005;lblInstallJs1_2;Step 2 (Optional) - for SEO purposes and better ranking you need to put next meta tag into the HEAD part of your page;Paso 2 (Opcional) - para propósitos de SEO y una mejor clasificación, usted necesita poner la siguiente etiqueta meta en la parte HEAD de su página
+1006;lblInstallJs1_3;Step 3 (Optional) - for SEO purposes and better ranking you need to create a .htaccess file (or update existing one) with data below. Put the file in the same folder as your webpage.;Paso 3 (Opcional) - para fines de SEO y una mejor clasificación que necesita para crear un .htaccess (o actualizar uno existente) con los datos a continuación. Coloque el archivo en la misma carpeta que su página web.
+1007;opt_o_seo_url;Use SEO URLs;Usar URL SEO
+1008;opt_o_week_numbers;Show week numbers;Mostrar números de la semana
+1009;co_captcha;Captcha;Captcha
+1010;co_select_country;Select Country;Seleccione País
+1011;co_terms;I agree with terms and conditions;Estoy de acuerdo con los términos y condiciones
+1012;co_empty_notice;Please go back to your basket.;Por favor, vuelva a su carrito de reservas.
+1013;front_select_payment;Select Payment method;Seleccionar método de pago
+1014;front_select_cc_type;Select CC Type;Seleccione el tipo CC
+1015;booking_employee;Employee;Empleado
+1016;booking_service;Service;Servicio
+1017;booking_from;From;De
+1018;booking_to;To;A
+1019;booking_query;Search for;Buscar por
+1020;booking_date;Date;Fecha
+1021;booking_export;Export selected;Exportación seleccionada
+1022;booking_delimiter_ARRAY_comma;Comma;Coma
+1023;booking_delimiter_ARRAY_semicolon;Semicolon;Punto y coma
+1024;booking_delimiter_ARRAY_tab;Tab;Tab
+1025;booking_format_ARRAY_csv;CSV;CSV
+1026;booking_format_ARRAY_xml;XML;XML
+1027;booking_format_ARRAY_ical;iCal;iCal
+1028;booking_delimiter_lbl;Delimiter;Delimitador
+1029;booking_format_lbl;Format;Formato
+1030;booking_na;Not Available;No disponible
+1031;booking_export_title;Export Bookings;Exportar reservas
+1032;booking_dt;Date/Time;Fecha/Hora
+1033;booking_service_employee;Service/Employee;Servicio/Empleado
+1034;menuReminder;Reminder;Recordatorio
+1035;opt_o_reminder_email_enable;Enable Email reminder;Habilitar recordatorio de correo electrónico
+1036;opt_o_reminder_email_before;Set number of hours before the booking start time when an email reminder will be sent;Establezca el número de horas antes de la hora de inicio de la reserva cuando se enviará un recordatorio por correo electrónico
+1037;opt_o_reminder_subject;Email Reminder subject;Asunto de recordatorio de correo electrónico
+1038;opt_o_reminder_sms_enable;Enable SMS reminder;Habilitar recordatorio de mensajes SMS
+1039;opt_o_reminder_sms_hours;Set number of hours before the booking start time when an SMS reminder will be sent;Establezca el número de horas antes de la hora de inicio de la reserva cuando se enviará un recordatorio por SMS
+1040;opt_o_reminder_sms_message;SMS message;Mensaje SMS
+1041;opt_o_reminder_body;Email Reminder body;Cuerpo de recordatorio de correo electrónico
+1042;get_key;Get key;Obtener llave
+1043;error_bodies_ARRAY_AO28;You can send email and sms reminders to your clients X hours before their booking.;Puede enviar recordatorios de correo electrónico y sms a sus clientes X horas antes de su reserva.
+1044;error_titles_ARRAY_AO28;Reminder options;Opciones de recordatorio
+1045;error_titles_ARRAY_ABK01;Booking updated;Reserva actualizada
+1046;error_bodies_ARRAY_ABK01;All changes made to the booking has been saved.;Todos los cambios realizados en la reserva se han guardado.
+1047;error_titles_ARRAY_ABK08;Booking not found;Reserva no encontrada
+1048;error_bodies_ARRAY_ABK08;Sorry, but the booking you're looking for is missing.;Lo sentimos, pero falta la reserva que estás buscando.
+1049;error_titles_ARRAY_ABK03;Booking added;Reserva añadida
+1050;error_bodies_ARRAY_ABK03;The booking has been successfully added.;La reserva se ha añadido correctamente.
+1051;error_titles_ARRAY_ABK04;Booking not added;Reserva no agregada
+1052;error_bodies_ARRAY_ABK04;Sorry, but the booking has not been added.;Lo sentimos, pero la reserva no ha sido agregada.
+1053;error_bodies_ARRAY_ABK10;Fill in the form below to add a new booking. Under Clients tab you can enter information about the client. ;Rellene el siguiente formulario para añadir una nueva reserva. En la pestaña Clientes puede ingresar información sobre el cliente.
+1054;error_titles_ARRAY_ABK10;Add a booking;Añadir una reserva
+1055;error_titles_ARRAY_ABK11;Client details;Detalles del cliente
+1056;error_bodies_ARRAY_ABK11;Use the form below to enter details about your client.;Utilice el siguiente formulario para introducir detalles sobre su cliente.
+1057;error_bodies_ARRAY_ABK13;Use form below to update client related data.;Utilice el siguiente formulario para actualizar los datos relacionados con el cliente.
+1058;error_titles_ARRAY_ABK13;Client details;Detalles del cliente
+1059;error_bodies_ARRAY_ABK12;Use form below to update booking details.;Utilice el siguiente formulario para actualizar los detalles de la reserva.
+1060;error_titles_ARRAY_ABK12;Booking update;Actualización de la reserva
+1061;error_bodies_ARRAY_AO08;All the changes made to reminder have been saved.;Todos los cambios realizados en el recordatorio se han guardado.
+1062;error_titles_ARRAY_AO08;Reminder updated!;Recordatorio actualizado!
+1063;error_bodies_ARRAY_AO06;All the changes made to terms have been saved.;Todos los cambios realizados en los términos y condiciones se han guardado.
+1064;error_titles_ARRAY_AO06;Terms updated!;Términos y condiciones actualizados!
+1065;error_titles_ARRAY_AO05;Confirmation updated!;Confirmación actualizada!
+1066;error_bodies_ARRAY_AO05;All the changes made to confirmation have been saved.;Se han guardado todos los cambios realizados en la confirmación.
+1067;error_bodies_ARRAY_AO04;All the changes made to booking form have been saved.;Todos los cambios realizados en el formulario de reserva se han guardado.
+1068;error_titles_ARRAY_AO04;Booking form updated!;Formulario de reserva actualizado!
+1069;error_titles_ARRAY_AO07;Payment options updated!;Opciones de pago actualizadas!
+1070;error_bodies_ARRAY_AO07;All the changes made to payment options have been saved.;Se han guardado todos los cambios realizados en las opciones de pago.
+1071;error_bodies_ARRAY_AO03;All the changes made to booking options have been saved.;Se han guardado todos los cambios realizados en las opciones de reserva.
+1072;error_titles_ARRAY_AO03;Booking options updated!;Opciones de reserva actualizadas!
+1073;booking_recalc;Recalculate the price;Vuelva a calcular el precio
+1074;booking_service_add;Add service;Añadir servicio
+1075;booking_service_add_title;Add service;Añadir servicio
+1076;booking_service_delete_title;Delete confirmation;Eliminar confirmación
+1077;booking_service_delete_body;Are you sure you want to delete selected service from the current booking?;¿Está seguro de que desea eliminar el servicio seleccionado de la reserva actual?
+1078;front_cart_empty;There are not any selected services yet.;Todavía no hay ningún servicio seleccionado.
+1079;front_cart_total;Total price;Precio Total
+1080;front_selected_services;Selected Services;Servicios seleccionados
+1081;front_select_date;Select a Date;Seleccione una fecha
+1082;front_make_appointment;Make an Appointment;Agendar una cita
+1083;front_start_time;Start time;Hora inicio
+1084;front_end_time;End time;Hora finalización
+1085;front_select_services;Select service on;Seleccionar servicio en
+1086;front_availability;Availability;Disponibilidad
+1087;front_booking_form;Booking Form;Formulario de reserva
+1088;front_system_msg;System message;Mensaje del sistema
+1089;front_checkout_na;Checkout form not available;Formulario de pago no disponible
+1090;front_return_back;Return back;Regresar
+1091;front_preview_form;Booking Preview;Vista previa de la reserva
+1092;front_confirm_booking;Confirm booking;Confirmar reserva
+1093;front_preview_na;Preview not available;Vista previa no disponible
+1094;error_titles_ARRAY_AA14;Invalid data;Datos no válidos
+1095;error_bodies_ARRAY_AA14;Sorry, submitted data not validate.;Lo sentimos, los datos enviados no son validos.
+1096;error_titles_ARRAY_AA15;Profile;Perfil
+1097;error_bodies_ARRAY_AA15;Use form below to update your profile settings.;Utilice el siguiente formulario para actualizar la configuración de su perfil.
+1098;booking_ip;IP address;Dirección IP
+1099;booking_view_title;Booking Service details;Detalles del servicio de reserva
+1100;booking_service_email_title;Send email;Enviar correo electrónico
+1101;booking_service_sms_title;Send SMS;Enviar mensaje SMS
+1102;booking_subject;Subject;Tema
+1103;booking_message;Message;Mensaje
+1104;menuReports;Reports;Reportes
+1105;report_menu_employees;Employees;Empleados
+1106;report_menu_services;Services;Servicios
+1107;report_bookings;Bookings;Reservas
+1108;report_total_bookings;All Bookings;Todas las reservas
+1109;report_confirmed_bookings;Confirmed Bookings;Reservas confirmadas
+1110;report_pending_bookings;Pending Bookings;Reservas pendientes
+1111;report_cancelled_bookings;Cancelled Bookings;Reservas canceladas
+1112;report_total_amount;Total amount;Valor total
+1113;report_confirmed_amount;Confirmed Bookings Amount;Valor total de las reservas confirmadas
+1114;report_pending_amount;Pending Bookings Amount;Valor total de las reservas pendientes
+1115;report_cancelled_amount;Cancelled Bookings Amount;Valor total de reservas canceladas
+1116;report_columns;Columns;Columna
+1117;report_print;Print;Imprimir
+1118;report_pdf;Save as PDF;Guardar como PDF
+1119;menu;Menu;Menu
+1120;employee_view_bookings;View bookings;Ver reservas
+1121;employee_working_time;Working time;Horarios de trabajo
+1122;error_titles_ARRAY_AS11;Services;Servicio
+1123;error_bodies_ARRAY_AS11;Below you can see the available services that your clients can book. Under Add service tab you can add a new service. Or use the edit icon for each service to modify it.;A continuación puede ver los servicios disponibles que sus clientes pueden reservar. En la pestaña Añadir servicio puede agregar un nuevo servicio. O utilice el icono de edición para cada servicio para modificarlo.
+1124;service_tip_length;Set the time required to complete this service.;Establezca el tiempo necesario para completar este servicio.
+1125;service_tip_before;Set the time you need to block before booking start time for this service.;Establezca el tiempo que necesita bloquear antes de la hora de inicio de la reserva para este servicio.
+1126;service_tip_after;Set the time you need to block after booking end time for this service.;Establezca el tiempo que necesita bloquear después de reservar la hora de finalización de este servicio.
+1127;service_tip_employees;Select employee(s) who can do this service.;Seleccione empleado(s) que puede hacer este servicio.
+1128;employee_is_subscribed_sms;Send SMS when new booking is made;Enviar mensaje SMS cuando se realiza una nueva reserva
+1129;booking_reminder_client;Send to client;Enviar al cliente
+1130;booking_reminder_employee;Send to employee;Enviar al empleado
+1131;front_click_available;Click on available time to make an appointment;Haga clic en el tiempo disponible para hacer una cita
+1132;error_titles_ARRAY_AE11;Employees;Empleado
+1133;error_bodies_ARRAY_AE11;Below you can see a list of employees who do the different service you offer. You can have one or multiple employees.;A continuación puede ver una lista de empleados que hacen los diferentes servicios que ofrece. Puede tener uno o varios empleados.
+1134;menuSeo;SEO;SEO
+1135;lblInstallConfig;Language options;Opciones de idioma
+1136;lblInstallConfigLocale;Language;Idioma
+1137;lblInstallConfigHide;Hide language selector;Ocultar selector de idioma
+1138;error_bodies_ARRAY_AO30;To better optimize your appointment scheduler please follow the steps below.;Para optimizar mejor su programador de citas, siga los pasos a continuación.
+1139;error_titles_ARRAY_AO30;SEO Optimization;Optimización SEO
+1140;lblInstallSeo_1;Step 1. Webpage where your front end appointment scheduler is;Paso 1. Página web donde está su programador de citas front-end
+1141;lblInstallSeo_2;"Step 2. Put the meta tag below between &lt;head&gt; and &lt;/head&gt; tags on your web page";"Paso 2. Coloque la metaetiqueta a continuación entre las etiquetas &lt;head&gt; y &lt; /head&gt; en su página web"
+1142;lblInstallSeo_3;Step 3. (SAME DOMAIN INSTALL ONLY) Create .htaccess file (or update existing one) in the folder where your web page is and put the data below in it;Paso 3. (Mismo dominio instalar solamente) Crear .htaccess (o actualizar uno existente) en la carpeta donde se encuentra su página web y poner los datos a continuación en ella
+1143;btnGenerate;Generate;Generar
+1144;booking_index;Index;Indice
+1145;error_titles_ARRAY_AR01;Employees report;Informe de empleados
+1146;error_bodies_ARRAY_AR01;Using the form below you can generate a report for specific service and date range. You can also generate the results based on number of services each employee did or the total amount paid for these services.;Usando el siguiente formulario puede generar un informe para el servicio específico y el rango de fechas. También puede generar los resultados en función del número de servicios que hizo cada empleado o el monto total pagado por estos servicios.
+1147;error_titles_ARRAY_AR02;Services report;Informe de servicios
+1148;error_bodies_ARRAY_AR02;Using the form below you can generate a report for specific employee and date range. You can also generate the results based on number of services each employee did or the total amount paid for these services.;Usando el siguiente formulario puede generar un informe para el empleado específico y el rango de fechas. También puede generar los resultados en función del número de servicios que hizo cada empleado o el monto total pagado por estos servicios.
+1149;report_amount;Amount;Cantidad
+1150;report_cnt;Count;Contar
+1151;error_bodies_ARRAY_AD01;Below you can see working schedule for all employees. Using the date selector below to refresh the schedule. Click on Print button to print work timesheet.;A continuación puede ver el horario de trabajo para todos los empleados. Usando el selector de fecha a continuación para actualizar la programación. Haga clic en el botón Imprimir para imprimir el parte de horas de trabajo.
+1152;error_titles_ARRAY_AD01;Dashboard;Dashboard
+1153;btnApply;Apply;Aplicar
+1154;dashboard_filter;Dashboard filter;Filtro de dashboard de instrumentos
+1155;error_titles_ARRAY_AT05;Custom Working Time;Horarios de trabajo personalizado
+1156;error_bodies_ARRAY_AT05;Using the form below you can set a custom working time for any date. Just select a date and set working time for it. Or you can just mark the date as a day off and bookings on that date will not be accepted. ;Usando el siguiente formulario puede establecer un horario de trabajo personalizado para cualquier fecha. Sólo tienes que seleccionar una fecha y establecer el horario de trabajo para ello. O simplemente puede marcar la fecha como un día libre y no se aceptarán reservas en esa fecha.
+1157;error_bodies_ARRAY_AT06;Here you can set working time for this employee only. Different working time can be set for each day of the week. You can also set days off and a lunch break. ;Aquí puede establecer el horario de trabajo solo para este empleado. Se puede configurar un horario de trabajo diferente para cada día de la semana. También puede establecer días libres y un almuerzo.
+1158;error_titles_ARRAY_AT06;Working Time;Horario de trabajo
+1159;error_titles_ARRAY_AT07;Custom Working Time;Horario de trabajo personalizado
+1160;error_bodies_ARRAY_AT07;Using the form below you can set a custom working time for any date for this employee only. Just select a date and set working time for it. Or you can just mark the date as a day off and bookings on that date for this employee will not be accepted.;Utilizando el siguiente formulario, puede establecer un horario de trabajo personalizado para cualquier fecha solo para este empleado. Sólo tienes que seleccionar una fecha y establecer el horario de trabajo para ello. O simplemente puede marcar la fecha como un día libre y no se aceptarán reservas en esa fecha para este empleado.
+1161;btnToday;Today;Hoy
+1162;btnTomorrow;Tomorrow;Mañana
+1163;error_titles_ARRAY_AD02;Dashboard Notice;Avisos del dashboard
+1164;error_bodies_ARRAY_AD02;"Selected date is set to ""day off"". Use the date picker above to choose another date. Please, note that you can change working time under Options page.";"La fecha seleccionada se establece en ""día libre"". Utilice el selector de fecha de arriba para elegir otra fecha. Tenga en cuenta que puede cambiar el horario de trabajo en la página Opciones."
+1165;payment_paypal_submit;Go to PayPal Secure page;Ir a la página Segura de PayPal
+1166;payment_authorize_submit;Go to Authorize.NET Secure page;Vaya a la página Authorize.NET Secure
+1167;front_booking_status_ARRAY_11;Please wait while redirect to secure payment processor webpage complete...;Por favor, espere mientras redirige a la página web del procesador de pago seguro completa...
+1168;front_booking_status_ARRAY_1;Your request has been sent successfully. Thank you.;Su solicitud ha sido enviada correctamente. Gracias.
+1169;front_booking_status_ARRAY_4;Booking not found;Reserva no encontrada
+1170;front_booking_status_ARRAY_3;The invoice for this booking is already paid.;La factura de esta reserva ya está pagada.
+1171;front_booking_na;Booking not available;Reserva no disponible
+1172;booking_start_time;Start time;Hora de inicio
+1173;booking_end_time;End time;Hora de finalización
+1174;error_titles_ARRAY_ABK14;Services not found;Servicios no encontrados
+1175;error_bodies_ARRAY_ABK14;You need to have at least one service.;Necesita tener al menos un servicio.
+1176;error_titles_ARRAY_ABK15;Employees not found;Empleados no encontrados
+1177;error_bodies_ARRAY_ABK15;You need to create employee and assign service first.;Primero debe crear un empleado y asignar el servicio.
+1178;error_titles_ARRAY_ABK16;Bookings;Reservas
+1179;error_bodies_ARRAY_ABK16;Below you can see all the bookings. Click on any of them to view and edit it. Using the buttons you can filter the bookings by their status. Use the advance search to quickly locate a booking.;A continuación puede ver todas las reservas. Haga clic en cualquiera de ellos para verlo y editarlo. Usando los botones puede filtrar las reservas por su estado. Utilice la búsqueda anticipada para localizar rápidamente una reserva.
+1180;front_minutes;mins;minutos
+1181;front_on;on;en
+1182;front_back_services;back to services;regresar a los servicios
+1183;front_checkout;Checkout;Confirmacion
+1184;front_cart_done;Service added to your cart.;Servicio añadido a su carrito.
+1185;front_app_ARRAY_v_remote;Some of the items in your basket is not available.;Algunos de los artículos en su carrito no está disponible.
+1186;front_from;from;desde
+1187;front_till;till;hasta
+1188;cancel_err_ARRAY_1;Missing, empty or invalid parameters.;Parámetros faltantes, vacíos o no válidos.
+1189;cancel_err_ARRAY_2;Booking with such an ID did not exists.;La reserva con dicha identificación no existe.
+1190;cancel_err_ARRAY_3;Security hash did not match.;El hash de seguridad no coincidió.
+1191;cancel_err_ARRAY_4;Booking is already cancelled.;La reserva ya está cancelada.
+1192;cancel_err_ARRAY_5;Booking has been cancelled successfully.;La reserva se ha cancelado correctamente.
+1193;cancel_details;Customer Details;Detalles del cliente
+1194;cancel_confirm;Cancel booking;Cancelar reserva
+1195;cancel_services;Booking Services;Servicios de reserva
+1196;cancel_title;Booking Cancellation;Cancelación de reserva
+1197;confirmation_employee_confirmation;Employee - booking confirmation email;Empleado - correo electrónico de confirmación de reserva
+1198;confirmation_employee_payment;Employee - payment confirmation email;Empleado - correo electrónico de confirmación de pago
+1199;time_update_default;Update the default working time for all the employees;Actualizar el horario de trabajo predeterminado para todos los empleados
+1200;opt_o_layout;Layout;Diseño
+1201;front_single_date;Select date;Seleccione la fecha
+1202;front_single_service;Service;Servicio
+1203;front_single_time;Select time;Seleccione la hora
+1204;front_single_employee;Employee;Empleado
+1205;btnBook;Book;Reservar
+1206;front_single_date_service;Select date and service;Seleccionar fecha y servicio
+1207;front_single_choose_date;Choose date;Elegir fecha
+1208;single_date;Date;Fecha
+1209;single_price;Price;Precio
+1210;front_booking_status_ARRAY_5;This invoice have been cancelled.;Esta factura ha sido cancelada.
+1211;front_single_na;not available on selected date and time;no disponible en la fecha y hora seleccionadas
+1212;btnCheckout;Checkout;Confirmacion
+1213;btnBackToServices;Back to services;Regresar a servicios
+1214;btnViewCart;View cart;Ver reserva
+1215;error_titles_ARRAY_AU10;Invalid data;Datos no válidos
+1216;error_bodies_ARRAY_AU10;Form data has not been saved. Please review data and try again.;Los datos del formulario no se han guardado. Revise los datos e inténtelo de nuevo.
+1217;front_terms_link;Read terms and conditions;Leer los términos y condiciones
+1218;front_app_ARRAY_btn_ok;OK;OK
+1219;front_terms;Terms and Conditions;Términos y Condiciones
+1220;front_cart_tax;Tax;Impuesto
+1221;front_cart_deposit;Deposit payment;Pago del depósito
+1222;front_cart_price;Service(s) price;Precio de los servicios
+1223;co_v_captcha;Captcha is required;Se requiere Captcha
+1224;co_v_captcha_remote;Captcha is wrong;Captcha está equivocado
+1225;co_v_terms;You need to agree with the terms and conditions;Debe estar de acuerdo con los términos y condiciones
+1226;co_v_notes;Notes is required;Se requieren notas
+1227;co_v_zip;Zip is required;Se requiere codigo postal
+1228;co_v_city;City is required;Se requiere ciudad
+1229;co_v_state;State is required;Se requiere departamento
+1230;co_v_country;Country is required;País es obligatorio
+1231;co_v_address_1;Address Line 1 is required;Se requiere la línea de dirección 1
+1232;co_v_address_2;Address Line 2 is required;Se requiere la línea de dirección 2
+1233;co_v_phone;Phone is required;Se requiere teléfono
+1234;co_v_name;Name is required;El nombre es obligatorio
+1235;co_v_email;Email is required;Se requiere correo electrónico
+1236;co_v_email_inv;Email is invalid;El correo electrónico no es válido
+1237;co_v_payment;Payment method is required;Se requiere el método de pago
+1238;co_v_cc_type;CC Type is required;Se requiere tipo CC
+1239;co_v_cc_num;CC Number is required;Se requiere número CC
+1240;co_v_cc_code;CC Code is required;Se requiere código CC
+1241;form_v_required;This field is required.;Este campo es obligatorio.
+1242;form_v_remote;Please fix this field.;Por favor, corrija este campo.
+1243;form_v_email;Please enter a valid email address.;Por favor, introduzca una dirección de correo electrónico válida.
+1244;form_v_url;Please enter a valid URL.;Por favor, introduzca una URL válida.
+1245;form_v_date;Please enter a valid date.;Por favor, introduzca una fecha válida.
+1246;form_v_date_iso;Please enter a valid date (ISO).;Introduzca una fecha válida (ISO).
+1247;form_v_number;Please enter a valid number.;Por favor, introduzca un número válido.
+1248;form_v_digits;Please enter only digits.;Por favor, introduzca sólo los dígitos.
+1249;form_v_creditcard;Please enter a valid credit card number.;Por favor, introduzca un número de tarjeta de crédito válido.
+1250;form_v_equal_to;Please enter the same value again.;Por favor, introduzca el mismo valor de nuevo.
+1251;form_v_maxlength;Please enter no more than {0} characters.;Especifique no más de {0} caracteres.
+1252;form_v_minlength;Please enter at least {0} characters.;Escriba al menos {0} caracteres.
+1253;form_v_rangelength;Please enter a value between {0} and {1} characters long.;Especifique un valor entre {0} y {1} caracteres de longitud.
+1254;form_v_range;Please enter a value between {0} and {1}.;Especifique un valor entre {0} y {1}.
+1255;form_v_max;Please enter a value less than or equal to {0}.;Especifique un valor menor o igual que {0}.
+1256;form_v_min;Please enter a value greater than or equal to {0}.;Especifique un valor mayor o igual que {0}.
+1257;form_v_accept;Please enter a value with a valid extension.;Introduzca un valor con una extencion válida.
+1258;front_day_suffix_ARRAY_1;st;st
+1259;front_day_suffix_ARRAY_2;nd;nd
+1260;front_day_suffix_ARRAY_3;rd;rd
+1261;front_day_suffix_ARRAY_4;th;th
+1262;front_day_suffix_ARRAY_5;th;th
+1263;front_day_suffix_ARRAY_6;th;th
+1264;front_day_suffix_ARRAY_7;th;th
+1265;front_day_suffix_ARRAY_8;th;th
+1266;front_day_suffix_ARRAY_9;th;th
+1267;front_day_suffix_ARRAY_10;th;th
+1268;front_day_suffix_ARRAY_11;th;th
+1269;front_day_suffix_ARRAY_12;th;th
+1270;front_day_suffix_ARRAY_13;th;th
+1271;front_day_suffix_ARRAY_14;th;th
+1272;front_day_suffix_ARRAY_15;th;th
+1273;front_day_suffix_ARRAY_16;th;th
+1274;front_day_suffix_ARRAY_17;th;th
+1275;front_day_suffix_ARRAY_18;th;th
+1276;front_day_suffix_ARRAY_19;th;th
+1277;front_day_suffix_ARRAY_20;th;th
+1278;front_day_suffix_ARRAY_21;st;st
+1279;front_day_suffix_ARRAY_22;nd;nd
+1280;front_day_suffix_ARRAY_23;rd;rd
+1281;front_day_suffix_ARRAY_24;th;th
+1282;front_day_suffix_ARRAY_25;th;th
+1283;front_day_suffix_ARRAY_26;th;th
+1284;front_day_suffix_ARRAY_27;th;th
+1285;front_day_suffix_ARRAY_28;th;th
+1286;front_day_suffix_ARRAY_29;th;th
+1287;front_day_suffix_ARRAY_30;th;th
+1288;front_day_suffix_ARRAY_31;st;st
+1289;front_service_na;N/A;N/D
+1290;front_day_na;N/A;N/D
+1291;multiselect_check_all;Check all;Seleccionar todo
+1292;multiselect_uncheck_all;Uncheck all;Desmarque todo
+1293;multiselect_none_selected;Select options;Seleccionar opciones
+1294;multiselect_selected;selected;seleccionado
+1295;confirmation_client_cancel;Client - booking cancellation email;Cliente - correo electrónico de cancelación de reserva
+1296;confirmation_employee_cancel;Employee - booking cancellation email;Empleado - correo electrónico de cancelación de reserva
+1297;confirmation_admin_cancel;Admin - booking cancellation email;Administrador - correo electrónico de cancelación de reserva
+1298;system_206;Service has been added to your cart.;El servicio se ha añadido a su reserva.
+1299;system_105;Missing, empty or invalid parameters.;Parámetros faltantes, vacíos o no válidos.
+1300;system_207;Service has been removed from your cart.;El servicio ha sido eliminado de su carrito.
+1301;system_106;Missing, empty or invalid parameters.;Parámetros faltantes, vacíos o no válidos.
+1302;system_109;Checkout data is missing (or not valid form submit).;Faltan datos de pago (o no se envía un formulario válido).
+1303;system_110;Captcha doesn't match.;Captcha no coincide.
+1304;system_111;Cart is empty or invalid services.;El carrito está vacío o no es válido.
+1305;system_114;Booking data is not valid.;Los datos de reserva no son válidos.
+1306;system_119;Booking failed.;Error en la reserva.
+1307;system_211;Checkout form has been saved.;Se ha guardado el formulario de pago.
+1308;system_115;Some of the services in your cart are not available.;Algunos de los servicios en su carrito no están disponibles.
+1309;system_210;Booking has been successful.;La reserva ha sido exitosa.
+1310;lblMinutes;Minutes;Minuto
+1311;lblHours;Hours;Hora
+1312;lblService;Service;Servicio
+1313;lblEmployee;Employee;Empleado
+1314;lblImages;Images;Images
+1315;error_titles_ARRAY_AE12;Picture size is too large;El tamaño de la imagen es demasiado grande
+1316;error_bodies_ARRAY_AE12;New employee could not be added because picture size is too large and your server cannot upload it. Maximum allowed size is {SIZE}. Please, upload smaller picture.;No se pudo añadir un nuevo empleado porque el tamaño de la imagen es demasiado grande y su servidor no puede cargarlo. El tamaño máximo permitido es {SIZE}. Por favor, suba una imagen más pequeña.
+1317;error_titles_ARRAY_AE13;Picture size exceeded;Tamaño de la imagen excedido
+1318;error_bodies_ARRAY_AE13;New employee has been added, but picture could not be uploaded as its size exceeds the maximum allowed file upload size.;Se ha agregado un nuevo empleado, pero la imagen no se pudo cargar ya que su tamaño excede el tamaño máximo permitido de carga de archivos.
+1319;error_titles_ARRAY_AE14;Wrong file type;Tipo de archivo incorrecto
+1320;error_bodies_ARRAY_AE14;You uploaded picture is not allowed to upload because it's in wrong content type. Please check the actual type of the file.;No se permite cargar la imagen que has cargado porque está en un tipo de contenido incorrecto. Compruebe el tipo real del archivo.
+1321;error_titles_ARRAY_AE15;Picture size is too large;El tamaño de la imagen es demasiado grande
+1322;error_bodies_ARRAY_AE15;Employee could not be updated because picture size is too large and your server cannot upload it. Maximum allowed size is {SIZE}. Please, upload smaller picture.;No se pudo actualizar al empleado porque el tamaño de la imagen es demasiado grande y su servidor no puede cargarlo. El tamaño máximo permitido es {SIZE}. Por favor, suba una imagen más pequeña.
+1323;error_titles_ARRAY_AE16;Picture size exceeded;Tamaño de la imagen excedido
+1324;error_bodies_ARRAY_AE16;Employee information has been updated, but picture could not be uploaded as its size exceeds the maximum allowed file upload size.;La información del empleado se ha actualizado, pero la imagen no se pudo cargar ya que su tamaño excede el tamaño máximo permitido de carga de archivos.
+1325;error_titles_ARRAY_AE17;Wrong file type;Tipo de archivo incorrecto
+1326;error_bodies_ARRAY_AE17;You uploaded picture is not allowed to upload because it's in wrong content type. Please check the actual type of the file.;No se permite cargar la imagen que has cargado porque está en un tipo de contenido incorrecto. Compruebe el tipo real del archivo.
+1327;positive_number;Please enter positive number;Por favor, introduzca un número positivo
+1328;uuid_used;Unique ID was used.;Se utilizó una identificación única.
+1329;buttons_ARRAY_delete;Delete;Eliminar
+1330;buttons_ARRAY_send;Send;Enviar
+1331;buttons_ARRAY_export;Export;Exportar
+1332;buttons_ARRAY_yes;Yes;Sí
+1333;buttons_ARRAY_no;No;No
+1334;buttons_ARRAY_close;Close;Cerrar
+1335;error_titles_ARRAY_AR21;Export bookings;Exportación de reservas
+1336;error_bodies_ARRAY_AR21;You can export bookings in different formats. You can either download a file with booking details or use a link for a feed which load all the bookings.;Puede exportar reservas en diferentes formatos. Puede descargar un archivo con los detalles de la reserva o utilizar un enlace para una alimentación que cargar todas las reservas.
+1337;export_formats_ARRAY_ical;iCal;iCal
+1338;export_formats_ARRAY_xml;XML;XML
+1339;export_formats_ARRAY_csv;CSV;CSV
+1340;export_types_ARRAY_file;File;Archivo
+1341;export_types_ARRAY_feed;Feed;Feed
+1342;export_periods_ARRAY_next;Coming;Próximos
+1343;export_periods_ARRAY_last;Created or Modified;Creado o modificado
+1344;btnExport;Export;Exportar
+1345;lblFormat;Format;Formato
+1346;lblBookings;Bookings;Reservas
+1347;lblBookingsMade;bookings made;reservas hechas
+1348;lblComingBookings;coming bookings ;próximas reservas 
+1349;lblBookingsFeedURL;Bookings Feed URL;URL de feed de reservas
+1350;btnGetFeedURL;Get Feed URL;Obtener URL de feed
+1351;lblCalendar;Calendar;Calendario
+1352;infoBookingFeedTitle;Bookings Feed URL;URL de feed de reservas
+1353;infoBookingFeedDesc;Use the URL below to have access to all bookings. Please, note that if you change the password the URL will change too as password is used in the URL itself so no one else can open it.;Utilice la URL a continuación para tener acceso a todas las reservas. Tenga en cuenta que si cambia la contraseña, la URL también cambiará ya que la contraseña se usa en la URL para que nadie más pueda abrirla.
+1354;lblEnterPassword;Enter password;Introduzca la contraseña
+1355;lblNoAccessToFeed;No access to feed;No hay acceso a los feed
+1356;coming_arr_ARRAY_1;Today;Hoy
+1357;coming_arr_ARRAY_2;Tomorrow;Mañana
+1358;coming_arr_ARRAY_3;This week;Esta semana
+1359;coming_arr_ARRAY_4;Next week;La próxima semana
+1360;coming_arr_ARRAY_5;This month;Este mes
+1361;coming_arr_ARRAY_6;Next month;El próximo mes
+1362;made_arr_ARRAY_1;Today;Hoy
+1363;made_arr_ARRAY_2;Yesterday;Ayer
+1364;made_arr_ARRAY_3;This week;Esta semana
+1365;made_arr_ARRAY_4;Last week;La semana pasada
+1366;made_arr_ARRAY_5;This month;Este mes
+1367;made_arr_ARRAY_6;Last month;El mes pasado
+1368;lblNotifications;Notifications;Notificaciónes
+1369;booking_client;Client;Cliente
+1370;lblEmailPhone;Email & Phone;Correo electrónico y teléfono
+1371;tabEmailNotifications;Email Notifications;Notificaciones por correo electrónico
+1372;notify_arr_ARRAY_confirm;Client - booking confirmation email;Cliente - correo electrónico de confirmación de reserva
+1373;notify_arr_ARRAY_payment;Client - payment confirmation email;Cliente - correo electrónico de confirmación de pago
+1374;notify_arr_ARRAY_cancel;Client - booking cancellation email;Cliente - correo electrónico de cancelación de reserva
+1375;notify_arr_ARRAY_confirm_admin;Admin - booking confirmation email;Administrador - correo electrónico de confirmación de reserva
+1376;notify_arr_ARRAY_payment_admin;Admin - payment confirmation email;Administrador - correo electrónico de confirmación de pago
+1377;notify_arr_ARRAY_cancel_admin;Admin - booking cancellation email;Administrador - correo electrónico de cancelación de reserva
+1378;notify_arr_ARRAY_confirm_employee;Employee - booking confirmation email;Empleado - correo electrónico de confirmación de reserva
+1379;notify_arr_ARRAY_payment_employee;Employee - payment confirmation email;Empleado - correo electrónico de confirmación de pago
+1380;notify_arr_ARRAY_cancel_employee;Employee - booking cancellation email;Empleado - correo electrónico de cancelación de reserva
+1381;services_required;Adding a service is required;Es necesario añadir un servicio
+1382;opt_o_theme;Theme;Tema
+1383;front_filter;Filter;Filtro
+1384;front_all;All;Todo
+1385;front_appointment;appointment;cita
+1386;front_appointments;appointments;cita
+1387;front_no_employees_found;No employees found;No se encontraron empleados
+1388;front_select_service;Select service;Seleccionar servicio
+1389;front_no_services_found;No services found;No se encontraron servicios
+1390;front_duration;Duration;Duración
+1391;front_back;back;regresar
+1392;front_phone;Phone;Teléfono
+1393;front_email;Email;Correo
+1394;front_select_date_time;Select date and time;Seleccionar fecha y hora
+1395;front_choose_date;Choose date;Elegir fecha
+1396;front_time;Time;Tiempo
+1397;front_date_off;Selected date is a day off.;La fecha seleccionada es un día libre.
+1398;front_select_date_time_employee;Select date and time & employee;Seleccione fecha, hora y empleado
+1399;front_employees_not_avaiable;No employees available for this service.;No hay empleados disponibles para este servicio.
+1400;front_choose;Choose;Elige
+1401;front_service_employee;Service/employee;Servicio/empleado
+1402;front_date_time;Date and time;Fecha y hora
+1403;front_tax;Tax;Impuesto
+1404;front_total;Total;Total
+1405;front_deposit;Deposit;Deposito
+1406;front_close;Close;Cerrar
+1407;front_start_over;Start over;Empezar de nuevo
+1408;service_image;Image;Imagen
+1409;error_titles_ARRAY_AS12;Picture size is too large;El tamaño de la imagen es demasiado grande
+1410;error_bodies_ARRAY_AS12;New service could not be added because picture size is too large and your server cannot upload it. Maximum allowed size is {SIZE}. Please, upload smaller picture.;No se pudo añadir un nuevo servicio porque el tamaño de la imagen es demasiado grande y el servidor no puede cargarlo. El tamaño máximo permitido es {SIZE}. Por favor, suba una imagen más pequeña.
+1411;error_titles_ARRAY_AS13;Picture size exceeded;Tamaño de la imagen excedido
+1412;error_bodies_ARRAY_AS13;New service has been added, but picture could not be uploaded as its size exceeds the maximum allowed file upload size.;Se ha agregado un nuevo servicio, pero la imagen no se pudo cargar ya que su tamaño excede el tamaño máximo permitido de carga de archivos.
+1413;error_titles_ARRAY_AS14;Wrong file type;Tipo de archivo incorrecto
+1414;error_bodies_ARRAY_AS14;You uploaded picture is not allowed to upload because it's in wrong content type. Please check the actual type of the file.;No se permite cargar la imagen que has cargado porque está en un tipo de contenido incorrecto. Compruebe el tipo real del archivo.
+1415;error_titles_ARRAY_AS15;Picture size is too large;El tamaño de la imagen es demasiado grande
+1416;error_bodies_ARRAY_AS15;Service could not be updated because picture size is too large and your server cannot upload it. Maximum allowed size is {SIZE}. Please, upload smaller picture.;No se pudo actualizar el servicio porque el tamaño de la imagen es demasiado grande y el servidor no puede cargarlo. El tamaño máximo permitido es {SIZE}. Por favor, suba una imagen más pequeña.
+1417;error_titles_ARRAY_AS16;Picture size exceeded;Tamaño de la imagen excedido
+1418;error_bodies_ARRAY_AS16;Service information has been updated, but picture could not be uploaded as its size exceeds the maximum allowed file upload size.;La información del servicio se ha actualizado, pero la imagen no se pudo cargar ya que su tamaño excede el tamaño máximo permitido de carga de archivos.
+1419;error_titles_ARRAY_AS17;Wrong file type;Tipo de archivo incorrecto
+1420;error_bodies_ARRAY_AS17;You uploaded picture is not allowed to upload because it's in wrong content type. Please check the actual type of the file.;No se permite cargar la imagen que has cargado porque está en un tipo de contenido incorrecto. Compruebe el tipo real del archivo.
+1421;front_about_employee;About {EMPLOYEE};Acerca de {EMPLOYEE}
+1422;front_reason_for_appointment;Reason for Appointment;Motivo de la cita
+1423;front_service_required;Reason for appointment is required.;Se requiere el motivo de la cita.
+1424;lblInstallSeo_4;Step 4. (CROSS-DOMAIN INSTALL ONLY) Create .htaccess file (or update existing one) in the folder where your web page is and put the data below in it;Paso 4. (CROSS-DOMAIN INSTALACION SOLAMENTE) Crear .htaccess (o actualizar uno existente) en la carpeta donde se encuentra su página web y poner los datos a continuación en ella
+1425;lblSelectLayoutTheme;Select layout & theme;Seleccionar diseño y tema
+1426;lblSelectTheme;Select theme;Seleccione el tema
+1427;lblSelectLayout;Select layout;Seleccionar diseño
+1428;short_days_ARRAY_0;Su;Do
+1429;short_days_ARRAY_1;Mo;Lu
+1430;short_days_ARRAY_2;Tu;Ma
+1431;short_days_ARRAY_3;We;Mi
+1432;short_days_ARRAY_4;Th;Ju
+1433;short_days_ARRAY_5;Fr;Vi
+1434;short_days_ARRAY_6;Sa;Sa
+1435;front_browse_services;Browse Services;Buscar servicios
+1436;front_browse_professionalists;Browse Professionals;Buscar profesionales
+1437;infoThemeTitle;Preview front end;Vista previa front-end
+1438;infoThemeDesc;"There are multiple color schemes available for the front end. Click on each of the thumbnails below to preview it. Click on ""Use this theme"" button for the theme you want to use.";"Hay varios esquemas de color disponibles para la parte delantera. Haga clic en cada una de las miniaturas a continuación para obtener una vista previa. Haga clic en el botón ""Usar este tema"" para el tema que desea utilizar."
+1439;lblInstallTheme;Choose theme;Elija el tema
+1440;option_themes_ARRAY_1;Theme 1;Tema 1
+1441;option_themes_ARRAY_2;Theme 2;Tema 2
+1442;option_themes_ARRAY_3;Theme 3;Tema 3
+1443;option_themes_ARRAY_4;Theme 4;Tema 4
+1444;option_themes_ARRAY_5;Theme 5;Tema 5
+1445;option_themes_ARRAY_6;Theme 6;Tema 6
+1446;option_themes_ARRAY_7;Theme 7;Tema 7
+1447;option_themes_ARRAY_8;Theme 8;Tema 8
+1448;option_themes_ARRAY_9;Theme 9;Tema 9
+1449;option_themes_ARRAY_10;Theme 10;Tema 10
+1450;lblCurrentlyInUse;Currently in use;Actualmente en uso
+1451;btnUseThisTheme;Use this theme;Utilice este tema
+1452;front_selected_date;Selected date;Fecha seleccionada
+1453;btnAddBooking;Add booking;Añadir reserva
+1454;btnAddEmployee;Add employee;Añadir empleado
+1455;btnAddService;Add service;Añadir servicio
+1456;btnAddUser;Add user;Añadir usuario
+1457;infoUsersTitle;List of users;Lista de usuarios
+1458;infoUsersDesc;"Below you can see users who have access to the Appointment Scheduler administration pages. Click on ""+ Add user"" button to add a new user.";"A continuación puede ver los usuarios que tienen acceso a las páginas de administración del Programador de citas. Haga clic en el botón ""Añadir usuario"" para agregar un nuevo usuario."
+1459;infoAddUserTitle;Add user;Añadir usuario
+1460;infoAddUserDesc;"Fill in the form below and click ""Save"" button to add new user. You can decide whether user to receive notifications or not by checking on the check-box ""Notifications"".";"Rellene el siguiente formulario y haga clic en el botón ""Guardar"" para añadir un nuevo usuario. Puede decidir si el usuario recibirá notificaciones o no marcando la casilla de verificación ""Notificaciones""."
+1461;infoUpdateUserTitle;Update user;Actualizar usuario
+1462;infoUpdateUserDesc;"You can make any changes on the form below and click ""Save"" button to update user information.";"Puede realizar cualquier cambio en el siguiente formulario y haga clic en el botón ""Guardar"" para actualizar la información del usuario."
+1463;lblInstallServicesProfessionals;Services & Professionals;Servicios y profesionales
+1464;install_opt_ARRAY_both;Both;Ambos
+1465;install_opt_ARRAY_service;Services only;Sólo servicios
+1466;install_opt_ARRAY_professional;Professionals only;Sólo profesionales
+1467;lblInstallCode;Install code;Código de instalación
+1468;btnCancelAppointment;Cancel Appointment;Cancelar cita
+1469;opt_o_booking_earlier;Accept bookings X hours before appointment start time;Aceptar reservas X horas antes de la hora de inicio de la cita
+1470;opt_o_cancel_earlier;Clients can cancel a booking up to X hours before appointment start time;Los clientes pueden cancelar una reserva hasta X horas antes de la hora de inicio de la cita
+1471;opt_o_booking_days_earlier;Accept bookings X days ahead;Aceptar reservas con X días de anticipación
+1472;cancel_err_ARRAY_6;You need to cancel the booking %s hour(s) before the appointment start.;Es necesario cancelar la reserva %s hora(s) antes del inicio de la cita.
+1473;front_unavailable_making_appiontment;The selected date is unavailable for making appointment. Please select another date.;La fecha seleccionada no está disponible para hacer una cita. Seleccione otra fecha.
+1474;front_btn_book_slot;Book slot;Espacio libre
+1475;script_menu_settings;Settings;Configuración
+1476;script_menu_notifications;Notifications;Notificación
+1477;script_emails;Emails;Correo
+1478;script_sms;SMS;SMS
+1479;script_notifications;Notifications;Notificación
+1480;script_send_this_notifications;Send this notification;Enviar esta notificación
+1481;script_subject;Subject;Tema
+1482;script_message;Message;Mensaje
+1483;script_change_labels;Change Labels;Cambiar etiquetas
+1484;script_menu_payments;Payments;Pagos
+1485;infoPaymentsTitle;Payment Options;Opciones de pago
+1486;infoPaymentsDesc;Here you can choose your payment methods and set payment gateway accounts and payment preferences. Note that for cash payments the system will not be able to collect deposit amount online.;Aquí puede elegir sus métodos de pago y establecer cuentas de pasarela de pago y preferencias de pago. Tenga en cuenta que para pagos en efectivo, el sistema no podrá cobrar el monto del depósito en línea.
+1487;script_offline_payment_methods;Offline Payment Methods;Métodos de pago Offline
+1488;script_request_antoher_payment;Request Another Payment Gateway;Solicitar otra pasarela de pago
+1489;script_online_payment_gateway;Online payment gateway;Pasarela de pago en línea
+1490;script_offline_payment;Offline payment;Pago Offline
+1491;opt_o_reminder_body_text;"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Phone}</p>\n<p>{Email}</p>\n<p>{BookingID}</p>\n<p>{Services}</p>\n</div>\n<div class=""col-xs-6"">\n<p>{Price}</p>\n<p>{Deposit}</p>\n<p>{Tax}</p>\n<p>{Total}</p>\n<p>{CancelURL}</p>\n</div>\n";"<div class=""col-xs-6"">\n<p>{Name}</p>\n<p>{Phone}</p>\n<p>{Email}</p>\n<p>{BookingID}</p>\n<p>{Services}</p>\n</div>\n<div class=""col-xs-6"">\n<p>{Price}</p>\n<p>{Deposit}</p>\n<p>{Tax}</p>\n<p>{Total}</p>\n<p>{CancelURL}</p>\n</div>\n"
+1492;notifications_ARRAY_client_email_confirmation;Send confirmation email;Enviar correo electrónico de confirmación
+1493;notifications_ARRAY_client_email_payment;Send payment confirmation email;Enviar correo electrónico de confirmación de pago
+1494;notifications_ARRAY_client_email_cancel;Send cancellation email;Enviar correo electrónico de cancelación
+1495;notifications_ARRAY_admin_email_confirmation;Send confirmation email;Enviar correo electrónico de confirmación
+1496;notifications_ARRAY_admin_email_payment;Send payment confirmation email;Enviar correo electrónico de confirmación de pago
+1497;notifications_ARRAY_admin_email_cancel;Send cancellation email;Enviar correo electrónico de cancelación
+1498;notifications_ARRAY_employee_email_confirmation;Send confirmation email;Enviar correo electrónico de confirmación
+1499;notifications_ARRAY_employee_email_payment;Send payment confirmation email;Enviar correo electrónico de confirmación de pago
+1500;notifications_ARRAY_employee_email_cancel;Send cancellation email;Enviar correo electrónico de cancelación
+1501;notifications_titles_ARRAY_client_email_confirmation;Booking Confirmation email sent to Client;Correo electrónico de confirmación de reserva enviado al cliente
+1502;notifications_titles_ARRAY_client_email_payment;Payment Confirmation email sent to Client;Correo electrónico de confirmación de pago enviado al cliente
+1503;notifications_titles_ARRAY_client_email_cancel;Booking Cancellation email sent to Client;Correo electrónico de cancelación de reserva enviado al cliente
+1504;notifications_titles_ARRAY_admin_email_confirmation;New Booking Received email sent to Admin;Nueva reserva Correo electrónico recibido enviado al administrador
+1505;notifications_titles_ARRAY_admin_email_payment;Send Payment Confirmation email sent to Admin;Enviar correo electrónico de confirmación de pago enviado al administrador
+1506;notifications_titles_ARRAY_admin_email_cancel;Send Cancellation email sent to Admin;Enviar correo electrónico de cancelación enviado al administrador
+1507;notifications_titles_ARRAY_employee_email_confirmation;New Booking Received email sent to Employee;Nueva reserva Correo electrónico recibido enviado al empleado
+1508;notifications_titles_ARRAY_employee_email_payment;Send Payment Confirmation email sent to Employee;Enviar correo electrónico de confirmación de pago enviado al empleado
+1509;notifications_titles_ARRAY_employee_email_cancel;Send Cancellation email sent to Employee;Enviar correo electrónico de cancelación enviado al empleado
+1510;notifications_subtitles_ARRAY_client_email_confirmation;This message is sent to client when a new reservation is made.;Este mensaje se envía al cliente cuando se realiza una nueva reserva.
+1511;notifications_subtitles_ARRAY_client_email_payment;This message is sent to the client when a payment is made for a new reservation.;Este mensaje se envía al cliente cuando se realiza un pago por una nueva reserva.
+1512;notifications_subtitles_ARRAY_client_email_cancel;This message is sent to the client when a client cancels a reservation.;Este mensaje se envía al cliente cuando un cliente cancela una reserva.
+1513;notifications_subtitles_ARRAY_admin_email_confirmation;This message is sent to the administrator when a new reservation is made.;Este mensaje se envía al administrador cuando se realiza una nueva reserva.
+1514;notifications_subtitles_ARRAY_admin_email_payment;This message is sent to the administrator when a payment for a new reservation is made.;Este mensaje se envía al administrador cuando se realiza un pago por una nueva reserva.
+1515;notifications_subtitles_ARRAY_admin_email_cancel;This message is sent to the administrator when a client cancels a reservation.;Este mensaje se envía al administrador cuando un cliente cancela una reserva.
+1516;notifications_subtitles_ARRAY_employee_email_confirmation;This message is sent to the employee when a new reservation is made.;Este mensaje se envía al empleado cuando se realiza una nueva reserva.
+1517;notifications_subtitles_ARRAY_employee_email_payment;This message is sent to the employee when a payment for a new reservation is made.;Este mensaje se envía al empleado cuando se realiza un pago por una nueva reserva.
+1518;notifications_subtitles_ARRAY_employee_email_cancel;This message is sent to the employee when a client cancels a reservation.;Este mensaje se envía al empleado cuando un cliente cancela una reserva.
+1519;notifications_subject;Subject;Tema
+1520;notifications_message;Message;Mensaje
+1521;notifications_is_active;Send this message;Enviar este mensaje
+1522;notifications_sms_na;SMS notifications are currently not available for your website. See details;Las notificaciones por SMS no están actualmente disponibles para su sitio web. Ver más detalles
+1523;notifications_sms_na_here;here;aqui
+1524;notifications_send;Send;Enviar
+1525;notifications_do_not_send;Do not send;No enviar
+1526;notifications_status;Status;Estatus
+1527;notifications_msg_to_client;Messages sent to Clients;Mensajes enviados a los clientes
+1528;notifications_msg_to_admin;Messages sent to Admin;Mensajes enviados al administrador
+1529;notifications_msg_to_employee;Messages sent to Employee;Mensajes enviados al empleado
+1530;notifications_msg_to_default;Messages sent;Mensajes enviados
+1531;notifications_main_title;Notifications;Notificación
+1532;notifications_main_subtitle;"Automated messages are sent both to client and administrator(s) on specific events. Select message type to edit it - enable/disable or just change message text. For SMS notifications you need to enable SMS service. See more <a href=""https://www.phpjabbers.com/web-sms/"" target=""_blank"">here</a>.";"Los mensajes automatizados se envían tanto al cliente como al administrador en eventos específicos. Seleccione el tipo de mensaje para editarlo - activar / desactivar o simplemente cambiar el texto del mensaje. Para las notificaciones por SMS, debe habilitar el servicio de SMS. Ver más <a href=""https://www.phpjabbers.com/web-sms/"" target=""_blank"">here</a>."
+1533;notifications_recipient;Recipient;Destinatario
+1534;notifications_tokens_note;Personalize the message by including any of the available tokens and it will be replaced with corresponding data.;Personalice el mensaje incluyendo cualquiera de los tokens disponibles y se reemplazará con los datos correspondientes.
+1535;notifications_tokens;Available tokens:;Tokens disponibles:
+1536;recipients_ARRAY_client;Client;Cliente
+1537;recipients_ARRAY_admin;Administrator;Administrador
+1538;recipient_admin_note;"Go to <a href=""index.php?controller=pjBaseUsers&action=pjActionIndex"">Users menu</a> and edit each administrator profile to select if they should receive ""Admin notifications"" or not.";"Vaya a <a href=""index.php?controller=pjBaseUsers&action=pjActionIndex"">Meniu de usuario</a> y edite cada perfil de administrador para seleccionar si deben recibir ""Notificaciones de administrador"" o no."
+1539;recipients_ARRAY_employee;Employee;Empleado
+1540;opt_o_email_body_text;"<div class=""col-xs-6"">\n<div><small>{Name}</small></div>\n<div><small>{Phone}</small></div>\n<div><small>{Email}</small></div>\n<div><small>{Notes}</small></div>\n<div><small>{Address1}</small></div>\n<div><small>{Address2}</small></div>\n<div><small>{City}</small></div>\n<div><small>{State}</small></div>\n<div><small>{Zip}</small></div>\n<div><small>{Country}</small></div>\n\n</div>\n<div class=""col-xs-6"">\n<div><small>{BookingID}</small></div>\n<div><small>{Services}</small></div>\n<div><small>{PaymentMethod}</small></div>\n<div><small>{Price}</small></div>\n<div><small>{Deposit}</small></div>\n<div><small>{Tax}</small></div>\n<div><small>{Total}</small></div>\n<div><small>{CancelURL}</small></div>\n </div>\n";"<div class=""col-xs-6"">\n<div><small>{Name}</small></div>\n<div><small>{Phone}</small></div>\n<div><small>{Email}</small></div>\n<div><small>{Notes}</small></div>\n<div><small>{Address1}</small></div>\n<div><small>{Address2}</small></div>\n<div><small>{City}</small></div>\n<div><small>{State}</small></div>\n<div><small>{Zip}</small></div>\n<div><small>{Country}</small></div>\n\n</div>\n<div class=""col-xs-6"">\n<div><small>{BookingID}</small></div>\n<div><small>{Services}</small></div>\n<div><small>{PaymentMethod}</small></div>\n<div><small>{Price}</small></div>\n<div><small>{Deposit}</small></div>\n<div><small>{Tax}</small></div>\n<div><small>{Total}</small></div>\n<div><small>{CancelURL}</small></div>\n </div>\n"
+1541;tab_default;Default;Predeterminado
+1542;tab_days_off;Days off;Días libres
+1543;btn_set_wtime;Set Working Times;Establecer horarios de trabajo
+1544;day;Day;Dia
+1545;hours;Working hours;Horario de trabajo
+1546;lunch_break;Lunch break;Descanso
+1547;day_off;Day off;Día libre
+1548;lunch_off;Lunch off;Descanso
+1549;set_working_times;Set Working Times;Establecer horarios de trabajo
+1550;select_day;Select day;Seleccionar día
+1551;choose;Choose;Elige
+1552;btn_cancel;Cancel;Cancelar
+1553;wokring_from;Working Time From;Horario de trabajo desde
+1554;wokring_to;Working Time To;Hora laborable hasta
+1555;from;From;De
+1556;to;To;A
+1557;lunch_from;Lunch Break From;Almuerzo desde
+1558;lunch_to;Lunch Break To;Almuerzo hasta
+1559;invalid_selected_time;Working Time From must precede Working Time To;El horario de trabajo desde debe preceder al horario de trabajo hasta
+1560;duplicated_time;Duplicated time on %s.;Tiempo duplicado en %s.
+1561;error_titles_ARRAY_PAMT01;Working Time Updated!;Horario de Trabajo actualizado!
+1562;error_bodies_ARRAY_PAMT01;All changes made to the default working time have been saved successfully. ;Todos los cambios realizados en el horario de trabajo predeterminado se han guardado correctamente.
+1563;btn_add_day_off;Add custom;Añadir personalizado
+1564;add_day_off;Add custom working time;Añadir horario de trabajo personalizado
+1565;from_date;From Date;A partir de la fecha
+1566;to_date;To Date;Hasta la fecha
+1567;from_time;From Time;De las
+1568;to_time;To Time;Hasta las
+1569;dates;Date(s);Fecha(s)
+1570;hour;Hour;Hora
+1571;all_day;All day;Todo el día
+1572;invalid_dates_off;From Date must precede To Date;Desde la fecha debe preceder hasta la fecha
+1573;invalid_day_off_time;From Time must precede To Time;De Tiempo debe preceder a Tiempo
+1574;advance_search;Advance Search;Búsqueda avanzada
+1575;btn_select_image;Select image;Seleccionar imagen
+1576;btn_change_image;Change image;Cambiar imagen
+1577;dash_next_7_days;Next 7 days;Próximos 7 días
+1578;dash_upcoming_bookings;Upcoming Bookings;Próximas reservas
+1579;dash_confirmed;confirmed;confirmar
+1580;dash_pending;pending;pendiente
+1581;dash_this_month;This Month;Este mes
+1582;dash_all_bookings;All Bookings;Todas las reservas
+1583;dash_singular_booking;booking;reserva
+1584;dash_plural_bookings;bookings;reserva
+1585;dash_total_amount;total amount;cantidad total
+1586;dash_updated;Updated;Actualizar
+1587;dash_booking_past_6_months;Bookings past 6 months;Reservas pasadas 6 meses
+1588;dash_what_on_today;What's on today?;Pendientes para hoy!
+1589;dash_you_have;You have;Usted tiene
+1590;dash_bookings_today;bookings today;reservas hoy
+1591;dash_booking_today;booking today;reserva hoy
+1592;dash_view_schedule;View Schedule;Ver calendario
+1593;dash_service;Service;Servicio
+1594;dash_duration;Duration;Duración
+1595;dash_hours;hours;horas
+1596;dash_hour;hour;hora
+1597;dash_mins;mins;minutos
+1598;dash_min;min;minuto
+1599;dash_price;Price;Precio
+1600;dash_package;Package;Paquete
+1601;dash_latest_bookings;Latest Bookings;Últimas reservas
+1602;dash_total;total;total
+1603;dash_booking_made;booking made;reserva hecha
+1604;dash_bookings_made;bookings made;reservas hechas
+1605;dash_view_all_bookings;View All Bookings;Ver todas las reservas
+1606;dash_date_time;Date/Time;Fecha/Hora
+1607;dash_client;Client;Cliente
+1608;dash_service_package;Service;Servicio
+1609;dash_status;Status;Estatus
+1610;dash_bookings;Bookings;Reservas
+1611;dash_no_bookings_found;No bookings found.;No se encontraron reservas.
+1612;menu_schedule;Schedule;Calendario
+1613;infobox_schedule_title;Schedule;Calendario
+1614;infobox_schedule_desc;"By default below you weekly or monthly schedules. Use ""jump to"" to switch to any week/month. You can also print the schedule by clicking on the Print button.";"Por defecto debajo de usted horarios semanales o mensuales. Use ""saltar a"" para cambiar a cualquier semana / mes. También puede imprimir la programación haciendo clic en el botón Imprimir."
+1615;jumb_to;Jump to;Ir a
+1616;btn_print;Print;Imprimir
+1617;week;Week;Semana
+1618;available;Available;Disponible
+1619;monthly_view;Monthly View;Vista mensual
+1620;weekly_view;Weekly View;Vista semanal
+1621;send_reminder;Send reminder;Enviar recordatorio
+1622;are_you_sure;Are you sure?;¿Está seguro?
+1623;cancel_text;Are you sure that you want to cancel the selected service?;¿Está seguro de que desea cancelar el servicio seleccionado?
+1624;btn_confirm_cancel;Yes, cancel it!;Sí, cancelarlo!
+1625;cancel_appointment;Cancel appointment;Cancelar cita
+1626;client_email;Client email;Correo electrónico del cliente
+1627;btn_send;Send;Enviar
+1628;script_install_your_website;Install your website;Instale su sitio web
+1629;script_preview_your_website;Open in new window;Abrir en una nueva ventana
+1630;pjAdmin_pjActionIndex;Dashboard;Dashboard
+1631;pjAdmin_pjActionProfile;Profile;Perfil
+1632;pjAdminSchedule;Schedule Menu;Menú de programación
+1633;pjAdminSchedule_pjActionWeekly;Weekly;Semanal
+1634;pjAdminSchedule_pjActionPrintWeekly;Print weekly;Imprimir semanalmente
+1635;pjAdminSchedule_pjActionCancelServiceWeekly;Cancel Service;Cancelar servicio
+1636;pjAdminSchedule_pjActionCancelServiceMonthly;Cancel Service;Cancelar servicio
+1637;pjAdminSchedule_pjActionReminderEmailWeekly;Reminder Email;Correo electrónico de recordatorio
+1638;pjAdminSchedule_pjActionReminderEmailMonthly;Reminder Email;Correo electrónico de recordatorio
+1639;pjAdminSchedule_pjActionMonthly;Monthly;Mensual
+1640;pjAdminSchedule_pjActionPrintMonthly;Print weekly;Imprimir semanalmente
+1641;pjAdminBookings;Bookings Menu;Menú de reservas
+1642;pjAdminBookings_pjActionIndex;Booking List;Lista de reservas
+1643;pjAdminBookings_pjActionCreate;Add booking;Añadir reserva
+1644;pjAdminBookings_pjActionCheckUID;Check UID;Comprobar UID
+1645;pjAdminBookings_pjActionCheckOverwrite;Check Overwrite;Verificar sobrescritura
+1646;pjAdminBookings_pjActionGetPrice;Get price;Obtener precio
+1647;pjAdminBookings_pjActionGetService;Get service;Obtener servicio
+1648;pjAdminBookings_pjActionItemAdd;Item add;Agregar item
+1649;pjAdminBookings_pjActionItemDelete;Item delete;Eliminar item
+1650;pjAdminBookings_pjActionItemGet;Item get;Obtener item
+1651;pjAdminBookings_pjActionItemEmail;Item email;Correo electrónico del item
+1652;pjAdminBookings_pjActionItemSms;Item SMS;item SMS
+1653;pjAdminBookings_pjActionUpdate;Edit booking;Editar reserva
+1654;pjAdminBookings_pjActionDeleteBooking;Delete single booking;Eliminar reserva única
+1655;pjAdminBookings_pjActionDeleteBookingBulk;Delete multiple bookings;Eliminar varias reservas
+1656;pjAdminBookings_pjActionGetBooking;Show list elements;Mostrar elementos de lista
+1657;pjAdminBookings_pjActionSaveBooking;Save booking;Guardar reserva
+1658;pjAdminBookings_pjActionList;Booking List for employee;Lista de reservas para empleados
+1659;pjAdminBookings_pjActionGetBookingService;Get booking;Obtener reserva
+1660;pjAdminBookings_pjActionViewBookingService;View booking service;Ver servicio de reserva
+1661;pjAdminServices;Service menu;Menú de servicio
+1662;pjAdminServices_pjActionIndex;Service List;Lista de servicios
+1663;pjAdminServices_pjActionCreate;Add service;Añadir servicio
+1664;pjAdminServices_pjActionUpdate;Edit service;Servicio de edición
+1665;pjAdminServices_pjActionDeleteImage;Delete Image;Eliminar imagen
+1666;pjAdminServices_pjActionDeleteService;Delete single service;Eliminar servicio único
+1667;pjAdminServices_pjActionDeleteServiceBulk;Delete multiple services;Eliminar varios servicios
+1668;pjAdminServices_pjActionGetService;Show list elements;Mostrar elementos de lista
+1669;pjAdminServices_pjActionSaveService;Save service;Guardar servicio
+1670;pjAdminEmployees;Employee menu;Menú de empleados
+1671;pjAdminEmployees_pjActionIndex;Employee List;Lista de empleados
+1672;pjAdminEmployees_pjActionCreate;Add employee;Añadir empleado
+1673;pjAdminEmployees_pjActionCheckEmail;Check Email;Comprobar correo electrónico
+1674;pjAdminEmployees_pjActionUpdate;Edit employee;Editar empleado
+1675;pjAdminEmployees_pjActionDeleteAvatar;Delete Image;Eliminar imagen
+1676;pjAdminEmployees_pjActionDeleteEmployee;Delete single employee;Eliminar un solo empleado
+1677;pjAdminEmployees_pjActionDeleteEmployeeBulk;Delete multiple employees;Eliminar varios empleados
+1678;pjAdminEmployees_pjActionGetEmployee;Show list elements;Mostrar elementos de lista
+1679;pjAdminEmployees_pjActionSaveEmployee;Save employee;Guardar empleado
+1680;pjAdminEmployees_pjActionTime;Working Time;Horario de trabajo
+1681;pjAdminEmployees_pjActionSetTime;Create Working Time;Crear horario de trabajo
+1682;pjAdminEmployees_pjActionSaveTime;Save time;Ahorrar tiempo
+1683;pjAdminEmployees_pjActionGetDayOff;Custom Working Time;Horario de trabajo personalizado
+1684;pjAdminEmployees_pjActionCheckDayOff;Check day off;Compruebe el día libre
+1685;pjAdminEmployees_pjActionSetDayOff;Create/Update Custom Working Time;Crear/actualizar horario de trabajo personalizado
+1686;pjAdminEmployees_pjActionDeleteDayOff;Delete single Custom Working Time;Eliminar solo horario de trabajo personalizado
+1687;pjAdminEmployees_pjActionDeleteDayOffBulk;Delete Multiple Custom Working Times;Eliminar múltiples horario de trabajo personalizados
+1688;pjAdminEmployees_pjActionGetUpdate;Update Custom Working Time;Actualizar el horario de trabajo personalizado
+1689;pjAdminReports;Report Menu;Menú Informe
+1690;pjAdminReports_pjActionEmployees;Report employee;Informe empleado
+1691;pjAdminReports_pjActionGetEmployee;Get employee;Obtener empleado
+1692;pjAdminReports_pjActionServices;Report service;Informe de servicio
+1693;pjAdminReports_pjActionGetService;Get service;Obtener servicio
+1694;pjAdminReports_pjActionPrint;Print;Imprimir
+1695;pjAdminOptions;Options Menu;Menú de opciones
+1696;pjAdminOptions_pjActionBooking;Reservation Options;Opciones de reserva
+1697;pjAdminOptions_pjActionPayments;Payment Options;Opciones de pago
+1698;pjAdminOptions_pjActionBookingForm;Reservation Form;Formulario de reserva
+1699;pjAdminOptions_pjActionNotifications;Notifications;Notificación
+1700;pjAdminOptions_pjActionTerm;Terms & Conditions;Términos y Condiciones
+1701;pjAdminOptions_pjActionReminder;Reminder Options;Opciones de recordatorio
+1702;pjAdminTime;Working Time Menu;Menú de horario de trabajo
+1703;pjAdminTime_pjActionIndex;Default Working Time;Horario de trabajo predeterminado
+1704;pjAdminTime_pjActionSetTime;Create Working Time;Crear horario de trabajo
+1705;pjAdminTime_pjActionSaveTime;Save time;Ahorrar tiempo
+1706;pjAdminTime_pjActionGetDayOff;Custom Working Time;Horario de trabajo personalizado
+1707;pjAdminTime_pjActionCheckDayOff;Check day off;Compruebe el día libre
+1708;pjAdminTime_pjActionSetDayOff;Create/Update Custom Working Time;Crear/actualizar horario de trabajo personalizado
+1709;pjAdminTime_pjActionDeleteDayOff;Delete single Custom Working Time;Eliminar solo horario de trabajo personalizado
+1710;pjAdminTime_pjActionDeleteDayOffBulk;Delete Multiple Custom Working Times;Eliminar múltiples horarios de trabajo personalizados
+1711;pjAdminTime_pjActionGetUpdate;Update Custom Working Time;Actualizar el horario de trabajo personalizado
+1712;pjAdminOptions_pjActionPreview;Preview Menu;Menú Vista Previa
+1713;pjAdminOptions_pjActionInstall;Integration Code Menu;Menú de código de integración
+1714;payment_methods_ARRAY_cash;Cash;Efectivo
+1715;gridTotalPrefix;of;de
+1716;gridTotalSuffix;total;total
+1717;gridShow;Show;Mostrar
+1718;gridEmptyDate;(empty date);(fecha vacía)
+1719;gridInvalidDate;(invalid date);(fecha inválida)
+1720;enum_arr_ARRAY_confirmed;Confirmed;Confirmar
+1721;enum_arr_ARRAY_pending;Pending;Pendiente
+1722;enum_arr_ARRAY_cancelled;Cancelled;Cancelar
+1723;enum_arr_ARRAY_1;No;No
+1724;enum_arr_ARRAY_2;Yes;Sí
+1725;enum_arr_ARRAY_3;Yes (required);Sí (requerido)
+1726;enum_arr_ARRAY_amount;Amount;Cantidad
+1727;enum_arr_ARRAY_percent;Percent;Porcentaje
+1728;pjBaseBackup_pjActionAutoBackup;Create automatic back-ups for database and files;Crear copias de seguridad automáticas para bases de datos y archivos
+1729;pjCron_pjActionIndex;Send Email and SMS reminders;Enviar recordatorios por correo electrónico y SMS
+1730;script_name;Appointment Scheduler;Programador de citas
+1731;wt_title_over;Warning;Advertencia
+1732;wt_body_over;Do you want to overwrite current working time?;¿Desea sobrescribir el horario de trabajo actual?
+1733;invalid_lunch_selected_time;Lunch Break From must precede Lunch Break To;Pausa para el almuerzo Debe preceder Pausa para el almuerzo A
+1734;minutes_lowercase;minutes;minuto
+1735;hours_lowercase;hours;hora
+1736;invalid_lunch_time;Lunch Break hours you have set are not within the Working Time hours;Las horas de descanso para el almuerzo que ha establecido no están dentro de las horas de horario de trabajo
+1737;overwrite_title;Warning;Advertencia
+1738;overwrite_body;There is a Confirmed booking with same time!;Hay una reserva confirmada en el mismo horario!
+1739;opt_o_reminder_cron_text;You need to set CRON jobs. Please, go to System Options - Cron jobs and follow the instructions.;Necesita establecer CRON Jobs. Por favor, vaya a Opciones del sistema - Cron Jobs y siga las instrucciones.
+1740;tabPaymentOptions;Payment Options;Opciones de pago
+1741;infoPaymentOptionsTitle;Payment Options;Opciones de pago
+1742;infoPaymentOptionsBody;Edit the options for the supported payment gateways and then click Save.;Edite las opciones de las pasarelas de pago admitidas y, a continuación, haga clic en Guardar.
+1743;allow_payment_method_ARRAY_1;Yes;Sí
+1744;allow_payment_method_ARRAY_0;No;No
+1745;plugin_payments_add_payment_gateways;Add other Payment Gateways;Añadir otras pasarelas de pago
+1746;plugin_payments_active_payment_gateways;Active Payment Gateways;Pasarelas de pago activas
+1747;plugin_paypal_dt;Date/Time;Fecha/Hora
+1748;plugin_paypal_mc_gross;MC Gross;MC bruto
+1749;plugin_paypal_mc_currency;MC Currency;Moneda MC
+1750;plugin_paypal_payer_email;Payer email;Correo electrónico del pagador
+1751;plugin_paypal_txn_type;Txn type;Tipo de Txn
+1752;plugin_paypal_txn_id;Txn ID;ID de Txn
+1753;plugin_paypal_subscr_id;Subscription ID;ID de suscripción
+1754;plugin_paypal_foreign_id;Foreign ID;Identificación extranjera
+1755;plugin_paypal_btn_close;Close;Cerca
+1756;plugin_paypal_info_title;Transaction details;Detalles de la transacción
+1757;plugin_paypal_btn_view;View;Vista
+1758;plugin_paypal_menu_ipn;IPN;IPN
+1759;plugin_paypal_payment_title;PayPal payment;Pago de PayPal
+1760;plugin_paypal_allow;Allow PayPal payments;Permitir pagos de PayPal
+1761;plugin_paypal_merchant_email;PayPal address:;Dirección de PayPal:
+1762;plugin_paypal_merchant_email_text;Enter the email address associated with your PayPal account.;Introduzca la dirección de correo electrónico asociada a su cuenta PayPal.
+1763;payment_plugin_messages_ARRAY_paypal;Your order is saved. Redirecting to PayPal...;Su pedido se guarda. Redirigir a PayPal...
+1764;plugin_paypal_payment_label;Label;Etiqueta
+1765;plugin_paypal_yesno_ARRAY_T;Yes;Sí
+1766;plugin_paypal_yesno_ARRAY_F;No;No
+1767;plugin_authorize_currency_supported;Please, make sure that currency you have in your Authorize.net account is %s;Asegúrese de que la moneda que tiene en su cuenta de Authorize.net sea %s
+1768;plugin_authorize_currency_not_supported;%s currency you have selected is not supported by Authorize.net;La moneda %s que ha seleccionado no es compatible con Authorize.net
+1769;plugin_authorize_payment_title;Authorize.NET payment;Pago de Authorize.NET
+1770;plugin_authorize_allow;Allow Authorize.net payments;Permitir pagos de Authorize.net
+1771;plugin_authorize_merchant_id;Authorize.Net merchant ID:;ID de comerciante de Authorize.Net:
+1772;plugin_authorize_merchant_id_text;This is your Authorize.Net merchant ID.;Esta es su identificación de comerciante Authorize.Net.
+1773;plugin_authorize_public_key;Authorize.Net transaction key:;Clave de transacción Authorize.Net:
+1774;plugin_authorize_public_key_text;This is your Authorize.Net transaction key.;Esta es su clave de transacción Authorize.Net.
+1775;plugin_authorize_tz;Authorize.Net time zone:;Authorize.Net la zona horaria:
+1776;plugin_authorize_tz_text;Enter the time zone that your Authorize.Net account uses.;Introduzca la zona horaria que utiliza su cuenta de Authorize.Net.
+1777;plugin_authorize_private_key;Authorize.Net signature key;Clave de firma Authorize.Net
+1778;plugin_authorize_private_key_text;This is your Authorize.Net signature key.;Esta es su clave de firma Authorize.Net.
+1779;payment_plugin_messages_ARRAY_authorize;Your order is saved. Redirecting to Authorize.Net...;Su pedido se guarda. Redirigir a Authorize.Net...
+1780;payment_methods_ARRAY_authorize;Authorize.NET;Método de codificación de datos:
+1781;plugin_authorize_payment_label;Label;Etiqueta
+1782;plugin_authorize_yesno_ARRAY_T;Yes;Sí
+1783;plugin_authorize_yesno_ARRAY_F;No;No
+1784;payment_methods_ARRAY_2checkout;2checkout;2checkout
+1785;plugin_2checkout_payment_title;2checkout payment;Pago 2checkout
+1786;plugin_2checkout_allow;Allow 2checkout payments;Permitir pagos de 2checkout
+1787;plugin_2checkout_merchant_id;2checkout merchant ID:;Identificación del comerciante de 2checkout:
+1788;plugin_2checkout_merchant_id_text;This is your 2checkout account number.;Este es su número de cuenta 2checkout.
+1789;plugin_2checkout_private_key;2checkout secret word:;2checkout palabra secreta:
+1790;plugin_2checkout_private_key_text;This is your 2checkout secret word.;Esta es tu palabra secreta 2checkout.
+1791;payment_plugin_messages_ARRAY_2checkout;Your order is saved. Redirecting to 2checkout payment gateway...;Su pedido se guarda. Redirigir a 2checkout pasarela de pago...
+1792;plugin_2checkout_payment_label;Label;Etiqueta
+1793;plugin_2checkout_yesno_ARRAY_T;Yes;Sí
+1794;plugin_2checkout_yesno_ARRAY_F;No;No
+1795;payment_methods_ARRAY_braintree;Braintree;Bienvenido
+1796;plugin_braintree_payment_title;Braintree payment;Pago de Braintree
+1797;plugin_braintree_allow;Allow Braintree payments;Permitir pagos de Braintree
+1798;plugin_braintree_merchant_id;Braintree merchant ID:;Identificación del comerciante de Braintree:
+1799;plugin_braintree_merchant_id_text;This is your Braintree merchant ID.;Esta es tu identificación de comerciante de Braintree.
+1800;plugin_braintree_public_key;Braintree public key:;Clave pública de Braintree:
+1801;plugin_braintree_public_key_text;This is your Braintree public key.;Esta es tu clave pública de Braintree.
+1802;plugin_braintree_private_key;Braintree private key:;Braintree clave privada:
+1803;plugin_braintree_private_key_text;This is your Braintree private key.;Esta es tu clave privada de Braintree.
+1804;payment_plugin_messages_ARRAY_braintree;Your order is saved. Redirecting to Braintree...;Su pedido se guarda. Redirigir a Braintree...
+1805;plugin_braintree_header_title;Braintree Payment;Braintree Pago
+1806;plugin_braintree_site_name;Site Name;Nombre del sitio
+1807;plugin_braintree_braintree_name;Braintree;Bienvenido
+1808;plugin_braintree_make_a_payment;Make a payment with Braintree using PayPal or a card;Realice un pago con Braintree usando PayPal o una tarjeta
+1809;plugin_braintree_amount;Amount;Cantidad
+1810;plugin_braintree_btn_pay_now;Pay Now;Pagar ahora
+1811;plugin_braintree_btn_cancel;Cancel;Cancelar
+1812;plugin_braintree_transaction_failed;Transaction Failed;Falló la transacción
+1813;plugin_braintree_missing_parameters;Post parameters are missing.;Faltan los parámetros de publicación.
+1814;plugin_braintree_transaction_has_status;Your transaction has a status of;Su transacción tiene un estado de
+1815;plugin_braintree_response;Response;Respuesta
+1816;plugin_braintree_transaction;Transaction;Transacción
+1817;plugin_braintree_trasaction_id;ID;ID
+1818;plugin_braintree_trasaction_type;Type;Tipo
+1819;plugin_braintree_trasaction_amount;Amount;Cantidad
+1820;plugin_braintree_trasaction_status;Status;Estatus
+1821;plugin_braintree_payment;Payment;Pago
+1822;plugin_braintree_card_type;Card type;Tipo de tarjeta
+1823;plugin_braintree_card_exp;Card expiration;Caducidad de la tarjeta
+1824;plugin_braintree_card_holder_name;Card holder name;Nombre del titular de la tarjeta
+1825;plugin_braintree_card_location;Customer location;Ubicación del cliente
+1826;plugin_braintree_customer_details;Customer details;Detalles del cliente
+1827;plugin_braintree_cust_id;ID;ID
+1828;plugin_braintree_cust_fname;First name;Primer nombre
+1829;plugin_braintree_cust_lname;Last name;Apellido
+1830;plugin_braintree_cust_email;Email;Correo
+1831;plugin_braintree_cust_company;Company;Empresa
+1832;plugin_braintree_cust_website;Website;Sitio
+1833;plugin_braintree_cust_phone;Phone;Teléfono
+1834;plugin_braintree_cust_fax;Fax;Fax
+1835;plugin_braintree_btn_try_again;Try Again;intentarlo
+1836;plugin_braintree_hash_error;Hash value is not correct.;El valor hash no es correcto.
+1837;plugin_braintree_config_missing;Configuration parameters are missing.;Faltan parámetros de configuración.
+1838;plugin_braintree_payment_label;Label;Etiqueta
+1839;plugin_braintree_plugin_unavailable_title;Sorry!;Lo siento!
+1840;plugin_braintree_plugin_unavailable_text;The system does not support minimum software requirements.;El sistema no admite los requisitos mínimos de software.
+1841;plugin_braintree_yesno_ARRAY_T;Yes;Sí
+1842;plugin_braintree_yesno_ARRAY_F;No;No
+1843;payment_methods_ARRAY_mollie;Mollie;Mollie
+1844;plugin_mollie_methods_ARRAY_ideal;Mollie iDEAL;Mollie iDEAL
+1845;plugin_mollie_methods_ARRAY_mistercash;Mollie Bancontact/Mister Cash;Mollie Bancontact/Señor Efectivo
+1846;plugin_mollie_methods_ARRAY_sofort;Mollie SOFORT Banking;Mollie SOFORT Banca
+1847;plugin_mollie_methods_ARRAY_creditcard;Mollie Creditcard;Mollie Tarjeta de crédito
+1848;plugin_mollie_methods_ARRAY_banktransfer;Mollie Bank transfer;Mollie transferencia Bancaria
+1849;plugin_mollie_methods_ARRAY_directdebit;Mollie SEPA Direct Debit;Débito directo SEPA Mollie
+1850;plugin_mollie_methods_ARRAY_belfius;Mollie Belfius;Mollie Belfius
+1851;plugin_mollie_methods_ARRAY_bitcoin;Mollie Bitcoin;Mollie Bitcoin
+1852;plugin_mollie_methods_ARRAY_podiumcadeaukaart;Mollie PODIUM;Mollie PODIO
+1853;plugin_mollie_methods_ARRAY_paysafecard;Mollie Paysafecard;Mollie Paysafecard
+1854;plugin_mollie_methods_ARRAY_paypal;Mollie PayPal;Mollie PayPal
+1855;plugin_mollie_methods_ARRAY_kbc;Mollie KBC/CBC;Mollie KBC/CBC
+1856;plugin_mollie_payment_title;Mollie payment;Pago de Mollie
+1857;plugin_mollie_allow;Allow Mollie payments;Permitir pagos de Mollie
+1858;plugin_mollie_public_key;Mollie API Key:;Clave API de Mollie:
+1859;plugin_mollie_public_key_text;This is your Mollie API key.;Esta es tu clave API de Mollie.
+1860;plugin_mollie_failure_url;Mollie error page:;Página de error de Mollie:
+1861;plugin_mollie_description;Mollie payment description:;Descripción del pago de Mollie:
+1862;payment_plugin_messages_ARRAY_mollie;Your order is saved. Redirecting to Mollie...;Su pedido se guarda. De Wikipedia, la enciclopedia libre..
+1863;plugin_mollie_ideal_bank_id;Bank;Banco
+1864;plugin_mollie_ideal_bank_choose;Select bank or later;Seleccionar banco o posterior
+1865;plugin_mollie_method;Method;Método
+1866;plugin_mollie_method_allow;Allow Mollie methods;Permitir métodos Mollie
+1867;plugin_mollie_method_empty;-- Payment method --;** Forma de pago **
+1868;plugin_mollie_method_required;Payment method is required.;Se requiere el método de pago.
+1869;plugin_mollie_button_submit;Submit;Presentar
+1870;plugin_mollie_payment_label;Label;Etiqueta
+1871;plugin_mollie_yesno_ARRAY_T;Yes;Sí
+1872;plugin_mollie_yesno_ARRAY_F;No;No
+1873;payment_methods_ARRAY_paypal_express;PayPal Express Checkout;PayPal Express Pedido
+1874;plugin_paypal_express_payment_title;PayPal Express Checkout payment;PayPal Express Checkout pago
+1875;plugin_paypal_express_allow;Allow PayPal Express Checkout payments;Permitir pagos de PayPal Express Checkout
+1876;plugin_paypal_express_merchant_id;PayPal Express Checkout client ID:;PayPal Express Checkout ID de cliente:
+1877;plugin_paypal_express_public_key;PayPal Express Checkout profile ID (optional):;ID de perfil de PayPal Express Checkout (opcional):
+1878;plugin_paypal_express_private_key;PayPal Express Checkout secret:;PayPal Express Checkout secreto:
+1879;payment_plugin_messages_ARRAY_paypal_express;Your order is saved. Redirecting to PayPal Express Checkout...;Su pedido se guarda. Redirigir a PayPal Express Checkout...
+1880;plugin_paypal_express_payment_label;Label;Etiqueta
+1881;plugin_paypal_express_yesno_ARRAY_T;Yes;Sí
+1882;plugin_paypal_express_yesno_ARRAY_F;No;No
+1883;plugin_paypal_express_plugin_unavailable_title;Sorry!;Lo siento!
+1884;plugin_paypal_express_plugin_unavailable_text;The system does not support minimum software requirements.;El sistema no admite los requisitos mínimos de software.
+1885;payment_methods_ARRAY_skrill;Skrill;Skrill
+1886;plugin_skrill_payment_title;Skrill payment;Pago de Skrill
+1887;plugin_skrill_allow;Allow Skrill payments;Permitir pagos de Skrill
+1888;plugin_skrill_merchant_email;Skrill email address:;Dirección de correo electrónico de Skrill:
+1889;plugin_skrill_merchant_email_text;This is your Skrill email address.;Esta es tu dirección de correo electrónico de Skrill.
+1890;plugin_skrill_private_key;Skrill secret word:;Skrill palabra secreta:
+1891;plugin_skrill_private_key_text;This is your Skrill secret word from Skrill Merchant Tools page.;Esta es tu palabra secreta de Skrill de la página de Skrill Merchant Tools.
+1892;payment_plugin_messages_ARRAY_skrill;Your order is saved. Redirecting to Skrill Payment Gateway...;Su pedido se guarda. Redirigir a la puerta de enlace de pago de Skrill...
+1893;plugin_skrill_payment_label;Label;Etiqueta
+1894;plugin_skrill_yesno_ARRAY_T;Yes;Sí
+1895;plugin_skrill_yesno_ARRAY_F;No;No
+1896;payment_methods_ARRAY_stripe;Stripe;Raya
+1897;plugin_stripe_payment_title;Stripe payment;Pago de la raya
+1898;plugin_stripe_allow;Allow Stripe payments;Permitir pagos de Stripe
+1899;plugin_stripe_public_key;Stripe public key:;Clave pública de rayas:
+1900;plugin_stripe_public_key_text;This is your Stripe public key.;Esta es tu clave pública Stripe.
+1901;plugin_stripe_private_key;Stripe secret key:;Raya clave secreta:
+1902;plugin_stripe_private_key_text;This is your Stripe secret key.;Esta es tu clave secreta de Stripe.
+1903;payment_plugin_messages_ARRAY_stripe;Your order is saved. Redirecting to Stripe Checkout...;Su pedido se guarda. Redirigir a Stripe Checkout...
+1904;plugin_stripe_menu_payments;Payments;Pago
+1905;plugin_stripe_info_title;Payment details;Detalles de pago
+1906;plugin_stripe_foreign_id;Foreign ID;Identificación extranjera
+1907;plugin_stripe_stripe_id;Stripe ID;Identificación de la raya
+1908;plugin_stripe_token;Token;Token
+1909;plugin_stripe_created;Date / Time;Fecha / Hora
+1910;plugin_stripe_amount;Amount;Cantidad
+1911;plugin_stripe_currency;Currency;Moneda
+1912;plugin_stripe_btn_view;View;Vista
+1913;plugin_stripe_btn_close;Close;Cerca
+1914;plugin_stripe_description;Description;Descripci
+1915;plugin_stripe_msg;If your browser does not redirects you in 3 seconds, please click the button below.;Si su navegador no lo redirige en 3 segundos, haga clic en el botón de abajo.
+1916;plugin_stripe_submit;Pay with Stripe;Pagar con la raya
+1917;plugin_stripe_payment_label;Label;Etiqueta
+1918;plugin_stripe_yesno_ARRAY_T;Yes;Sí
+1919;plugin_stripe_yesno_ARRAY_F;No;No
+1920;payment_methods_ARRAY_world_pay;WorldPay;WorldPay
+1921;plugin_world_pay_payment_title;WorldPay payment;Pago de WorldPay
+1922;plugin_world_pay_allow;Allow WorldPay payments;Permitir pagos de WorldPay
+1923;plugin_world_pay_merchant_id;WorldPay installation ID:;ID de instalación de WorldPay:
+1924;plugin_world_pay_merchant_id_text;This is your WorldPay installation ID.;Este es su ID de instalación de WorldPay.
+1925;plugin_world_pay_private_key;WorldPay payment response password:;Contraseña de respuesta de pago de WorldPay:
+1926;plugin_world_pay_private_key_text;"This is the payment response password from your WorldPay account.<br/>1. Log in to the Merchant Interface.<br/>2. Select 'Installations' from the left hand navigation.<br/>3. Choose an installation and select the 'Integration Setup' button for either the TEST or PRODUCTION environment.<br/>4. Enter a password into the 'Payment Response Password' input field.<br/>5. Check the 'Enable Payment Response' checkbox.<br/>6. Enter '&lt;wpdisplay item=MC_callback&gt;' into the 'Payment Response URL' input field.<br/>7. Select the 'Save Changes' button.";"Esta es la contraseña de respuesta de pago de su cuenta WorldPay.<br/>1. Inicie sesión en la interfaz del comerciante.<br/>2. Seleccione 'Instalaciones' en la navegación de la izquierda.<br/>3. Elija una instalación y seleccione el botón 'Configuración de integración' para el entorno de PRUEBA o PRODUCCIÓN.<br/>4. Introduzca una contraseña en el campo de entrada 'Contraseña de respuesta de pago'.<br/>5. Marque la casilla de verificación 'Habilitar respuesta de pago'.<br/>6. Introduzca '&lt;wpdisplay item=MC_callback&gt;' en el campo de entrada 'URL de respuesta de pago'.<br/>7. Seleccione el botón 'Guardar cambios'."
+1927;payment_plugin_messages_ARRAY_world_pay;Your order is saved. Redirecting to WorldPay...;Su pedido se guarda. Redirigir a WorldPay...
+1928;plugin_world_pay_payment_label;Label;Etiqueta
+1929;plugin_worldpay_yesno_ARRAY_T;Yes;Sí
+1930;plugin_worldpay_yesno_ARRAY_F;No;No
+1931;service_service_length;Service length;Duracion del servicio
+1932;service_total_minutes;Total minutes;Total de minutos
+1933;service_minutes_unit;minutes;minutos
+1934;service_hours_unit;hours;horas
+1935;error_bodies_ARRAY_ABK17;There are not any available employees.;No hay empleados disponibles.
+1936;infoServiceExample;"""Before"" and ""After"" are added to ""Length"" and together represent ""Total minutes"" of the service. The available slots are calculated based on ""Total minutes"" of the service.";"Antes y ""Después"" se agregan a ""Longitud"" y juntos representan ""Minutos totales"" del servicio. Las ranuras disponibles se calculan en función de los ""Minutos totales"" del servicio."
+1937;menuExport;Export;Exportar
+1938;opt_o_pending_time;Booking pending time;Reserva pendiente de horario
+1939;opt_o_pending_time_text;A period of time, while slots assigned to new bookings with Pending status will not be available for other bookings. ;Un período de tiempo, mientras que los espacios asignados a nuevas reservas con estado Pendiente no estarán disponibles para otras reservas.

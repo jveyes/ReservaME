@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	height: 100%;
+}
+a:link, a:visited, a:active, a:hover{
+	color: #63A8C9;
+	outline: none;
+}
+table{
+	border-collapse: collapse; border-spacing: 0;
+	width: 100%;
+}
+table, th, td {
+   padding: 5px;
+}
+thead th{
+	border: 1px solid #000; 
+	text-align: center; 
+	font-weight: bold;
+}
+tbody td{
+	border: 1px solid #000; 
+	text-align: center; 
+	vertical-align: top;
+}
+tbody td strong{
+	display: block;
+	border-bottom: 1px dotted #000; 
+}
+tbody td div{
+	border: 1px solid #000; 
+	margin-top: 5px;
+	padding: 4px; 
+}

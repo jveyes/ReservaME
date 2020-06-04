@@ -1,0 +1,462 @@
+@CHARSET "UTF-8";
+/* jqueryui fix */
+.ui-widget {
+    font-family: inherit;
+    font-size: inherit;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: inherit;
+    font-size: inherit;
+}
+img.ui-datepicker-trigger {
+    cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+	padding: 10px 0;
+	overflow: hidden;
+}
+#content div.ui-tabs{
+	padding: 0;
+}
+#content div.ui-widget-content{
+	background: none;
+	border: none;
+}
+.ui-tabs .ui-tabs-nav li a{
+	padding: 7px 8px;
+	float: left;
+}
+/* paginator */
+.paginator{
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+.paginator li{
+	display: inline-block;
+}
+.paginator li a:link, .paginator li a:visited{
+	background-color: #CCCCCC;
+	color: #000;
+	display: block;
+	float: left;
+	margin: 0 2px 0 0;
+	padding: 1px 4px;
+	border-radius: 2px;
+	text-decoration: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+}
+.paginator li a:hover{
+	background-color: #EAEAEA;
+}
+.paginator li a.focus{
+	background-color: #072B4F;
+	color: #fff;
+}
+/* fieldset */
+.fieldset{
+	margin: 0 0 10px;
+	padding: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	position: relative;
+}
+.fieldset legend{
+	background-color: #003366;
+	color: #fff;
+	padding: 2px 5px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	width: 250px;
+}
+/* Colors */
+.white{background-color: #fff; border: solid 1px #ccc; color: #000 !important}
+.sky{background-color: #EAFBFB; border: solid 1px #ccc;}
+.light{background-color: #f5f5f5; border: solid 1px #ccc;}
+
+.gallery-item{
+	background-color: #fdfdfd;
+	float: left;
+	width: 100px;
+	height: 140px;
+	margin: 0 5px 5px 0;
+	text-align: center;
+}
+.gallery-image{
+	cursor: move;
+	margin: 0 !important;
+}
+.gallery-image a.image{
+	cursor: move;
+}
+.gallery-image img{
+	border: solid 1px #ccc;
+	padding: 1px;
+	margin: 7px 0 0 0;
+}
+#sortable{
+	overflow: hidden;
+	width: 740px;
+}
+.stock-image{
+	display: block;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+.stock-image img,
+.in-stock{
+	padding: 1px;
+	border: solid 1px #ccc;
+}
+.stock-image img.current{
+	border: solid 1px #003399;
+}
+
+.ico{
+	display: block;
+	height: 16px;
+	width: 16px;
+}
+.ico-add2{background: url(../img/backend/icon-add2.png) 0 0 no-repeat;}
+.ico-delete2{background: url(../img/backend/icon-delete2.png) 0 0 no-repeat;}
+
+.attr abbr{
+	font-weight: bold;
+}
+.attr, .attr_item{
+	float: left;
+	margin: 0 5px 0 0;
+}
+.attr a, .attr input,
+.attr_item a, .attr_item input{
+	float: left;
+}
+.attr a, 
+.attr_item a{
+	margin: 7px 0 0 5px;
+}
+.attr abbr, 
+.attr_item abbr{
+	cursor: pointer;
+}
+
+.attrBox{
+	border-bottom: solid 1px #ccc;
+	line-height: 34px;
+	overflow: hidden;
+	padding: 5px 0;
+}
+.img-frame{
+	border: solid 1px #ccc;
+	padding: 1px;
+}
+.map_holder{
+	width: 710px;
+	height: 280px;
+	padding: 10px;
+	border: solid 1px #ccc;
+	margin: 0 0 10px;
+}
+.map_canvas{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.opBox{
+	border-bottom: solid 1px #ccc;
+	margin: 0 0 10px;
+}
+.extra_header{
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWY1ZjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f5f5f5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f5f5f5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-8 */
+	border: solid 1px #ddd;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	font: bold 14px/30px Arial, sans-serif;
+	padding: 10px;
+}
+.tipsy-listing .tipsy-inner{
+	text-align: left;
+	max-width: 400px;
+}
+.as-avatar{
+	max-width: 75px;
+	max-height: 75px;
+	border: none;
+	vertical-align: middle;
+}
+.icon-question{
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	background: url(../img/backend/help.png) center center no-repeat;
+}
+.pj-table .pj-table-icon-email{
+	background: url(../img/backend/pj-icon-email.png) 0 0 no-repeat;
+}
+.pj-table .pj-table-icon-phone{
+	background: url(../img/backend/pj-icon-phone.png) 0 0 no-repeat;
+}
+.pj-table .pj-table-icon-email,
+.pj-table .pj-table-icon-phone{
+	display: inline-block;
+	margin: 0 4px 0 0;
+	width: 23px;
+	height: 24px;
+}
+#print_wrap{
+	height: 842px;
+	width: 595px;
+	background-color: #fff;
+	padding: 10px 0;
+	margin: 0 auto;
+	width: 700px;
+}
+
+.dContainer{
+	position: relative;
+}
+.dWrapper{
+	width: 670px;
+	overflow-x: scroll;
+	overflow-y: visible;
+	padding-bottom: 5px;
+	margin-left: 72px;
+}
+.dTable{
+	width: 100%;
+}
+.dTable td{
+	white-space: nowrap;
+}
+.dTable td.dHeadcol {
+	border-top: solid 1px #e5e2e2;
+	border-bottom: solid 1px #fff;
+	border-right: solid 1px #fff;
+	position: absolute;
+	margin-top: -1px;
+	left: 0;
+	top: auto;
+	width: 60px;
+}
+.dTable td.dSlot{
+	min-width: 120px;
+}
+.dTable td.dHead{
+	background-color: #f7f7f7;
+	font-weight: bold;
+}
+.frmBooking .float_right em{
+	margin-left: 120px !important;
+}
+.tsDayOff{
+	display: none;
+}
+.pj-table-icon-add{
+	position:absolute;
+	top: 4px;
+	right: 4px;
+	background: url(../img/backend/pj-icon-add.png) 0 0 no-repeat;
+	display: none;
+	width: 23px;
+	height: 24px;
+}
+.pj-table td.available{
+	position: relative;
+}
+.pj-table td.available:hover .pj-table-icon-add{
+	display: block;
+}
+#grid_services .pj-paginator,
+#grid_employees .pj-paginator{
+	display: none;
+}
+.pj-loader-outer{
+	position: relative;
+}
+.pj-loader{
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+	background: url("../img/backend/pj-preloader.gif") no-repeat scroll center center rgba(153, 153, 153, 0.3);
+    left: 0;
+    position: absolute;
+    top: 0px;
+}
+.theme-holder{
+	padding-top: 15px;
+	overflow: hidden;
+}
+.theme-holder .theme-box-outer{
+	width: 19.59999%;
+	margin-bottom: 26px;
+	display: inline-block;
+	vertical-align: top;
+}
+.theme-holder .theme-box{
+	margin-left: 10px;
+	overflow: hidden;
+}
+.theme-holder .theme-box .theme-image{
+	display: block;
+	width: 120px;
+	height: 120px;
+	border: 2px solid #e9e9e9;
+	position: relative;
+	margin-bottom: 8px;
+}
+.theme-holder .theme-box .theme-image.active{
+	border: 2px solid #b2ca80;
+}
+.theme-holder .theme-box .theme-image span{
+	display: none;
+	position: absolute;
+	width: 24px;
+	height: 27px;
+	left: 0px;
+	bottom: 0px;
+	background: url("../img/backend/tick.png") no-repeat;
+}
+.theme-holder .theme-box .theme-image.active span{
+	display: block;
+}
+.theme-holder .theme-box .theme-image img{
+	display: block;
+}
+.theme-holder .theme-box label{
+	display: block;
+	color: #68add6;
+	text-align: center;
+	margin-bottom: 8px;
+	width: 120px;
+}
+.theme-holder .theme-box label.inused{
+	margin-bottom: 0px;
+	color: #595a5c;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.service-table { padding: 15px; }
+.service-table h3 { font-weight: 300; }
+.service-table + .service-table { border-top: 1px dashed rgba(0,0,0,0.1);} 
+.service-table .label { padding: 5px 10px; font-size: 14px; font-weight: 300; display: inline-block; margin-bottom: 5px; margin-right: 5px; line-height: 1.3; }
+
+.service-summary { border-top: 1px dashed rgba(0,0,0,0.1); border-bottom: 1px dashed rgba(0,0,0,0.1); padding-top: 10px; }
+		
+.popover.clockpicker-popover{
+	z-index: 9999;
+}
+.table .pj-number-cell{
+	padding-left: 15px;
+}
+.panel.ibox-content{padding: 0;}
+.service-tooltip{font-size: 14px;font-size: 16px;margin-left: 15px;}
+#lastest_bookings tbody tr{cursor: pointer;}
+#morris-donut-chart2,
+        #morris-donut-chart { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+        .donut-chart-legend { padding-top: 45px; }
+        .donut-chart-legend span { display: inline-block; font-size: 12px; padding-right: 10px;}
+        .donut-chart-legend strong { display: inline-block; width: 40px; height: 12px; margin-bottom: -1px; margin-right: 2px; }
+		
+		.donut-color-1 { background-color: #5ac5b6; }
+		.donut-color-2 { background-color: #fbc994; }
+		.donut-color-3 { background-color: #85cae7; }
+
+		.stat-list { padding-top: 30px; }
+
+		.h1 { font-weight: 600; }
+
+		.timeline-item a,
+		p.h1 a { color: #676a6c; }
+
+		.edit-reservation-actions { margin-bottom: 10px; }
+
+		.edit-reservation-widgets { vertical-align: top; font-size: 0; list-style: none; margin: 0 -10px; padding: 0; }
+		.edit-reservation-widgets li { display: inline-block; vertical-align: top; width: 50%; padding: 0 10px 10px; }
+		.edit-reservation-widgets .widget { margin: 0; } 
+
+		.modal-image { text-align: center; margin-bottom: 30px; }
+		.modal-image .portal { margin: 0 auto; }
+		
+		.car-reservation-outer { height: 25px; width: 100%; position: relative; }
+
+		.car-reservation { position: absolute; top: 0; left: 0; margin-bottom: 5px; padding: 5px 5px 0; z-index: 10; }
+		.car-reservation-outer:last-child { padding-bottom: 5px; height: 30px; }
+
+		.car-reservation-inner { height: 20px; width: 100%; border-radius: 2px; padding: 0 5px; color: #fff; white-space:nowrap; text-overflow: ellipsis; overflow: hidden; }
+		.car-reservation-inner:hover { opacity: 0.7; }
+
+		.table-car-availability .table > tbody > tr > td,
+		.table-car-availability { vertical-align: top; padding: 0; }
+		.table-car-availability thead th { text-align: center; font-weight: normal; }
+		.table-car-availability thead th:first-child { text-align: left; width: 20%;}
+		.table-car-availability thead th strong { display: block; font-size: 16px; }
+
+		.table-car-availability .table > tbody > tr > td:first-child { text-align: left; width: 20%; padding: 8px; vertical-align: middle; }
+		.table-car-availability .table > tbody > tr > td:first-child strong { display: block; font-size: 15px; font-weight: 600; }
+		.table-car-availability tbody td { width: 11.4286%; position: relative; }
+
+		.table-car-availability .table > thead > tr >.day-today { background: #11511a; color: #fff; }
+		.table-car-availability .table > tbody > tr >.day-today { background: #fbfdfe;  }
+
+		.dashboard-stats .ibox-content { min-height: 356px; }
+
+		.file-name h3 { font-weight: 300; margin: 0 0 5px; }
+
+		.file-boxes-holder { padding: 0 15px; }
+		
+/* Schedule */
+		.table-appointment-management .table > tbody > tr > td { padding: 5px 5px 0; } 
+		.table-appointment-management .car-reservation-inner { padding: 5px; }
+
+		.table-appointment-management .car-reservation { position: relative; top: auto; left: auto; display: block; padding: 0; margin-bottom: 0; }
+
+		.table-appointment-management .car-reservation-outer:last-child,
+		.table-appointment-management .car-reservation-outer,
+		.table-appointment-management .car-reservation-inner { height: auto; }
+
+		.table-appointment-management .car-reservation-outer:last-child { padding-bottom: 0; border-bottom: 0; }
+		.table-appointment-management .car-reservation-outer { margin-bottom: 5px; border-bottom: 1px dashed rgba(0,0,0,.1); padding-bottom: 4px; }
+
+		.table-appointment-management .table > tbody > tr > td:first-child,
+		.table-appointment-management thead th:first-child { width: 6%; text-align: center; }
+
+		.table-appointment-management tbody td { width: 13.4286%; text-align: center; }
+		.table-appointment-management tbody td p { margin-bottom: 5px; }
+
+		.table-appointment-management .text-pending { color: #c79865; }
+		.table-appointment-management .text-pending:hover { color: #b18556; }
+
+		.appointment-management-date { font-size: 18px; padding: 5px 0 10px; display: block; }
+
+		.table-appointment-management .table > tbody > tr >.day-today { background-color: #f9f9f9; }
+
+		.push { height: 49px; width: 100%; display: block; }
+
+		@media (max-width: 1024px){
+			.car-reservation-outer { min-width: 150px; }
+
+			.table-appointment-management > .table > tbody > tr > td { vertical-align: top; }
+		}
+
+		@media (max-width: 768px){
+			.appointment-management-date { font-size: 14px; padding: 0px 0 5px;} 
+		}
+
+		

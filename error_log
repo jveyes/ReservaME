@@ -1,0 +1,8 @@
+[11-May-2020 16:12:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/jmvbco/citas.jmvb.co/app/preview.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/jmvbco/citas.jmvb.co/app/preview.php on line 4
+[11-May-2020 16:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/jmvbco/citas.jmvb.co/app/preview.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/jmvbco/citas.jmvb.co/app/preview.php on line 4

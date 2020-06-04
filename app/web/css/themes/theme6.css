@@ -1,0 +1,212 @@
+
+@font-face {
+	font-family: 'Droid Serif';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Droid Serif'), local('DroidSerif'), url(https://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaI4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaIbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+	font-family: 'Droid Serif';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(https://fonts.gstatic.com/s/droidserif/v6/QQt14e8dY39u-eYBZmppwYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/droidserif/v6/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face {
+	font-family: 'Droid Serif';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url(https://fonts.gstatic.com/s/droidserif/v6/cj2hUnSRBhwmSPr9kS5898u2Q0OS-KeTAWjgkS85mDg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/droidserif/v6/cj2hUnSRBhwmSPr9kS5899kZXW4sYc4BjuAIFc1SXII.woff) format('woff');
+}
+@font-face {
+	font-family: 'Droid Serif';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), url(https://fonts.gstatic.com/s/droidserif/v6/c92rD_x0V1LslSFt3-QEpo9ObOXPY1wUIXqKtDjSdsY.woff2) format('woff2'), url(https://fonts.gstatic.com/s/droidserif/v6/c92rD_x0V1LslSFt3-QEpgRV2F9RPTaqyJ4QibDfkzM.woff) format('woff');
+}
+
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper * { font-family: 'Droid Serif', serif; }
+#pjWrapper .fa { font-family: 'FontAwesome'; }
+#pjWrapper .glyphicon { font-family: 'Glyphicons Halflings'; }
+
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper .pjAsLinkMore { color: #9acf5b; }
+#pjWrapper .pjAsLinkMore:hover { color: #77a63e; }
+
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+#pjWrapper .pjAsBtnPrimary.disabled,
+#pjWrapper .pjAsBtnPrimary.disabled.active,
+#pjWrapper .pjAsBtnPrimary.disabled.focus,
+#pjWrapper .pjAsBtnPrimary.disabled:active,
+#pjWrapper .pjAsBtnPrimary.disabled:focus,
+#pjWrapper .pjAsBtnPrimary.disabled:hover,
+#pjWrapper .pjAsBtnPrimary[disabled],
+#pjWrapper .pjAsBtnPrimary.active[disabled],
+#pjWrapper .pjAsBtnPrimary.focus[disabled],
+#pjWrapper .pjAsBtnPrimary[disabled]:active,
+#pjWrapper .pjAsBtnPrimary[disabled]:focus,
+#pjWrapper .pjAsBtnPrimary[disabled]:hover,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary.active,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary.focus,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary:active,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary:focus,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary:hover,
+#pjWrapper .pjAsBtnPrimary { border: 0; border-bottom: 2px solid #77a63e; background: #9acf5b; color: #fff; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjAsBtnPrimary:hover { border: 0; border-bottom: 2px solid #77a63e; background: #77a63e; color: #fff; }
+
+#pjWrapper .pjAsBtnSecondary { border: 0; border-bottom: 2px solid #d7dacf; background: #e3e3e1; color: #77a63e; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjAsBtnSecondary:hover { border: 0; border-bottom: 2px solid #d7dacf; background: #d7dacf; color: #fff; }
+
+#pjWrapper .pjAsBtnBack { color: #9acf5b; }
+#pjWrapper .pjAsBtnBack:hover { color: #77a63e; }
+
+/* ==========================================================================
+	#pjAsContainer
+========================================================================== */
+#pjWrapper .pjAsContainer { border-color: #e3e3e1; background: #e3e3e1; color: #4c4e4d; }
+
+/* ==========================================================================
+	#pjAsNav
+========================================================================== */
+#pjWrapper .pjAsNav .pjAsBtn { border: 0; border-bottom: 2px solid #d7dacf; background: #f8f8f6; color: #77a63e; }
+#pjWrapper .pjAsNav .pjAsBtn:hover { border: 0; border-bottom: 2px solid #77a63e; background: #9acf5b; color: #fff; }
+#pjWrapper .pjAsNav .active .pjAsBtn { border: 0; border-bottom: 2px solid #77a63e; background: #9acf5b; color: #fff; }
+#pjWrapper .pjAsNav .active .pjAsBtn:hover { border: 0; border-bottom: 2px solid #77a63e; background: #77a63e; color: #fff; }
+
+/* ==========================================================================
+	#pjAsAside
+========================================================================== */
+#pjWrapper .pjAsCalendarInline,
+#pjWrapper .pjAsAsideService { border-color: #e3e3e1; background: #f8f8f6; }
+
+#pjWrapper .pjAsAside .pjAsAsideTitle,
+#pjWrapper .pjAsAside .pjAsHead .pjAsHeadTitle { color: #56ae71; text-transform: none; }
+#pjWrapper .pjAsAside dt { color: #9acf5b; }
+#pjWrapper .pjAsAside dd p { color: #4c4e4d; }
+
+#pjWrapper .pjAsAside .pjAsAsideService:first-of-type { background: #e3e3e1; }
+#pjWrapper .pjAsAsideService .pjAsBtnRemove { border-color: #56ae71; background: #f8f8f6; color: #56ae71; }
+#pjWrapper .pjAsAsideService .pjAsBtnRemove:hover { border-color: #9acf5b; color: #9acf5b; }
+
+#pjWrapper .pjAsSelectedDateWrapper li { border-color: #e3e3e1; background: #f8f8f6; }
+#pjWrapper .pjAsSelectedDateWrapper .pjAsSelectedDate { color: #9acf5b; }
+#pjWrapper .pjAsSelectedDateWrapper .pjAsSelectedDate strong { color: #56ae71; }
+
+/* ==========================================================================
+	#pjAsLanguage
+========================================================================== */
+#pjWrapper .pjAsLanguage .pjAsBtnLanguageTrigger {background: #e3e3e1;color: #56ae71;border-color: #ddd;}
+#pjWrapper .pjAsLanguage .dropdown-menu { background: #e3e3e1; }
+#pjWrapper .pjAsLanguage .dropdown-menu a { color: #56ae71; }
+#pjWrapper .pjAsLanguage .dropdown-menu a:hover,
+#pjWrapper .pjAsLanguage .dropdown-menu .current a { background: #9acf5b; color: #fff; }
+
+/* ==========================================================================
+	#pjAsHead
+========================================================================== */
+#pjWrapper .pjAsContainer .pjAsHead { border-color: #e3e3e1; background: #e3e3e1; }
+#pjWrapper .pjAsHead .pjAsHeadTitle { color: #56ae71; text-transform: uppercase; }
+
+#pjWrapper .pjAsHead .control-label { color: #56ae71; font-weight: bold; }
+#pjWrapper .pjAsHead .form-control { color: #56ae71; }
+#pjWrapper .pjAsHead .form-control:focus { border-color: #56ae71; -webkit-box-shadow: 0 0 10px rgba(86, 174, 113, .3); box-shadow: 0 0 10px rgba(86, 174, 113, .3); }
+#pjWrapper .pjAsHead .pjAsBtnLink { color: #56ae71; }
+#pjWrapper .pjAsHead .pjAsBtnLink .badge { background: #56ae71; color: #fff; }
+
+/* ==========================================================================
+	#pjAsListElements
+========================================================================== */
+#pjWrapper .pjAsListElement { border-color: #e3e3e1; background: #f8f8f6; }
+#pjWrapper .pjAsListElementTitle { color: #56ae71; font-weight: bold; }
+#pjWrapper .pjAsEmployee .pjAsEmployeePosition { color: #3f3939; font-weight: bold; }
+
+/* ==========================================================================
+	#pjAsEmployeeInfo
+========================================================================== */
+#pjWrapper .pjAsEmployeeInfoSection { border-color: #e3e3e1; background: #f8f8f6; }
+#pjWrapper .pjAsEmployeeInfoSection p strong { color: #56ae71; }
+#pjWrapper .pjAsSectionTitle { color: #77a63e; }
+#pjWrapper .pjAsEmployeeInfoTitle { color: #56ae71; }
+#pjWrapper .pjAsEmployeePosition { color: #3f3939; }
+#pjWrapper .pjAsTableTimesActions p { color: #56ae71; }
+
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dt { color: #3f3939; }
+#pjWrapper .pjAsEmployeeContacts .pjAsEmployeeContactIcon { border-color: #3f3939; color: #3f3939; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd { color: #56ae71; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd a { color: #56ae71; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd a:hover { color: #56ae71; }
+
+#pjWrapper .pjAsSectionForm .control-label { color: #3f3939; }
+#pjWrapper .pjAsSectionForm .form-control { color: #56ae71; }
+#pjWrapper .pjAsSectionForm .form-control:focus { border-color: #56ae71; -webkit-box-shadow: 0 0 10px rgba(86, 174, 113, .3); box-shadow: 0 0 10px rgba(86, 174, 113, .3); }
+
+#pjWrapper .pjAsBox { border-color: #d7dacf; background: #e3e3e1; }
+#pjWrapper .pjAsBox dt { color: #3f3939; }
+#pjWrapper .pjAsBox dd { color: #56ae71; }
+
+#pjWrapper .pjAsDatePick .form-control { color: #56ae71; }
+#pjWrapper .pjAsDatePick .form-control:focus { border-color: #ccc; -webkit-box-shadow: none; box-shadow: none; }
+#pjWrapper .pjAsDatePick .input-group-addon { background: #fff; color: #9acf5b; }
+#pjWrapper .pjAsDatePick .input-group-addon:hover { color: #77a63e; }
+
+/* ==========================================================================
+	#pjAsChosenServices
+========================================================================== */
+#pjWrapper .pjAsChosenServices .pjAsServiceTitle { color: #56ae71; font-weight: bold; }
+#pjWrapper .pjAsChosenService { border-color: #e3e3e1; background: #f8f8f6; }
+#pjWrapper .pjAsChosenService p { color: #4c4e4d; }
+#pjWrapper .pjAsChosenService p strong { color: #56ae71; }
+#pjWrapper .pjAsChosenService a { color: #9acf5b; }
+#pjWrapper .pjAsChosenService a:hover { color: #77a63e; }
+#pjWrapper .pjAsChosenService .pjAsBtnRemove { border-color: #000; color: #000; }
+#pjWrapper .pjAsSectionTotal { color: #4c4e4d; }
+#pjWrapper .pjAsSectionPrice { color: #56ae71; }
+
+#pjWrapper .pjAsCheckout { border-color: #e3e3e1; background: #f8f8f6; }
+#pjWrapper .pjAsCheckout .control-label { color: #4c4e4d; }
+#pjWrapper .pjAsCheckout .form-control { color: #56ae71; }
+#pjWrapper .pjAsCheckout .form-control:focus { border-color: #56ae71; -webkit-box-shadow: 0 0 10px rgba(86, 174, 113, .3); box-shadow: 0 0 10px rgba(86, 174, 113, .3); }
+#pjWrapper .pjAsCheckout .asterisk { color: #d47464; }
+#pjWrapper .pjAsCheckout .checkbox { color: #56ae71; }
+
+/* ==========================================================================
+	#pjAsServices
+========================================================================== */
+#pjWrapper .pjAsServiceMeta dd { color: #56ae71; }
+
+/* ==========================================================================
+	#pjCalendar
+========================================================================== */
+#pjWrapper .pj-calendar,
+#pjWrapper .pj-calendar-head { border-color: #e3e3e1; }
+#pjWrapper .pj-calendar { background: #f8f8f6; }
+#pjWrapper .pj-calendar-head { background: #fff; }
+#pjWrapper .pj-calendar-ym { color: #56ae71; }
+#pjWrapper .pj-calendar-actions .btn-primary { border-color: #77a63e; background: #9acf5b; color: #fff; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pj-calendar-actions .btn-primary:hover { border-color: #77a63e; background: #77a63e; color: #fff; }
+#pjWrapper .pj-calendar-actions .btn-primary .glyphicon{color: #fff;}
+
+#pjWrapper .pj-calendar-day-header p { color: #77a63e; }
+.pj-calendar-day { background: #fff; }
+#pjWrapper .pj-calendar-day p { background: #9acf5b; color: #fff; }
+#pjWrapper .pj-calendar-day p:hover { background: #77a63e; color: #fff; }
+#pjWrapper .pj-calendar-day-selected p { background: #77a63e; color: #fff; }
+#pjWrapper .pj-calendar-day-disabled p,
+#pjWrapper .pj-calendar-day-disabled p:hover { background: #f8f8f6; color: #56ae71; }
+
+#pjWrapper .pj-calendar-day-past p,
+#pjWrapper .pj-calendar-day-past p:hover,
+#pjWrapper .pj-calendar-day-inactive p,
+#pjWrapper .pj-calendar-day-inactive p:hover { background: #f1f1f1; color: #b9b7b8; }
+
+#pjWrapper .pjAsTableTimes .pjAsTimeAvailable a { background-color: #9acf5b; color: #fff; }
+
+#pjWrapper .pjAsTableTimes .pjAsTimeAvailable a:hover,
+#pjWrapper .pjAsTableTimes .pjAsTimeSelected a { background-color: #77a63e; color: #fff; }

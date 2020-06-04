@@ -1,0 +1,213 @@
+
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://fonts.gstatic.com/s/firasans/v5/VTBnrK42EiOBncVyQXZ7j-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/firasans/v5/VTBnrK42EiOBncVyQXZ7j3hCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Fira Sans'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOugdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: italic;
+	font-weight: 300;
+	src: local('Fira Sans Light Italic'), local('FiraSans-LightItalic'), url(https://fonts.gstatic.com/s/firasans/v5/6s0YCA9oCTF6hM60YM-qTUo2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/firasans/v5/6s0YCA9oCTF6hM60YM-qTR_xHqYgAV9Bl_ZQbYUxnQU.woff) format('woff');
+}
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Fira Sans Italic'), local('FiraSans-Italic'), url(https://fonts.gstatic.com/s/firasans/v5/QURAmFz4b80g324-oF-Uj44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/firasans/v5/QURAmFz4b80g324-oF-Uj4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Fira Sans Bold Italic'), local('FiraSans-BoldItalic'), url(https://fonts.gstatic.com/s/firasans/v5/6s0YCA9oCTF6hM60YM-qTYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/firasans/v5/6s0YCA9oCTF6hM60YM-qTTqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper * { font-family: 'Fira Sans', sans-serif; }
+#pjWrapper .fa { font-family: 'FontAwesome'; }
+#pjWrapper .glyphicon { font-family: 'Glyphicons Halflings'; }
+
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper .pjAsLinkMore { color: #1ec290; }
+#pjWrapper .pjAsLinkMore:hover { color: #1db084; }
+
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+#pjWrapper .pjAsBtnPrimary.disabled,
+#pjWrapper .pjAsBtnPrimary.disabled.active,
+#pjWrapper .pjAsBtnPrimary.disabled.focus,
+#pjWrapper .pjAsBtnPrimary.disabled:active,
+#pjWrapper .pjAsBtnPrimary.disabled:focus,
+#pjWrapper .pjAsBtnPrimary.disabled:hover,
+#pjWrapper .pjAsBtnPrimary[disabled],
+#pjWrapper .pjAsBtnPrimary.active[disabled],
+#pjWrapper .pjAsBtnPrimary.focus[disabled],
+#pjWrapper .pjAsBtnPrimary[disabled]:active,
+#pjWrapper .pjAsBtnPrimary[disabled]:focus,
+#pjWrapper .pjAsBtnPrimary[disabled]:hover,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary.active,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary.focus,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary:active,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary:focus,
+#pjWrapper fieldset[disabled] .pjAsBtnPrimary:hover,
+#pjWrapper .pjAsBtnPrimary { border-color: #1db084; border-width: 2px; background: #1ec290; color: #fff; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjAsBtnPrimary:hover { border-color: #1db084; border-width: 2px; background: #1db084; color: #fff; }
+
+#pjWrapper .pjAsBtnSecondary { border: 0; background: none; color: #1ec290; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjAsBtnSecondary:hover { border: 0; background: none; color: #1db084; }
+
+#pjWrapper .pjAsBtnBack { color: #1ec290; }
+#pjWrapper .pjAsBtnBack:hover { color: #1db084; }
+
+/* ==========================================================================
+	#pjAsContainer
+========================================================================== */
+#pjWrapper .pjAsContainer { color: #6e6e6e; }
+
+/* ==========================================================================
+	#pjAsNav
+========================================================================== */
+#pjWrapper .pjAsNav .pjAsBtn { border: 0; background: none; color: #1ec290; }
+#pjWrapper .pjAsNav .pjAsBtn:hover { border: 0; background: none; color: #1db084; }
+#pjWrapper .pjAsNav .active .pjAsBtn { border-color: #1db084; border-width: 2px; background: #1ec290; color: #fff; }
+#pjWrapper .pjAsNav .active .pjAsBtn:hover { border-color: #1db084; border-width: 2px; background: #1db084; color: #fff; }
+
+/* ==========================================================================
+	#pjAsAside
+========================================================================== */
+#pjWrapper .pjAsAside .pjAsAsideTitle,
+#pjWrapper .pjAsAside .pjAsHead .pjAsHeadTitle { color: #559d87; text-transform: none; }
+#pjWrapper .pjAsAside dt { color: #1db084; }
+#pjWrapper .pjAsAside dd p { color: #6e6e6e; }
+
+#pjWrapper .pjAsAside .pjAsAsideService:first-of-type { background: #f3f5f4; }
+#pjWrapper .pjAsAsideService .pjAsBtnRemove { border-color: #1db084; background: #fff; color: #1db084; }
+#pjWrapper .pjAsAsideService .pjAsBtnRemove:hover { border-color: #1ec290; color: #1ec290; }
+
+#pjWrapper .pjAsSelectedDateWrapper .pjAsSelectedDate { color: #1db084; }
+#pjWrapper .pjAsSelectedDateWrapper .pjAsSelectedDate strong { color: #559d87; }
+
+/* ==========================================================================
+	#pjAsLanguage
+========================================================================== */
+#pjWrapper .pjAsLanguage .pjAsBtnLanguageTrigger {background: #f3f5f4;color: #559d87;border-color: #ddd;}
+#pjWrapper .pjAsLanguage .dropdown-menu { background: #f3f5f4; }
+#pjWrapper .pjAsLanguage .dropdown-menu a { color: #559d87; }
+#pjWrapper .pjAsLanguage .dropdown-menu a:hover,
+#pjWrapper .pjAsLanguage .dropdown-menu .current a { background: #1ec290; color: #fff; }
+
+/* ==========================================================================
+	#pjAsHead
+========================================================================== */
+#pjWrapper .pjAsContainer .pjAsHead { background: #f3f5f4; }
+#pjWrapper .pjAsHead .pjAsHeadTitle { color: #559d87; text-transform: uppercase; }
+
+#pjWrapper .pjAsHead .control-label { color: #559d87; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjAsHead .form-control { color: #1db084; }
+#pjWrapper .pjAsHead .form-control:focus { border-color: #1db084; -webkit-box-shadow: 0 0 10px rgba(29, 176, 132, .3); box-shadow: 0 0 10px rgba(29, 176, 132, .3); }
+#pjWrapper .pjAsHead .pjAsBtnLink { color: #559d87; }
+#pjWrapper .pjAsHead .pjAsBtnLink .badge { background: #559d87; color: #fff; }
+
+/* ==========================================================================
+	#pjAsListElements
+========================================================================== */
+#pjWrapper .pjAsListElementTitle { color: #559d87; font-weight: bold; }
+#pjWrapper .pjAsEmployee .pjAsEmployeePosition { color: #1db084; font-weight: bold; }
+
+/* ==========================================================================
+	#pjAsEmployeeInfo
+========================================================================== */
+#pjWrapper .pjAsEmployeeInfoSection p strong { color: #559d87; }
+#pjWrapper .pjAsSectionTitle { color: #559d87; }
+#pjWrapper .pjAsEmployeeInfoTitle { color: #559d87; }
+#pjWrapper .pjAsEmployeePosition { color: #1db084; }
+#pjWrapper .pjAsTableTimesActions p { color: #559d87; }
+
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dt { color: #6e6e6e; }
+#pjWrapper .pjAsEmployeeContacts .pjAsEmployeeContactIcon { border-color: #6e6e6e; color: #6e6e6e; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd { color: #1db084; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd a { color: #1ec290; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd a:hover { color: #1db084; }
+
+#pjWrapper .pjAsSectionForm .control-label { color: #6e6e6e; }
+#pjWrapper .pjAsSectionForm .form-control { color: #1db084; }
+#pjWrapper .pjAsSectionForm .form-control:focus { border-color: #1db084; -webkit-box-shadow: 0 0 10px rgba(29, 176, 132, .3); box-shadow: 0 0 10px rgba(29, 176, 132, .3); }
+
+#pjWrapper .pjAsBox { border-color: #656a68; background: #7d8381; }
+#pjWrapper .pjAsBox dt,
+#pjWrapper .pjAsBox dd { color: #fff; }
+
+#pjWrapper .pjAsDatePick .form-control { color: #1db084; }
+#pjWrapper .pjAsDatePick .form-control:focus { border-color: #ccc; -webkit-box-shadow: none; box-shadow: none; }
+#pjWrapper .pjAsDatePick .input-group-addon { background: #fff; color: #1ec290; }
+#pjWrapper .pjAsDatePick .input-group-addon:hover { color: #1db084; }
+
+/* ==========================================================================
+	#pjAsChosenServices
+========================================================================== */
+#pjWrapper .pjAsChosenServices .pjAsServiceTitle { color: #559d87; font-weight: bold; }
+#pjWrapper .pjAsChosenService p { color: #6e6e6e; }
+#pjWrapper .pjAsChosenService p strong { color: #559d87; }
+#pjWrapper .pjAsChosenService a { color: #1ec290; }
+#pjWrapper .pjAsChosenService a:hover { color: #1db084; }
+#pjWrapper .pjAsChosenService .pjAsBtnRemove { border-color: #000; color: #000; }
+#pjWrapper .pjAsSectionTotal { color: #6e6e6e; }
+#pjWrapper .pjAsSectionPrice { color: #559d87; }
+
+#pjWrapper .pjAsCheckout .control-label { color: #6e6e6e; }
+#pjWrapper .pjAsCheckout .form-control { color: #1db084; }
+#pjWrapper .pjAsCheckout .form-control:focus { border-color: #1db084; -webkit-box-shadow: 0 0 10px rgba(29, 176, 132, .3); box-shadow: 0 0 10px rgba(29, 176, 132, .3); }
+#pjWrapper .pjAsCheckout .asterisk { color: #d47464; }
+#pjWrapper .pjAsCheckout .checkbox { color: #1db084; }
+
+/* ==========================================================================
+	#pjAsServices
+========================================================================== */
+#pjWrapper .pjAsServiceMeta dd { color: #1db084; }
+
+/* ==========================================================================
+	#pjCalendar
+========================================================================== */
+#pjWrapper .pj-calendar,
+#pjWrapper .pj-calendar-head { border-color: #ddd; }
+#pjWrapper .pj-calendar { background: #f3f5f4; }
+#pjWrapper .pj-calendar-head { background: #fff; }
+#pjWrapper .pj-calendar-ym { color: #559d87; }
+#pjWrapper .pj-calendar-actions .btn-primary { border-color: #1db084; background: #1ec290; color: #fff; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pj-calendar-actions .btn-primary:hover { border-color: #1db084; background: #1db084; color: #fff; }
+#pjWrapper .pj-calendar-actions .btn-primary .glyphicon{color: #fff;}
+
+#pjWrapper .pj-calendar-day-header p { color: #1db084; }
+.pj-calendar-day { background: #fff; }
+#pjWrapper .pj-calendar-day p { background: #1ec290; color: #fff; }
+#pjWrapper .pj-calendar-day p:hover { background: #1db084; color: #fff; }
+#pjWrapper .pj-calendar-day-selected p { background: #559d87; color: #fff; }
+#pjWrapper .pj-calendar-day-disabled p,
+#pjWrapper .pj-calendar-day-disabled p:hover { background: #f3f5f4; color: #559d87; }
+
+#pjWrapper .pjAsTableTimes .pjAsTimeSelected a { background-color: #1db084; }  
+
+#pjWrapper .pj-calendar-day-past p,
+#pjWrapper .pj-calendar-day-past p:hover,
+#pjWrapper .pj-calendar-day-inactive p,
+#pjWrapper .pj-calendar-day-inactive p:hover { background: #f1f1f1; color: #b9b7b8; }

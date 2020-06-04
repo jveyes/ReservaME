@@ -1,0 +1,304 @@
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 300;
+	src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxko2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff) format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxolIZu-HDpmDIZMigmsroc4.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper * { font-family: 'Open Sans', sans-serif; }
+#pjWrapper .fa { font-family: 'FontAwesome'; }
+#pjWrapper .glyphicon { font-family: 'Glyphicons Halflings'; }
+
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper .pjAsLinkMore { color: #54af30; }
+#pjWrapper .pjAsLinkMore:hover { color: #428926; }
+
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+#pjWrapper .pjAsBtnPrimary { border-color: #1b6aac; color: #fff; text-transform: capitalize; 
+	background: rgb(64,152,226);
+	background: -moz-linear-gradient(top,  rgba(64,152,226,1) 0%, rgba(46,134,208,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,152,226,1)), color-stop(100%,rgba(46,134,208,1)));
+	background: -webkit-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: -o-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: linear-gradient(to bottom,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4098e2', endColorstr='#2e86d0',GradientType=0 );
+}
+#pjWrapper .pjAsBtnPrimary:hover { border-color: #1b6aac; color: #fff; 
+	background: rgb(46,134,208);
+	background: -moz-linear-gradient(top,  rgba(46,134,208,1) 0%, rgba(64,152,226,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(46,134,208,1)), color-stop(100%,rgba(64,152,226,1)));
+	background: -webkit-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: -o-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: linear-gradient(to bottom,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e86d0', endColorstr='#4098e2',GradientType=0 );
+}
+
+#pjWrapper .pjAsBtnSecondary { border-color: #bebabb; color: #2f2d2e; text-transform: capitalize; 
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(253,253,253,1) 27%, rgba(248,246,247,1) 57%, rgba(245,241,240,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(27%,rgba(253,253,253,1)), color-stop(57%,rgba(248,246,247,1)), color-stop(100%,rgba(245,241,240,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f1f0',GradientType=0 );
+}
+#pjWrapper .pjAsBtnSecondary:hover { border-color: #bebabb; color: #2f2d2e; 
+	background: rgb(245,241,240);
+	background: -moz-linear-gradient(top,  rgba(245,241,240,1) 0%, rgba(248,246,247,1) 43%, rgba(253,253,253,1) 73%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,241,240,1)), color-stop(43%,rgba(248,246,247,1)), color-stop(73%,rgba(253,253,253,1)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f1f0', endColorstr='#ffffff',GradientType=0 );
+}
+
+#pjWrapper .pjAsBtnBack { color: #1b6aac; }
+#pjWrapper .pjAsBtnBack:hover { color: #428926; }
+
+/* ==========================================================================
+	#pjAsNav
+========================================================================== */
+#pjWrapper .pjAsNav .pjAsBtn { border-color: #bebabb; color: #2f2d2e; text-transform: capitalize; 
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(253,253,253,1) 27%, rgba(248,246,247,1) 57%, rgba(245,241,240,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(27%,rgba(253,253,253,1)), color-stop(57%,rgba(248,246,247,1)), color-stop(100%,rgba(245,241,240,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(253,253,253,1) 27%,rgba(248,246,247,1) 57%,rgba(245,241,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f1f0',GradientType=0 );
+}
+#pjWrapper .pjAsNav .pjAsBtn:hover { border-color: #bebabb; color: #2f2d2e; 
+	background: rgb(245,241,240);
+	background: -moz-linear-gradient(top,  rgba(245,241,240,1) 0%, rgba(248,246,247,1) 43%, rgba(253,253,253,1) 73%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,241,240,1)), color-stop(43%,rgba(248,246,247,1)), color-stop(73%,rgba(253,253,253,1)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(245,241,240,1) 0%,rgba(248,246,247,1) 43%,rgba(253,253,253,1) 73%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f1f0', endColorstr='#ffffff',GradientType=0 );
+}
+#pjWrapper .pjAsNav .active .pjAsBtn { border-color: #1b6aac; color: #fff; text-transform: capitalize; 
+	background: rgb(64,152,226);
+	background: -moz-linear-gradient(top,  rgba(64,152,226,1) 0%, rgba(46,134,208,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,152,226,1)), color-stop(100%,rgba(46,134,208,1)));
+	background: -webkit-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: -o-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: linear-gradient(to bottom,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4098e2', endColorstr='#2e86d0',GradientType=0 );
+}
+#pjWrapper .pjAsNav .active .pjAsBtn:hover { border-color: #1b6aac; color: #fff; 
+	background: rgb(46,134,208);
+	background: -moz-linear-gradient(top,  rgba(46,134,208,1) 0%, rgba(64,152,226,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(46,134,208,1)), color-stop(100%,rgba(64,152,226,1)));
+	background: -webkit-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: -o-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: linear-gradient(to bottom,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e86d0', endColorstr='#4098e2',GradientType=0 );
+}
+
+/* ==========================================================================
+	#pjAsAside
+========================================================================== */
+#pjWrapper .pjAsAside .pjAsAsideTitle,
+#pjWrapper .pjAsAside .pjAsHead .pjAsHeadTitle { color: #1b6aac; }
+#pjWrapper .pjAsAside dt { color: #54af30; }
+#pjWrapper .pjAsAside dd p { color: #6c7379; }
+
+#pjWrapper .pjAsAside .pjAsAsideService:first-of-type { background: #f7f7f7; }
+#pjWrapper .pjAsAsideService .pjAsBtnRemove { border-color: #1b6aac; background: #fff; color: #1b6aac; }
+#pjWrapper .pjAsAsideService .pjAsBtnRemove:hover { border-color: #54af30; color: #54af30; }
+
+#pjWrapper .pjAsSelectedDateWrapper .pjAsSelectedDate { color: #2f2d2e; }
+#pjWrapper .pjAsSelectedDateWrapper .pjAsSelectedDate strong { color: #54af30; }
+
+/* ==========================================================================
+	#pjAsContainer
+========================================================================== */
+#pjWrapper .pjAsContainer { color: #4c4e4d; }
+
+/* ==========================================================================
+	#pjAsLanguage
+========================================================================== */
+#pjWrapper .pjAsLanguage .pjAsBtnLanguageTrigger {background: #f7f7f7;color: #1b6aac;border-color: #ddd;}
+#pjWrapper .pjAsLanguage .dropdown-menu { background: #f7f7f7; }
+#pjWrapper .pjAsLanguage .dropdown-menu a { color: #1b6aac; }
+#pjWrapper .pjAsLanguage .dropdown-menu a:hover,
+#pjWrapper .pjAsLanguage .dropdown-menu .current a { background: #1b6aac; color: #fff; }
+
+/* ==========================================================================
+	#pjAsHead
+========================================================================== */
+#pjWrapper .pjAsContainer .pjAsHead { background: #f7f7f7; }
+
+#pjWrapper .pjAsHead .control-label { color: #1b6aac; text-transform: uppercase; }
+#pjWrapper .pjAsHead .form-control { color: #1b6aac; }
+#pjWrapper .pjAsHead .pjAsBtnLink { color: #54af30; }
+#pjWrapper .pjAsHead .pjAsBtnLink .badge { background: #54af30; color: #fff; }
+
+/* ==========================================================================
+	#pjAsListElements
+========================================================================== */
+#pjWrapper .pjAsListElementTitle { color: #1b6aac; }
+#pjWrapper .pjAsEmployee .pjAsEmployeePosition { color: #54af30; }
+
+/* ==========================================================================
+	#pjAsEmployeeInfo
+========================================================================== */
+#pjWrapper .pjAsEmployeeInfoSection p strong { color: #1b6aac; }
+#pjWrapper .pjAsSectionTitle { color: #1b6aac; }
+#pjWrapper .pjAsEmployeeInfoTitle { color: #1b6aac; }
+#pjWrapper .pjAsEmployeePosition { color: #54af30; }
+#pjWrapper .pjAsTableTimesActions p { color: #54af30; }
+
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dt { color: #6c7379; }
+#pjWrapper .pjAsEmployeeContacts .pjAsEmployeeContactIcon { border-color: #1b6aac; color: #1b6aac; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd { color: #1b6aac; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd a { color: #54af30; }
+#pjWrapper .pjAsEmployeeContacts .dl-horizontal dd a:hover { color: #428926; }
+
+#pjWrapper .pjAsSectionForm .control-label { color: #6c7379; }
+#pjWrapper .pjAsSectionForm .form-control { color: #1b6aac; }
+
+#pjWrapper .pjAsBox { border-color: #dfd9d9; 
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+}
+#pjWrapper .pjAsBox.pjAsBoxTimeEnd { border-color: #dfd9d9; 
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+}
+#pjWrapper .pjAsBox dt { color: #6c7379; }
+#pjWrapper .pjAsBox.pjAsBoxTimeEnd dt { color: #6c7379; }
+#pjWrapper .pjAsBox dd { color: #1b6aac; }
+#pjWrapper .pjAsBox.pjAsBoxTimeEnd dd { color: #1b6aac; }
+
+#pjWrapper .pjAsDatePick .form-control { color: #1b6aac; }
+#pjWrapper .pjAsDatePick .form-control:focus { border-color: #ccc; }
+#pjWrapper .pjAsDatePick .input-group-addon { color: #1b6aac; }
+#pjWrapper .pjAsDatePick .input-group-addon:hover { color: #54af30; }
+
+/* ==========================================================================
+	#pjAsChosenServices
+========================================================================== */
+#pjWrapper .pjAsChosenServices .pjAsServiceTitle { color: #1b6aac; }
+#pjWrapper .pjAsChosenService p { color: #6c7379; }
+#pjWrapper .pjAsChosenService p strong { color: #1b6aac; }
+#pjWrapper .pjAsChosenService a { color: #54af30; }
+#pjWrapper .pjAsChosenService a:hover { color: #428926; }
+#pjWrapper .pjAsChosenService .pjAsBtnRemove { border-color: #000; color: #000; }
+#pjWrapper .pjAsSectionTotal { color: #1b6aac; }
+#pjWrapper .pjAsSectionPrice { color: #54af30; }
+
+#pjWrapper .pjAsCheckout .control-label { color: #6c7379; }
+#pjWrapper .pjAsCheckout .asterisk { color: #d47464; }
+#pjWrapper .pjAsCheckout .checkbox { color: #54af30; }
+
+/* ==========================================================================
+	#pjAsServices
+========================================================================== */
+#pjWrapper .pjAsServiceMeta dd { color: #54af30; }
+
+/* ==========================================================================
+	#pjCalendar
+========================================================================== */
+#pjWrapper .pj-calendar,
+#pjWrapper .pj-calendar-head { border-color: #ddd; }
+#pjWrapper .pj-calendar { background: #fafafa; }
+#pjWrapper .pj-calendar-head { background: #fff; }
+#pjWrapper .pj-calendar-ym { color: #54af30; }
+#pjWrapper .pj-calendar-actions .btn-primary { border-color: #1b6aac; color: #fff; text-transform: capitalize; 
+	background: rgb(64,152,226);
+	background: -moz-linear-gradient(top,  rgba(64,152,226,1) 0%, rgba(46,134,208,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,152,226,1)), color-stop(100%,rgba(46,134,208,1)));
+	background: -webkit-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: -o-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	background: linear-gradient(to bottom,  rgba(64,152,226,1) 0%,rgba(46,134,208,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4098e2', endColorstr='#2e86d0',GradientType=0 );
+}
+#pjWrapper .pj-calendar-actions .btn-primary:hover { border-color: #1b6aac; color: #fff; 
+	background: rgb(46,134,208);
+	background: -moz-linear-gradient(top,  rgba(46,134,208,1) 0%, rgba(64,152,226,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(46,134,208,1)), color-stop(100%,rgba(64,152,226,1)));
+	background: -webkit-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: -o-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	background: linear-gradient(to bottom,  rgba(46,134,208,1) 0%,rgba(64,152,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e86d0', endColorstr='#4098e2',GradientType=0 );
+}
+#pjWrapper .pj-calendar-actions .btn-primary .glyphicon{color: #fff;}
+
+#pjWrapper .pj-calendar-day-header p { color: #1b6aac; }
+.pj-calendar-day { background: #fff; }
+#pjWrapper .pj-calendar-day p { background: #54af30; color: #fff; }
+#pjWrapper .pj-calendar-day p:hover { background: #1b6aac; color: #fff; }
+#pjWrapper .pj-calendar-day-disabled p,
+#pjWrapper .pj-calendar-day-disabled p:hover { background: #fafafa; color: #1b6aac; }
+
+#pjWrapper .pj-calendar-day-selected p { background: #1b6aac; color: #fff; }
+
+#pjWrapper .pj-calendar-day-inactive p,
+#pjWrapper .pj-calendar-day-inactive p:hover,
+#pjWrapper .pj-calendar-day-past p,
+#pjWrapper .pj-calendar-day-past p:hover { background: #ddd; color: #2f2d2e; }
+
+#pjWrapper .pjAsTableTimes .pjAsTimeAvailable a { color: #54af30; }
+#pjWrapper .pjAsTableTimes .pjAsTimeSelected a { color: #fff; background-color: #1b6aac; }
+#pjWrapper .pjAsTableTimes .pjAsTimeUnavailable a { color: #5a5a5a; }
