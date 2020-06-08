@@ -1,5 +1,5 @@
 # ARCHIVOS A IGNORAR #
-Contrasenas.txt
+app/config/config.inc.php # ARCHIVO DE CONFIGURACION DEL APLICATIVO, ES UNICO PARA CADA INSTALACION
 
 # CARPETAS A IGNORAR #
-app/config/config.inc.php.old
+
