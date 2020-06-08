@@ -2,4 +2,4 @@
 Contrasenas.txt
 
 # CARPETAS A IGNORAR #
-Contrasenas/
+app/config/config.inc.php.old
