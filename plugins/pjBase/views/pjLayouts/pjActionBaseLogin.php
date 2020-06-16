@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php __('script_name') ?> by PHP Jabbers.com</title>
+    <title><?php __('script_name') ?> powered by Innova Systems</title>
     <?php
     $cnt = count($controller->getCss());
     foreach ($controller->getCss() as $i => $css)
@@ -27,7 +27,8 @@
                 <?php require $content_tpl; ?>
 
                 <div class="login-img-background">
-                    <img src="<?php echo pjObject::getConstant('pjBase', 'PLUGIN_IMG_PATH'); ?>phpjabbers-logo1.jpg" alt="PHPJabbers">
+                    <!-- JMV <img src="<?php #echo pjObject::getConstant('pjBase', 'PLUGIN_IMG_PATH'); ?>phpjabbers-logo1.jpg" alt="PHPJabbers"> -->
+                    <img src="<?php echo pjObject::getConstant('pjBase', 'PLUGIN_IMG_PATH'); ?>phpjabbers-logo1.jpg" alt="ReservaME">
                 </div><!-- /.login-img-background -->
             </div><!-- /.middle-box --> 
             
@@ -41,7 +42,7 @@
                             echo pjSanitize::html($tpl['option_arr']['o_footer_text']);
                         }else{
                             ?>
-                            Copyright <strong><a href="https://www.phpjabbers.com" target="_blank">PHPJabbers.com</a></strong> &copy; <?php echo date('Y'); ?>
+                            Powered by <strong><a href="https://www.innovasystems.com.co/" target="_blank">Innova Systems</a></strong> &copy; <?php echo date('Y'); ?>
                             <?php
                         }
                     }

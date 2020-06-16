@@ -66,7 +66,8 @@ $STORAGE = &$_SESSION[$controller->defaultInstaller];
 
         <div class="hr-line-dashed"></div>
 
-        <p>Need help? <a href="https://www.phpjabbers.com/contact.php" target="_blank">Contact us</a></p>
+        <!-- JMV <p>Need help? <a href="https://www.phpjabbers.com/contact.php" target="_blank">Contact us</a></p> -->
+        <p>Necesitas ayuda? <a href="https://www.innovasystems.com.co/" target="_blank">Contactanos</a></p>
     </fieldset>
 
     <h2>Install Progress</h2>

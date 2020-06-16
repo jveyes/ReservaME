@@ -20,7 +20,7 @@
         <div class="page-wrapper">
             <div class="header">
                 <div class="container">
-                    <a href="#" class="header-logo">PHPJabbers</a>
+                    <a href="#" class="header-logo">ReservaME</a>
                 </div><!-- /.container -->
             </div><!-- /.header -->
 
@@ -37,7 +37,7 @@
             </div><!-- /.main -->
 
             <div class="page-footer">
-                Copyright <strong><a href="https://www.phpjabbers.com/">PHPJabbers.com</a></strong> &copy; <?php date_default_timezone_set('Europe/London'); echo date("Y"); ?>
+                Powered by <strong><a href="https://www.innovasystems.com.co/">Innova Systems</a></strong> &copy; <?php date_default_timezone_set('Europe/London'); echo date("Y"); ?>
             </div>
         </div>
 	</body>
