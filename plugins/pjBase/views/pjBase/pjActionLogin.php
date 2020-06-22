@@ -135,7 +135,7 @@ $use_captcha = $tpl['option_arr']['o_secure_login_use_captcha'] == 'Yes';
     </div><!-- /.row -->
 
     <div class="welcome-section">
-        <h3><?php __('plugin_base_login_welcome'); ?></h3>
+        <h3><?php __('plugin_base_login_welcome'); ?> SANTIAGO</h3>
 
         <p><?php __('script_name') ?><br>v<?php echo PJ_SCRIPT_VERSION;?></p>
     </div><!-- /.welcome-section -->
